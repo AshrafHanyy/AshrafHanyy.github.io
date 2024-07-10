@@ -28,7 +28,7 @@ We agreed on how things were, psychologically, for all students. She told me abo
 
 She then questioned on what do I mean by "bottleneck to live". To which I illustrated that there's too much pressure underlying this exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And so it is not their morality that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
 
-Anyways as I don't wish to bore the reader with my full psychological analysis of the situation back then. Let's just say I had some very well formulated opinions (according to her)
+Anyways as I don't wish to bore the reader with my full psychological analysis of the situation back then. Let's just say I had some very well formulated opinions.
 
 ### First Contact 
 
