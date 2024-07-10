@@ -30,14 +30,14 @@ sections:
         #   size: cover
         #   position: center
         #   parallax: false
-  - block: markdown
-    content:
-      title: 'My Research'
-      subtitle: ''
-      text: |-
-        I've researched and published in Human-Computer Interaction (HCI). I'm currently doing research in Qunatum Machine learning. 
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: 'My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       I've researched and published in Human-Computer Interaction (HCI). I'm currently doing research in Qunatum Machine learning. 
+  #   design:
+  #     columns: '1'
   # - block: collection
   #   id: blog
   #   content:
@@ -130,3 +130,6 @@ sections:
   #       css_class: "bg-primary-700"
   #       css_style: ""
 ---
+**Research Work**
+
+I've researched and published in Human-Computer Interaction (HCI). I'm currently doing research in Qunatum Machine learning. 
