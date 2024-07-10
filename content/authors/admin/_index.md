@@ -1,99 +1,82 @@
 ---
 # Display name
-title: 吳健雄
+title: Ashraf Hany
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
+name_pronunciation: ''
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ashraf
+last_name: Hany
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Role/position/tagline
-role: Chief Scientist
+role: "Undergraduate Student Researcher & Teaching Assistant 
+| MSA CPC Community Founder"
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: MSA University
+    url: https://www.msa.edu.eg/
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include HCI, ML, quantum computing and QML.
 
-# Social network links
+# Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:ashraf.hany@msa.edu.eg'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/ashraf-hany-/
+  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
+  - icon: academicons/cv
+    url: uploads/resume.pdf
+    label: Download my resume
+  # - icon: rss
+  #   url: ./post/index.xml
+  #   label: Subscribe to my blog via RSS feed
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
+# Author's website URL
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
+  - Machine Learning
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BSc Computer Science 
+    institution: MSA University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 3.78/4.0
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Intern
+    company_name: National Bank of Egypt
     company_url: ''
     company_logo: ''
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Backend Software Engineer
     company_name: X
@@ -104,8 +87,6 @@ work:
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -120,7 +101,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: PennyLane
         description: ''
         percent: 40
         icon: circle-stack
@@ -128,10 +109,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Robotics
         description: ''
-        percent: 60
-        icon: person-simple-walk
+        percent: 80
+        icon: hammer
       - name: Cats
         description: ''
         percent: 100
@@ -144,10 +125,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Arabic
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +162,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ashraf Hany is an undergraduate student researcher and teaching assistant at Modern Sciences and Arts University. His research interests include ML, quantum computing, quantum machine learning, and human-computer interaction. He founded the MSA CPC Community, which prepares students for competitive programming competitions. Ashraf's work spans teaching assistance in various computer science courses, implementing quantum machine learning algorithms, and directing research projects in HCI. He has published in IEEE and received awards for his undergraduate projects, including recognition for the best Computer Organization project and the Faculty Day's "Best Class Project" award.
