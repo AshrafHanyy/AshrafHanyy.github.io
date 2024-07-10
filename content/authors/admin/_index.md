@@ -23,8 +23,6 @@ role: "Undergraduate Student Researcher & Teaching Assistant
 organizations:
   - name: MSA University
     url: https://www.msa.edu.eg/
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include HCI, ML, quantum computing and QML.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -61,11 +59,16 @@ education:
   #   button:
   #     text: 'Read Thesis'
   #     url: 'https://example.com'
-
+  - area: BSc Computer Science 
+    institution: Greenwich University, UK
+    date_start: 2021-09-01
+    date_end: 2025-09-31
+    summary: |
+      GPA: 3.78/4.0
   - area: BSc Computer Science 
     institution: MSA University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-09-01
+    date_end: 2025-09-31
     summary: |
       GPA: 3.78/4.0
 work:
