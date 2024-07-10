@@ -12,7 +12,7 @@ featured: true
 The one thing I never expected when this story first started is that I would meet the former minister of education.
 
 ### Education 2.0
-On a random day in August 2023, I saw this documentation and research project being. It aimed to document all the education reform the country went through during the period from 2016 - 2022 (The Regime of Dr. Tarek Shawki). And since I was from the first class that went through this reform and was a huge admirer of the new system that completely changed Thanwya Amma. I liked the idea of documenting it very much especially since it aimed to document it such that other developing countries could learn from our experience. The social anthropologist, professor of education, and the director of this research, was Dr. Linda Herrera from UIUC.
+On a random day in August 2023, I saw this documentation and research project being done. It aimed to document all the education reform the country went through during the period from 2016 - 2022 (The Regime of Dr. Tarek Shawki). And since I was from the first class that went through this reform and was a huge admirer of the new system that changed Thanwya Amma. I liked the idea of documenting it very much especially since it aimed to document it such that other developing countries could learn from our experience. The social anthropologist, professor of education, and the director of this research, was Dr. Linda Herrera from UIUC.
 
 ### The Post
 
