@@ -38,17 +38,30 @@ sections:
         I've researched and published in Human-Computer Interaction (HCI). I'm currently doing research in Qunatum Machine learning. 
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+      spacing:
+        padding: [110, 110, 110, 110]
+  # - block: collection
+  #   id: blog
+  #   content:
+  #     title: Blog
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 1
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   # - block: collection
   #   content:
   #     title: Recent Publications
