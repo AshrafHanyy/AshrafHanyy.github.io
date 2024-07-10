@@ -34,7 +34,7 @@ abstract: here is a lot of interest in employing tangible user interfaces (TUIs)
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - HCI
 
 # Display this page in the Featured widget?
 featured: true

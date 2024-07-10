@@ -49,8 +49,8 @@ highlight_name: true
 interests:
   - Artificial Intelligence
   - Machine Learning
-  - Information Retrieval
-
+  - Quantum Computing
+  
 education:
   # - area: PhD Artificial Intelligence
   #   institution: Stanford University
@@ -103,7 +103,7 @@ skills:
       - name: Robotics
         description: ''
         percent: 80
-        icon: hammer
+        icon: 
       - name: Cats
         description: ''
         percent: 100
