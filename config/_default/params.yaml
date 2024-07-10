@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Ashraf Hany is an undergraduate student researcher and teaching assistant at Modern Sciences and Arts University. His research interests include ML, quantum computing, quantum machine learning, and human-computer interaction. He founded the MSA CPC Community, which prepares students for competitive programming competitions. Ashraf's work spans teaching assistance in various computer science courses, implementing quantum machine learning algorithms, and directing research projects in HCI.'
+    description: "Ashraf Hany is an undergraduate student researcher and teaching assistant at Modern Sciences and Arts University. His research interests include ML, quantum computing, quantum machine learning, and human-computer interaction. He founded the MSA CPC Community, which prepares students for competitive programming competitions. Ashraf's work spans teaching assistance in various computer science courses, implementing quantum machine learning algorithms, and directing research projects in HCI."
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
