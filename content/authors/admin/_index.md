@@ -62,13 +62,13 @@ education:
   - area: BSc Computer Science 
     institution: Greenwich University, UK
     date_start: 2021-09-01
-    date_end: 2025-09-31
+    date_end: 2024-01-31
     summary: |
       GPA: 3.78/4.0
   - area: BSc Computer Science 
     institution: MSA University
     date_start: 2021-09-01
-    date_end: 2025-09-31
+    date_end: 2024-01-31
     summary: |
       GPA: 3.78/4.0
 work:
