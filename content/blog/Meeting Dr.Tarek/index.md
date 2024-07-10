@@ -8,4 +8,4 @@ tags:
 
 ---
 
-Will post the full story of how I came to meet him soon!
+Will post the full story of how I came to meet him here.
