@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: dark
-  color: #002244
+  color: '#002244'
 
 # SEO
 marketing:
@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: 'Per Aspera Ad Astra'
     license:
       enable: true
       allow_derivatives: false
