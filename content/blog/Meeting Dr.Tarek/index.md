@@ -5,7 +5,8 @@ summary: 'I was extremely fortunate and honored to have a chance to meet and tal
 authors:
   - admin
 tags: 
-
+# Display this page in the Featured widget?
+featured: true
 ---
 
 Will post the full story of how I came to meet him here.

@@ -5,7 +5,8 @@ summary: 'The Effect of Using Tangible User Interfaces Compared to Traditional L
 authors:
   - admin
 tags: 
-
+# Display this page in the Featured widget?
+featured: true
 ---
 
 There is a lot of interest in employing tangible user
