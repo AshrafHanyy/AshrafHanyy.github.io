@@ -1,23 +1,23 @@
 ---
-title: 'An example conference paper'
+title: 'The Effect of Using Tangible User Interfaces Compared to Traditional Learning for Teaching Programming in Higher Education: An Experimental Study'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Enjy Ramadan
+  - Amr Akl
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+
 
 date: '2013-07-01T00:00:00Z'
-doi: ''
+doi: '10.1109/IMSA58542.2023.10217780'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-05-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,10 +25,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: Intelligent Methods, Systems, and Applications (IMSA)
+publication_short: In *IMSA2023*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: here is a lot of interest in employing tangible user interfaces (TUIs) to enhance teaching programming, but there is conflicting evidence for their advantages since implementing them in educational settings offers more difficulties than traditional learning. This paper examines the effect of using TUIs in learning and compares it to traditional learning methods. The study measures the difference in learning rate on university students majoring in computer science. The study was conducted on 20 university students aged 17 to 22 who participated in a 45-minute learning activity. The activity used a Tangible User Interface (TUI) and paper notes from a textbook. Pre-test and post-test results were collected as part of the study's between-groups design, and the TUI group outperformed the traditional learning group in terms of learning gains. The TUI group had an increase of 25.4% in their scores following the three learning sessions and a 1.5% decrease when the retention was measured two weeks later. The traditional paper learning group had increase of 9.1% in scores and a decrease of 7.2% in retention.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
