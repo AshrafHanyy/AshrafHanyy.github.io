@@ -38,8 +38,6 @@ sections:
         I've researched and published in Human-Computer Interaction (HCI). I'm currently doing research in Qunatum Machine learning. 
     design:
       columns: '1'
-      spacing:
-        padding: [110, 110, 110, 110]
   # - block: collection
   #   id: blog
   #   content:
