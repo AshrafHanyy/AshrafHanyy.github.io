@@ -12,27 +12,33 @@ featured: true
 The one thing I never expected when this story first started is that I would meet the former minister of education and someone who I consider a role model in science and in life.
 
 ### Education 2.0
-On a random day in August 2023, I was scrolling through Youtube when I saw this documentation and research project being done. It aimed to document all the education reform the country went through from the period 2016 up till 2022 (The Regime of Dr. Tarek Shawki as minister). This research was being supervised by the ministry itself alongside other organizations. And since I was from the first class that went through this reform and was a huge admirer of the new system that changed Thanwya Amma. I liked the idea of documenting it very much especially since it aimed to document it such that other developing countries could learn from our experience.
+On a random day in August 2023, I was scrolling through Youtube when I saw this documentation and research project being done. It aimed to document all the education reform the country went through from the period 2016 up till 2022 (The Regime of Dr. Tarek Shawki as minister). This research was being supervised by the ministry itself alongside other organizations. And since I was from the first class that went through this reform and was a huge admirer of the new system that changed Thanwya Amma. I liked the idea of documenting it very much, especially since it aimed to document the entire reform so that other developing countries could learn from Egypt's experience in using technology in education.
 
-The social anthropologist, professor of education, and the director of this research, was Dr. Linda Herrera from UIUC. (Sitting on the right of the minister in the picture below).
+The social anthropologist,international education advisor, professor of education, and the director of this research, was Dr. Linda Herrera from UIUC. (Sitting on the right of the minister in the picture below).
 ![image](./32.png)
 
 ### The Post
 
-Anyways, I wanted people to know about this and so I posted about it. Telling people to check out this project. I honestly never expected anything to come out of this post. The next day she sent me a message thanking me for posting about it. It was nice of her and I admired the appreciation of such a small gesture. I messaged her back and we talked about the project and I told her that I was Thanwya Amma’s 2018 Class that first went through the new system. Having learnt this, she asked me to do an interview to document my experience from the students POV.
+Anyways, I wanted people to know about this and so I posted about it. Telling people to check out this project and provided a link to the Youtube channel. I honestly never expected anything to come out of this post. 
 
-I agreed and we arranged for it. Two weeks later she came to Cairo and we actually met.
+The following day, Dr. Linda sent me a message thanking me for posting about the project. 
+
+It was nice of her and I admired that she appreciated such a small gesture. I messaged her back and we talked about the project and I told her that I was Thanwya Amma’s 2018 Class that first went through the new system and then we talked for a while. I was honestly intrigued to talk to her, I had so much to share about all of what happened and thought that I could facilitate her research. Having learnt this, she asked me to do an interview to document my experience from the students POV.
+
+I sure agreed and we arranged a meeting. Two weeks later, she came to Cairo and we actually did the interview.
+
 
 ### The interview
 
-My interview with her lasted for two hours. I am a huge psychology reader. I have my opinions and I shared them all with her. I can honestly say that talking with an educated social anthropologist was, last thing I thought, a much needed talk. 
+My interview with her lasted for two hours. I am a huge psychology reader, and I have my opinions on how the new system affected us students mentally and I shared them all with her. We agreed on how things were, psychologically, for all students. And I can honestly say that talking with an educated anthropologist was, last thing I thought, much needed. Dr. Linda is, by far, the most interesting contact I know to date.
 
-We agreed on how things were, psychologically, for all students. She told me about how some students cheated. I told her I knew that people cheated yes, but it didn't have as much to do with the students morality as much as it had to with the system that made the exam for them a bottleneck to live. 
+We talked about how some students cheated. I told her I knew that people cheated, but it didn't have as much to do with the students morality as much as it had to with the system that rendered the exam to them a bottleneck to live. 
 
-She then questioned on what do I mean by "bottleneck to live". To which I illustrated that there's too much pressure underlying this exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And so it is not their morality that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
+She then questioned on what do I mean by "bottleneck to live". To which I illustrated that there's too much pressure underlying this exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And since that might be mostly true. It is therefore not their morality that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
 
 Anyways as I don't wish to bore the reader with my full psychological analysis of the situation back then. Let's just say I had some very well formulated opinions.
 
+![image](./linda.jpg "Photo from the interview")
 ### First Contact 
 
 Towards the end of the 2 hour long interview, I told her about my research in education. And how that it was inspired by Dr. Tarek's approach to insert technology in education (since my research was about using TUIs in higher education).  I told her that I had always wanted to share these thoughts and opinions with him one day. 
