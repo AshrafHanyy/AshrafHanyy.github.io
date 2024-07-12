@@ -1,7 +1,7 @@
 ---
-title: 'Winning Faculty Day's Best Project Award'
+title: "Winning Faculty Day's Best Project Award"
 date: 2023-06-19
-summary: 'Awarded Best Sophomore Class Project during the faculty's excellence day titled (Deepminds).'
+summary: "Awarded Best Sophomore Class Project during the faculty's excellence day titled (Deepminds)."
 authors:
   - admin
 tags: 
