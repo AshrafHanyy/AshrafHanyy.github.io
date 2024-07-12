@@ -10,4 +10,4 @@ featured: true
 ---
 I was awarded "Best Sophomore Class Project" during the faculty's excellence day titled "Deepminds". 
 
-This was award for my published research on TUIs. 
+This was awarded for my published research on TUIs. 
