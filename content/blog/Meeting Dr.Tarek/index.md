@@ -32,9 +32,7 @@ I sure agreed and we arranged a meeting. Two weeks later, she came to Cairo and 
 
 My interview with her lasted for two hours. I am a huge psychology reader, and I have my opinions on how the new system affected us students mentally and I shared them all with her. We agreed on how things were, psychologically, for all students. And I can honestly say that talking with an educated anthropologist was, last thing I thought, much needed. Dr. Linda is, by far, the most interesting contact I know to date.
 
-We talked about how some students cheated. I told her I knew that people cheated, but it didn't have as much to do with the students morality as much as it had to with the system that rendered the exam to them a bottleneck to live. 
-
-She then questioned on what do I mean by "bottleneck to live". To which I illustrated that there's too much pressure underlying this exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And since that might be mostly true. It is therefore not their morality that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
+I illustrated that there's too much pressure underlying the Thanwya Amma exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And since that might be mostly true. It is therefore not the morality of the students whon cheat in that exam that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
 
 Anyways as I don't wish to bore the reader with my full psychological analysis of the situation back then. Let's just say I had some very well formulated opinions.
 
