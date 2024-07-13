@@ -13,15 +13,15 @@ featured: true
 
 Throughout the past year I:
 1. Got awarded for best Web Development course project
-	2. Got awarded for best Computer Organization course project.
-	3. Got awarded for best Sophomore Class project overall.
-	4. Scored 5th place at the university's hackathon.
-	5. Published a research paper in HCI.
-	6. Founded a community club for Competitive programming.
-	7. Secured my first internship at NBE.
-	8. Secured a freelance position to develop a company's website.
-	9. Met the Minister of Education.
-	10. Organized the school's participation at the ICPC..
+2. Got awarded for best Computer Organization course project.
+3. Got awarded for best Sophomore Class project overall.
+4. Scored 5th place at the university's hackathon.
+5. Published a research paper in HCI.
+6. Founded a community club for Competitive programming.
+7. Secured my first internship at NBE.
+8. Secured a freelance position to develop a company's website.
+9. Met the Minister of Education.
+10. Organized the school's participation at the ICPC..
 
 
 ### The Psychological Effect It Had on Me.
