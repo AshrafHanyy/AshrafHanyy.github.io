@@ -9,7 +9,7 @@ tags:
 featured: true
 ---
 
- For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflet a bit on how all of this made me feel eventually. 
+ For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflect a bit on how all of this made me feel eventually. 
 
 Throughout the past year I:
 1. Got awarded for best Web Development course project
