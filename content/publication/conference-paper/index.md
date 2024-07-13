@@ -31,7 +31,7 @@ publication_short: In *IMSA2023*
 abstract: here is a lot of interest in employing tangible user interfaces (TUIs) to enhance teaching programming, but there is conflicting evidence for their advantages since implementing them in educational settings offers more difficulties than traditional learning. This paper examines the effect of using TUIs in learning and compares it to traditional learning methods. The study measures the difference in learning rate on university students majoring in computer science. The study was conducted on 20 university students aged 17 to 22 who participated in a 45-minute learning activity. The activity used a Tangible User Interface (TUI) and paper notes from a textbook. Pre-test and post-test results were collected as part of the study's between-groups design, and the TUI group outperformed the traditional learning group in terms of learning gains. The TUI group had an increase of 25.4% in their scores following the three learning sessions and a 1.5% decrease when the retention was measured two weeks later. The traditional paper learning group had increase of 9.1% in scores and a decrease of 7.2% in retention.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary:
 
 tags:
   - HCI
@@ -45,12 +45,12 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: ''
 url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_source: ''
 url_video: 'https://youtube.com'
 
 # Featured image
