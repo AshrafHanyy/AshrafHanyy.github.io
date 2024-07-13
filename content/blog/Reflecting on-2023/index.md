@@ -34,7 +34,7 @@ Solzhenitsyn, a Russian author and Soviet dissident who helped to raise global a
 
 ### Per Aspera Ad Astra
 
-When I first learned that Idea, I thought about for a long time. I thought that this could be my antidote. That the only way out of any suffering was to allow yourself to have some hope. Although it seems paradoxical but it is true. Also, there's one advantage to specifying darkness to that extent, it is that when you specify something that precisely, you are also specifying it's opposite, so if you are living to a great extent in horrible suffering and darkness, then, at least in principle, there exists the opposite of that. So while I was looking into the heart of darkness, let's say, the light started to shine through. 
+When I first learned that Idea, I thought about it for a long time. I thought that this could be my antidote. That the only way out of any suffering was to allow yourself to have some hope. Although it seems paradoxical but it is true. Also, there's one advantage to specifying darkness to that extent, it is that when you specify something that precisely, you are also specifying it's opposite, so if you are living to a great extent in horrible suffering and darkness, then, at least in principle, there exists the opposite of that. So while I was looking into the heart of darkness, let's say, the light started to shine through. 
 
 Moreover, I also came to realize that people often suffer dreadfully. And it's very difficult for a person to suffer dreadfully without getting bitter and resentful. But it doesn't help! All it does is that it makes the suffering worse and spreads it. And so I came to realize that the best way to suffer is to do so with a moral justification in mind. 
 

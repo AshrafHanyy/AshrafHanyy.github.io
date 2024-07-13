@@ -32,11 +32,11 @@ I sure agreed and we arranged a meeting. Two weeks later, she came to Cairo and 
 
 My interview with her lasted for two hours. I am a huge psychology reader, and I have my opinions on how the new system affected us students mentally and I shared them all with her. We agreed on how things were, psychologically, for all students. And I can honestly say that talking with an educated anthropologist was, last thing I thought, much needed. Dr. Linda is, by far, the most interesting contact I know to date.
 
-I illustrated that there's too much pressure underlying the Thanwya Amma exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And since that might be mostly true. It is therefore not the morality of the students whon cheat in that exam that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
+I illustrated that there's too much pressure underlying the Thanwya Amma exam. Most students think that if they don't achieve high grades, they will end up in a bad school, then a bad job with a bad salary and eventually will live a miserable life. And since that might be mostly true. It is therefore not the morality of the students whom cheat in that exam that is being questioned but rather it is the exam that is triggering their basic survival instinct. 
 
 Anyways as I don't wish to bore the reader with my full psychological analysis of the situation back then. Let's just say I had some very well formulated opinions.
 
-![image](./linda.jpg "Photo from the interview")
+![image](./linda.jpg "Photo from the interview with Dr. Linda Herrara")
 ### First Contact 
 
 Towards the end of the 2 hour long interview, I told her about my research in education. And how that it was inspired by Dr. Tarek's approach to insert technology in education (since my research was about using TUIs in higher education).  I told her that I had always wanted to share these thoughts and opinions with him one day. 
