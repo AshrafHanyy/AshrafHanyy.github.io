@@ -1,6 +1,6 @@
 ---
 title: "Reflecting on 2023"
-date: 2023-06-19
+date: 2023-12-19
 summary: "A resilient journey through hardship, marked by academic and professional achievements."
 authors:
   - admin
