@@ -30,7 +30,7 @@ It was nice of her and I admired that she appreciated such a small gesture. I me
 I sure agreed and we arranged a meeting. Two weeks later, she came to Cairo and we actually did the interview.
 
 
-### The interview
+### The Interview
 
 My interview with her lasted for two hours. I am a huge psychology reader, and I have my opinions on how the new system affected us students mentally and I shared them all with her. We agreed on how things were, psychologically, for all students. And I can honestly say that talking with an educated anthropologist was, last thing I thought, much needed. Dr. Linda is, by far, the most interesting contact I know to date.
 
@@ -50,6 +50,16 @@ I met today this brilliant young man who I think you should meet. I want to touc
 
 Then she gave me his number and told me to send him a text to arrange the meeting.
 
-Needless to say, I was a bit in shock when all of this happened.
+Needless to say, I was a bit in shock when all of this happened. 
 
-TBC
+### Meeting The Minister
+
+I actually did end up texting him on Whatsapp that day. Two weeks later I recieved a reply from him. I was super excited as I found myself casually texting the former minister of education and someone who I really admire. He invited me to his office at the AUC. 
+
+On the day of the meeting, I arrived at his office at the AUC and spoke with his secretary. He was finishing up a meeting he had. I was still overwhelmed by the whole situation. I remember how in shock I was when I saw him coming out of the office to greet me. We greeted each other and then went into his office. 
+
+Inside the office, we spoke about almost everything. I showed him my research, he spoke about the latest work he saw done in AI to enhance education, we discussed large language models, social conventions, academic conventions, the education reform and the list goes on! 
+
+I remember we kept talking and got lost away in time that his secretary had to enter to remind us that the time we had for the meeting time was up. We then went outside, took the photo and that was it. 
+
+When I look back on all of this, I couldn't possibly believe one day that me scrolling through YouTube and sharing a link would give me a chance to meet him. I'm extremely grateful for Dr. Linda for she was very generous with this opportunity and for Dr. Tarek to make time in his schedule to meet with me. 

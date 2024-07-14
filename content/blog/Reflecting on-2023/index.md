@@ -43,13 +43,13 @@ Moreover, I also came to realize that people often suffer dreadfully. And it's v
 And so I adopted that mindset. I told myself, "Look, you are suffering and you have every valid reason to be a complete loser and everyone would excuse you for not being able to pull through. But hey, wouldn't it be nice if you accomplished something remarkable and looked back on this one day and saw that you came out of it with many achievements?". 
 
 And so I did, by the end of that fall semester, I had scored a GPA of 4, founded a community club and had gotten awarded multiple times and by the end of the academic year, I had published my first conference research paper. 
-![image](./IMG_4019.HEIC)
+![image](./IMG_4019.jpg)
 Even more, by the end of 2023, I had secured my first internship at the National Bank of Egypt, freelanced as a full-stack developer, and met the Former Minister of Education. 
 
 ### Conclusion 
 
 All of this left me more convinced with what Solzhenitsyn said. The only way out of suffering is to have hope. And anyone should strive not to be bitter or resentful when they're suffering. It's the quote written at the footer of this website that I now hold with me anywhere I go. it's the antidote to living a more meaningful life. Yes, you will suffer, but you will also have the opportunity before you to turn your suffering into something remarkable, to reach the stars.
 
-As humans, I believe we can do whatever we set our minds to, and so hopefully, we will set our minds to the right things. 
+As humans, we can do whatever we set our minds to, and so hopefully, we will set our minds to the right things during our rought times. 
 
-`Per Aspera Ad Astra` ... `From hardships to the stars` 
+`Per Aspera Ad Astra ... From hardships to the stars` 
