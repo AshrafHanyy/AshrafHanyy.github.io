@@ -3,11 +3,12 @@ title: "Winning Second Place At Egypt's First Quantum-AI Hackathon"
 date: 2024-07-18
 summary: "Our team secured second place in Egypt's first Quantum-AI Hackathon, organized by Nile University!"
 authors:
-  - admin
+  - admin
 tags:
 # Display this page in the Featured widget?
 featured: true
 ---
+
 
 ![image](./1721200649899.jpeg "Photo with Dr. Ahmed ElMahdy, Dean of NU's ITCS")
 Happy to share that our team secured second place in Egypt's first Quantum-AI Hackathon, organized by Nile University!  
