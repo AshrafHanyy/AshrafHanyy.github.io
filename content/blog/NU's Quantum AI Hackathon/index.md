@@ -6,7 +6,7 @@ authors:
   - admin
 tags:
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
 
 

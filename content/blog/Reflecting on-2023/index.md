@@ -6,7 +6,7 @@ authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
 
  For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflect a bit on how all of this made me feel eventually. 
@@ -21,7 +21,7 @@ Throughout the past year I:
 7. Secured my first internship at NBE.
 8. Secured a freelance position to develop a company's website.
 9. Met the Minister of Education.
-10. Organized the school's participation at the ICPC..
+10. Organized the school's participation at the ICPC.
 
 
 ### The Psychological Effect It Had on Me.
