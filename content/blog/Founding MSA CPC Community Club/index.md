@@ -1,6 +1,6 @@
 ---
 title: 'Founding MSA CPC Community Club'
-date: 2024-09-25
+date: 2024-05-25
 summary: 'How I Founded the MSA CPC Community Club'
 authors:
   - admin
