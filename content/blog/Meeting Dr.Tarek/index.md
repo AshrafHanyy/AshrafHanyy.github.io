@@ -6,7 +6,7 @@ authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
 
 The one thing I never expected when this story first started is that I would meet the former minister of education and someone who I consider a role model in science and in life.
