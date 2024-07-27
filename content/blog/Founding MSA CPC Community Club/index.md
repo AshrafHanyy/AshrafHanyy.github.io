@@ -37,6 +37,9 @@ The vice-dean then continued to greet him and told him about my idea to particip
 
 And so we did, Alaa and I became the president and the vice president of the community, respectively. And we gathered over a 100 student to begin the training. 
 
+
+![image](./IMG_4079.JPG "Photo with Dr. Islam El Sharaawy, Founding Acadmic Advisor. Mohamed Alaa, Founding Community Leader.")
+
 # Spring 2023
 
 Throughout the first year, the training was very chaotic and very disorderly, Due to the fact that the instructors didn't have that much time to plan effectively for the sessions and the students were not highly motivated or committed. 
