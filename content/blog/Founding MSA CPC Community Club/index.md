@@ -49,6 +49,7 @@ The community grew step-by-step. But since this was the first year for this to t
 The registration for the ECPC begin in May, Alaa took care of almost everything regarding the registration.
 
 Eventually, we ended up participating at the ECPC 2023!
+![image](./Group%20Photo%201.jpg "MSA CPC Community ECPC2023")
 
 # Fall 2023
 
@@ -58,6 +59,7 @@ Alaa had graduated. And now, I was alone. Tasked to convert the community to an 
 
 For the logo, I hired a professional graphic designer who was a friend. He did an okay job.
 
+![image](./final%20msaa.png "MSA CPC Community ECPC 2023")
 For our media, I knew a classmate who was the head of media at a very prestigious club at the university. I called him and he said that he doesn't have any time to take on a new role. Two weeks later, I called him again and told him there's no one but him who could do this (there literally wasn't), he agreed. Later on, he founded our visual identity.
 
 For our plan, I let Dr. Islam handle that.
