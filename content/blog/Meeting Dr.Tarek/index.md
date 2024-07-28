@@ -6,10 +6,10 @@ authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 ---
 
-The one thing I never expected when this story first started is that I would meet the former minister of education and someone who I consider a role model in science and in life.
+The one thing I obviously never expected when this story first started is that I would meet the former minister of education and someone who I consider a role model in science and in life.
 
 ### Education 2.0
 On a random day in August 2023, I was scrolling through Youtube when I saw this documentation and research project being done called "The Education 2.0 Research & Documentation Project".

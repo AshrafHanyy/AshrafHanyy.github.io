@@ -6,14 +6,14 @@ authors:
   - admin
 tags:
 # Display this page in the Featured widget?
-featured: false
+featured: true
 ---
 
 
-![image](./1721200649899.jpeg "Photo with Dr. Ahmed ElMahdy, Dean of NU's ITCS")
+![image](./1721200649899.jpeg "Photo with Dr. Ahmed El-Mahdy, Dean of NU's ITCS")
 Happy to share that our team secured second place in Egypt's first Quantum-AI Hackathon, organized by Nile University!  
   
-The challenge centered on a Raman shift spectroscopy dataset from a recent Nature paper by multiple scholars including an Egyptian scholar and a postdoctoral researcher at Stanford university, Dr. Amr Essawi. We were tasked with preprocessing the data to reduce 1377 features for encoding into a VQC (Variational Quantum Classifier), in addition to building and optimizing the VQC model itself using Qiskit.  
+The challenge centered on a Raman shift spectroscopy dataset from a recent Nature paper by multiple scholars including an Egyptian scholar and a postdoctoral researcher at Stanford university, Dr. Amr Essawi. We were tasked with preprocessing the data to reduce 1389 features for encoding into a VQC (Variational Quantum Classifier), in addition to building and optimizing the VQC model itself using Qiskit.  
 ![image](./1721200649595.jpeg "Our Team Winning Second Place")
 Over two intense days, my team developed and tested around 150 different models, experimenting with various structures and parameters. Our persistence paid off when we achieved a 71% testing accuracy, the second-highest among all teams during the 24-hour period.  
   

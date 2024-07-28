@@ -1,12 +1,12 @@
 ---
 title: "Reflecting on 2023"
 date: 2023-12-19
-summary: "A resilient journey through hardship, marked by academic and professional achievements."
+summary: "A journey through hardship, marked by academic and professional achievements."
 authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 ---
 
  For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflect a bit on how all of this made me feel eventually. 

@@ -6,7 +6,7 @@ authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 ---
 
 There is a lot of interest in employing tangible user interfaces (TUIs) to enhance teaching programming, but there is conflicting evidence for their advantages since implementing them in educational settings offers more difficulties than traditional learning.

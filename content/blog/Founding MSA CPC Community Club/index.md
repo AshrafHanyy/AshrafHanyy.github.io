@@ -6,7 +6,7 @@ authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 ---
 
 This has to be my most not-so-humble accomplishment that I've achieved during my four years of university. 
@@ -59,7 +59,7 @@ Alaa had graduated. And now, I was alone. Tasked to convert the community to an 
 
 For the logo, I hired a professional graphic designer who was a friend. He did an okay job.
 
-![image](./final%20msaa.png "MSA CPC Community ECPC 2023")
+![image](./final%20msaa.png "MSA CPC Community Club Logo")
 For our media, I knew a classmate who was the head of media at a very prestigious club at the university. I called him and he said that he doesn't have any time to take on a new role. Two weeks later, I called him again and told him there's no one but him who could do this (there literally wasn't), he agreed. Later on, he founded our visual identity.
 
 For our plan, I let Dr. Islam handle that.
