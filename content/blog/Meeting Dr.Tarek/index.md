@@ -56,4 +56,5 @@ Inside the office, we spoke about almost everything. I showed him my research, h
 
 I remember we kept talking and got lost away in time that his secretary had to enter to remind us that the time we had for the meeting time was up. We then went outside, took the photo and that was it. 
 ![image](./featured.jpg "Photo from the interview with Dr. Tarek Shawki")
+
 When I look back on all of this, I couldn't possibly believe one day that me scrolling through YouTube and sharing a link would give me a chance to meet him. I'm extremely grateful for Dr. Linda for she was very generous with this opportunity and for Dr. Tarek to make time in his schedule to meet with me. 
