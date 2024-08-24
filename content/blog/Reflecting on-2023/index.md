@@ -37,8 +37,8 @@ Even more, by the end of 2023, I had secured my first internship at the National
 
 ### Conclusion 
 
-All of this left me more convinced with what Solzhenitsyn said. The only way out of suffering is to have hope. And anyone should strive not to be bitter or resentful when they're suffering. It's the quote written at the footer of this website that I now hold with me anywhere I go. it's the antidote to living a more meaningful life. Yes, you will suffer, but you will also have the opportunity before you to turn your suffering into something remarkable, to reach the stars.
+All of this left me more convinced with what Solzhenitsyn said. The only way out of suffering is to have hope. And anyone suffering should strive not to be bitter or resentful. It's the quote written at the footer of this website that I now hold with me anywhere I go. it's the antidote to living a more meaningful life. Yes, you will suffer, but you will also have the opportunity before you to turn your suffering into something remarkable.
 
-As humans, we can do whatever we set our minds to, and so hopefully, we will set our minds to the right things during our rought times. 
+As humans, we can do whatever we set our minds to, and so hopefully, we will set our minds to the right things especially during our rough times.
 
 `Per Aspera Ad Astra ... From hardships to the stars` 
