@@ -71,7 +71,7 @@ features:
       mapping: pathname
     disqus:
       # Paste the shortname from your Disqus dashboard.
-      shortname: 'ashrafhanyy.github.io'
+      shortname: 'https-ashrafhanyy-github-io'
       # Show comment count in page header? (true/false)
       show_count: true
     commento:
