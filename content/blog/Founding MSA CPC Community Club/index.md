@@ -7,6 +7,7 @@ authors:
 tags: 
 # Display this page in the Featured widget?
 featured: true
+commentable: true
 ---
 
 This has to be my highest accomplishment that I've achieved during my four years of university. 
