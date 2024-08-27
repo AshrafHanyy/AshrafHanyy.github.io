@@ -58,3 +58,22 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  comment:
+    # Choose a provider: giscus, disqus, commento, or '' to disable commenting
+    provider: 'disqus'
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+      theme: preferred_color_scheme
+      language_code: en
+      mapping: pathname
+    disqus:
+      # Paste the shortname from your Disqus dashboard.
+      shortname: 'ashrafhanyalimahmoudalatawi'
+      # Show comment count in page header? (true/false)
+      show_count: false
+    commento:
+      # If you self-host Commento, enter your custom Commento URL here.
+      url: ''
