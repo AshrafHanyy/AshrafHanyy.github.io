@@ -22,7 +22,7 @@ I developed this visualization as part of my **Design and Analysis of Algorithms
 ### Watch the Video
 
 [Click here to watch the video] (https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t)
-You can find the source code on [![GitHub]](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
+You can find the source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
 
 
 ---
