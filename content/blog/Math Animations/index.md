@@ -24,6 +24,7 @@ I developed this visualization as part of my **Design and Analysis of Algorithms
 [Click here](https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t) to watch the video.
 
 ### Code
+You can find the full source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
 
 {{< highlight python >}}
 # Python code example
@@ -34,7 +35,6 @@ name = "Hugoblox"
 print(greet(name))
 {{< /highlight >}}
 
-You can find the full source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
 ---
 ## Neural Networks & Activation Functions
 
