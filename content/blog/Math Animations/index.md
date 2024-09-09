@@ -30,7 +30,6 @@ For this animation, luckly, I foundy a ready-made library named `manim_data_stru
 <div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%; box-sizing: border-box; padding: 10px; background-color: #f5f5f5; border-radius: 5px; border: 1px solid #ddd;">
 
 {{< highlight python >}}
-# Python code example
 # Create array from levitin
 arr = MArray(
     self,
@@ -51,11 +50,11 @@ arr = MArray(
 For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the process of learning for neural networks and activation functions to better understand it. I think this has to be the better animation that I personally perfer out of the two. 
 
 ### Watch the Video
-
+![demo](./featured.jpg)
 [Click here](https://www.youtube.com/watch?v=9wMVz_UphlE) to watch the video
 
-### Code
-The code was a bit tricky for this one, because 
+### Technical Details
+The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckliy turned out to be very good looking. 
 <div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%; box-sizing: border-box; padding: 10px; background-color: #f5f5f5; border-radius: 5px; border: 1px solid #ddd;">
 {{< highlight python >}}
 ###########################
