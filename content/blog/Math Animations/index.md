@@ -54,8 +54,8 @@ For the machine learning course taught at the university with Dr. Ammar Mohamed,
 [Click here](https://www.youtube.com/watch?v=9wMVz_UphlE) to watch the video
 
 ### Technical Details
-The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckliy turned out to be very good looking. 
-<div style="max-height: 300px; overflow-y: auto;">
+The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckliy turned out to be very good looking. If you look online there aren't many available codes for NNs in Manim. I think this might help with that. 
+
 {{< highlight python >}}
 ###########################
 #Creating Neural Network (Code Written by Ashraf Hany)
@@ -153,5 +153,4 @@ self.play(LaggedStart(
       Write(labels)
   ,lag_ratio=0.35))
 {{< /highlight >}}
-</div>
 
