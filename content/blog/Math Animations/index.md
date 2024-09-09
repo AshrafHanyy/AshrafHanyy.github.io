@@ -20,9 +20,8 @@ The **Distribution Counting Sort** algorithm is an efficient sorting technique d
 I developed this visualization as part of my **Design and Analysis of Algorithms course (CS312)**. Over the course of **78 hours**, I created it using **Manim** and polished the final video with background music using **Adobe Premiere Pro**.
 
 ### Watch the Video
-
-[Click here to watch the video](https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t)
-You can find the source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
+![Alt Text](https://example.com/path-to-your-gif.gif)
+[Click here](https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t) to watch the video.
 
 ### Code
 
@@ -35,9 +34,27 @@ name = "Hugoblox"
 print(greet(name))
 {{< /highlight >}}
 
-
+You can find the full source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
 ---
 ## Neural Networks & Activation Functions
 
-For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the process of learning for neural networks and activation functions to better understand it. 
+For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the process of learning for neural networks and activation functions to better understand it. I think this has to be the better animation that I personally perfer out of the two. 
+
+### Watch the Video
+
+[Click here](https://www.youtube.com/watch?v=9wMVz_UphlE) to watch the video
+
+### Code
+
+{{< highlight python >}}
+# Python code example
+def greet(name):
+    return f"Hello, {name}!"
+
+name = "Hugoblox"
+print(greet(name))
+{{< /highlight >}}
+
+You can find the full source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
+
 
