@@ -21,12 +21,23 @@ I developed this visualization as part of my **Design and Analysis of Algorithms
 
 ### Watch the Video
 
-[Click here to watch the video] (https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t)
+[Click here to watch the video](https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t)
 You can find the source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
+
+### Code
+
+{{< highlight python >}}
+# Python code example
+def greet(name):
+    return f"Hello, {name}!"
+
+name = "Hugoblox"
+print(greet(name))
+{{< /highlight >}}
 
 
 ---
 ## Neural Networks & Activation Functions
 
-For the machine learning course taught at the university with Dr. Ammar, I wanted to visualize the learning of an activation functions
+For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the learning of an activation functions, I 
 
