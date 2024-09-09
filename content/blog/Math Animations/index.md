@@ -22,7 +22,6 @@ I developed this visualization as part of my **Design and Analysis of Algorithms
 ### Watch the Video
 
 [Click here to watch the video] (https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t)
-{{< youtube TVK_2h5Q1Sc&t) >}}
 
 You can find the source code on [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
 
