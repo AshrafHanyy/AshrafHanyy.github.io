@@ -1,7 +1,7 @@
 ---
-title: 'Math Animations Using Manim'
+title: 'Algorithms Animations Using Manim'
 date: 2023-12-25
-summary: 'Self-learning Manim'
+summary: 'Self-learning Manim to better visualize things'
 authors:
   - admin
 tags: 
@@ -27,4 +27,6 @@ You can find the source code on [![GitHub]](https://github.com/AshrafHanyy/Distr
 
 ---
 ## Neural Networks & Activation Functions
+
+For the machine learning course taught at the university with Dr. Ammar, I wanted to visualize the learning of an activation functions
 
