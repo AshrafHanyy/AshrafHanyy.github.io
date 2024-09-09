@@ -9,7 +9,7 @@ tags:
 featured: true
 ---
 # Learning Manim
----
+
 
 In this blog post, I'll share my experience learning **Manim**, a mathematical animation engine, and how I used it to develop two videos. One focused on the **Distribution Counting Sort** algorithm, and the other on ** **Neural Networks and Activation Functions**.
 
