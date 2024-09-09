@@ -7,7 +7,6 @@ authors:
 tags: 
 # Display this page in the Featured widget?
 featured: true
-commentable: true
 ---
 This is the achievement I'm most proud of during my four years at university.
 
