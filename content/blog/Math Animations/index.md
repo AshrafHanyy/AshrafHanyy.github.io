@@ -27,7 +27,7 @@ I developed this visualization as part of my **Design and Analysis of Algorithms
 You can find the full source code on [GitHub](https://github.com/AshrafHanyy/Distrubtion_Count_Sort).
 
 For this animation, luckly, I foundy a ready-made library named `manim_data_structures` that allowed me to show the arrays easily. I used the examples from Levitin's algorithms book to create the animation in the video. 
-<div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%; box-sizing: border-box; padding: 10px; border-radius: 5px; border: 1px solid;">
+<div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%;">
 
 {{< highlight python >}}
 # Create array from levitin
@@ -55,7 +55,7 @@ For the machine learning course taught at the university with Dr. Ammar Mohamed,
 
 ### Technical Details
 The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckliy turned out to be very good looking. 
-<div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%; box-sizing: border-box; padding: 10px; border-radius: 5px; border: 1px solid;">
+<div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%;">
 {{< highlight python >}}
 ###########################
 #Creating Neural Network (Code Written by Ashraf Hany)
