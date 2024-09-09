@@ -20,7 +20,7 @@ The **Distribution Counting Sort** algorithm is an efficient sorting technique d
 I developed this visualization as part of my **Design and Analysis of Algorithms course (CS312)**. Over the course of **78 hours**, I created it using **Manim** and polished the final video with background music using **Adobe Premiere Pro**.
 
 ### Watch the Video
-![Alt Text](https://example.com/path-to-your-gif.gif)
+![demo](./demo.gif)
 [Click here](https://www.youtube.com/watch?v=TVK_2h5Q1Sc&t) to watch the video.
 
 ### Code
