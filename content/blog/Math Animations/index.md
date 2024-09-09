@@ -55,7 +55,7 @@ For the machine learning course taught at the university with Dr. Ammar Mohamed,
 
 ### Technical Details
 The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckliy turned out to be very good looking. 
-<div style="max-height: 300px; overflow-y: auto; overflow-x: auto; font-size: 0.85em; width: 100%;">
+<div style="max-height: 300px; overflow-y: auto;">
 {{< highlight python >}}
 ###########################
 #Creating Neural Network (Code Written by Ashraf Hany)
