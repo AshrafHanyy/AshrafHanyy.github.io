@@ -1,5 +1,5 @@
 ---
-title: 'Algorithms Animations Using Manim'
+title: 'Animating Algorithms Using Manim'
 date: 2023-12-25
 summary: 'Self-learning Manim to better visualize things'
 authors:
