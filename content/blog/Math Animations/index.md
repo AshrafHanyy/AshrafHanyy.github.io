@@ -39,5 +39,5 @@ print(greet(name))
 ---
 ## Neural Networks & Activation Functions
 
-For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the learning of an activation functions, I 
+For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the process of learning for neural networks and activation functions to better understand it. 
 
