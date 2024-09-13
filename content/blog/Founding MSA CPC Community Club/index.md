@@ -88,15 +88,13 @@ Another funny thing I did, when we arrived to Alexandria, I contacted a restaura
 
 ![image](./final%20msaa.png "MSA CPC Community Club Logo")
 
-
-
 After returning from the competition, I knew it was time to ensure a smooth transition for the club's leadership. I reached out to Dr. Farid Ali, a respected faculty member, and successfully convinced him to become our new Academic Supervisor, recognizing that his guidance would be crucial for the club's continued growth.
 
 Once Dr. Farid was on board, I began the process of transitioning the presidency to the new leader. I carefully selected a successor who I believed had the passion and commitment needed to lead the club. To ensure they were fully prepared, I spent several weeks mentoring them, sharing my experiences, and walking them through the responsibilities that came with the role. I introduced them to key contacts and provided them with detailed documentation on the club's operations, from organizing training sessions to managing logistics for competitions.
 
-During this period, I made it a point to stay closely involved, offering support whenever needed and answering any questions that arose. My goal was to ensure that the new president felt confident and equipped to lead, while also allowing them the space to bring in their ideas and make their mark on the club.
+During this period, I made sure to stay closely involved, offering support whenever needed and answering any questions that arose. My goal was to ensure that the new president felt confident and equipped to lead, while also allowing them the space to bring in their ideas and make their mark on the club.
 
 As I officially handed over the presidency, I transitioned into the role of a general consultant. This allowed me to stay connected to the club while giving the new leadership flexibility to steer the club in its new direction. I would continue to offer guidance and advice, particularly during critical moments, but my focus would be on empowering the new team to lead with confidence. This transition marked the beginning of a new chapter for both the club and me, as I finally, left MSA CPC Community, a rising star among the students. 
 
-I'm happy with what I have accomplished for MSA CPC. I think I have done everything I could have possible done to give members of our community the experience they deserve. 
+I'm happy with what I have accomplished for MSA CPC. I think I have done everything I could have possibly done to give members of our community the learning experience they deserve. 
 

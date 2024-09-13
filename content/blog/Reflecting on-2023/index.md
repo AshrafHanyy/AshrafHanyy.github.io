@@ -9,13 +9,13 @@ tags:
 featured: true
 ---
 
- For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflect a bit on how all of this made me feel eventually. 
+ For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflect a bit on how all of this made me feel eventually so this blog post will be a bit personal where I will share how my thoughts were back then.
 
 ### Fall 2022
 
-Starting the 22/23 academic year from Fall 2022 Semester, I was going through a lot. I don't feel the need to explain what happened to me on the blog here but let's just say that I was suffering quite hard and things felt quite dark. I went through a traumatic phase that eventually left me suffering with PTSD that took almost 11 months to recover from.
+Starting the 22/23 academic year from Fall 2022 Semester, I was going through a lot. I don't feel the need to explain what happened to me on the blog here but let's just say that I was suffering quite hard and things felt quite dark. I went through a traumatic phase that eventually left me feeling unwell and took almost 11 months to recover from.
 
-It was only through that hardship that I decided to pull everything together and focus on one thing which was studying. At that time, I did nothing but study 24/7. I isolated quite a bit . And from there...things got to a really good point. 
+It was only through that hardship that I decided to pull everything together and focus on one thing which was studying. At that time, I did nothing but study 24/7. And from there...things got to a really good point. 
 
 Solzhenitsyn, a Russian author and Soviet dissident who helped to raise global awareness of political repression in the Soviet Union, especially the Gulag prison system, talked about when he was in the camps, that at least if he was laying bricks in a wall, or a bricklayer was doing so, at least he had the satisfaction of building something, there was some tiny iota of meaning in the work, something redemptive in that, a crumb of meaning that you could feast on in the midst of your starvation. 
 
@@ -27,18 +27,18 @@ Moreover, I also came to realize that people often suffer dreadfully. And it's v
 
 "Yes, I'm suffering, but at least I'm learning a valuable lesson out of it and it is that...(whatever it is you should learn from what happened to you)"
 
-And so I adopted that mindset. I told myself, "Look, you are suffering and you have every valid reason to be a complete loser and everyone would excuse you for not being able to pull through. But hey, wouldn't it be nice if you accomplished something remarkable and looked back on this one day and saw that you came out of it with many achievements?". 
+And so I adopted that mindset. I told myself, "Look, you are suffering and you have every valid reason to be a complete screw up and everyone would excuse you for not being able to pull through. But hey, wouldn't it be nice if you accomplished something remarkable and looked back on this one day and saw that you came out of it with many achievements?". 
 
-And so I did, by the end of that fall semester, I had scored a GPA of 4, founded a community club and had gotten awarded multiple times and by the end of the academic year, I had published my first conference research paper. 
-
+And so I did, by the end of that fall semester, I had scored a GPA of 4 out of 4, founded a community club and had gotten awarded multiple times. By the end of the academic year, I had published my first conference research paper. 
+ 
 ![image](./IMG_4019.jpg)
 
 Even more, by the end of 2023, I had secured my first internship at the National Bank of Egypt, freelanced as a full-stack developer, and met the Former Minister of Education. 
 
 ### Conclusion 
 
-All of this left me more convinced with what Solzhenitsyn said. The only way out of suffering is to have hope. And anyone suffering should strive not to be bitter or resentful. It's the quote written at the footer of this website that I now hold with me anywhere I go. it's the antidote to living a more meaningful life. Yes, you will suffer, but you will also have the opportunity before you to turn your suffering into something remarkable.
+This experience has strengthened my belief in Solzhenitsyn's words: the only way to overcome suffering is by holding on to hope. It’s important not to let suffering make us bitter or resentful, as those feelings only worsen the pain and leave us angry. The quote at the footer of this website, Per Aspera Ad Astra — "Through hardships to the stars" — is something I now carry with me everywhere.
 
-As humans, we can do whatever we set our minds to, and so hopefully, we will set our minds to the right things especially during our rough times.
+I truly believe it’s the antidote to the chaos of life, guiding us toward a more meaningful existence. Yes, suffering is inevitable, but it also presents the chance to transform that pain into something extraordinary.
 
-`Per Aspera Ad Astra ... From hardships to the stars` 
+As humans, we are capable of achieving whatever we set our minds to, and in our hardest moments, I hope we choose to focus on the right things.
