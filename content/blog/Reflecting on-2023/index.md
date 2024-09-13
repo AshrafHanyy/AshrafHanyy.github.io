@@ -1,7 +1,7 @@
 ---
 title: "Reflecting on 2023"
 date: 2023-12-19
-summary: "A journey through hardship, marked by academic and professional achievements."
+summary: "A reflection on a personal journey through hardship, marked by academic and professional achievements."
 authors:
   - admin
 tags: 
