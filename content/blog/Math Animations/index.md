@@ -47,14 +47,16 @@ arr = MArray(
 ---
 ## Neural Networks & Activation Functions
 
-For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the process of learning for neural networks and activation functions to better understand it. I think this has to be the better animation that I personally perfer out of the two. 
+For the machine learning course taught at the university with Dr. Ammar Mohamed, I wanted to visualize the process of learning for neural networks and activation functions to better understand it. I think this has to be the animation that I personally perfer out of the two. 
 
 ### Watch the Video
 ![demo](./featured.jpg)
 [Click here](https://www.youtube.com/watch?v=9wMVz_UphlE) to watch the video
 
 ### Technical Details
-The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckliy turned out to be very good looking. If you look online there aren't many available codes for NNs in Manim. I think this might help with that. 
+The code was a bit tricky for this one as I had to create the neural network myself. This took a while to learn but luckly turned out to be very good looking. If you look online there aren't many available codes for NNs in Manim. I think this might help with that. 
+
+Here's a snippet of the code that creates the NN. I will provide the full code on github later.
 
 {{< highlight python >}}
 ###########################
