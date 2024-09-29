@@ -1,5 +1,5 @@
 ---
 title: Blog
-view: compact
+view: article-grid
 columns: 1
 ---
