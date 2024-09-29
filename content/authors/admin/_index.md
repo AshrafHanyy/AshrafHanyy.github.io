@@ -16,7 +16,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "Undergraduate Student Researcher | MSA CPC Community Founder"
+role: "Data Analyst Freelancer at Upwork | Undergraduate Student Researcher | MSA CPC Community Founder"
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -79,7 +79,6 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
