@@ -105,8 +105,12 @@ This code is just a basic implementation of Quantum Procedural Generation using 
 
 
 ---
+## Full Notebook Download
+You can access the full notebook using this [link](https://colab.research.google.com/drive/1mmd9R57dMag9UJnLlrd6ZGAZK76KyVUZ?usp=sharing)
 
-**Next Steps**
+---
 
-There is currently active research on the use of QPG in games. Inspired by [Dr. James R. Wotton](https://scholar.google.ch/citations?user=w3JCUogAAAAJ&hl=en), we're currently researching the implementation of QPG for voxel based games like minecraft. This would be achived by generatin a height map that would be then converted into the game terrarin using minetest. 
+## Next Steps
+
+There is currently active research on the use of QPG in games. Inspired by [Dr. James R. Wotton](https://scholar.google.ch/citations?user=w3JCUogAAAAJ&hl=en), we're currently researching the implementation of QPG for voxel based games like minecraft. This would be achived by generating a height map that would be then converted into the game terrarin using minetest, an open-source modding software for minecraft. Generating height maps can be done using various methods, each has its own limitations and advantages, none has been shown to be truly advantageous when compared to the classical methods for generating height maps (for example, using Perlin noise) yet.   
 

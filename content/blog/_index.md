@@ -1,5 +1,5 @@
 ---
 title: Blog
 view: article-grid
-columns: 1
+columns: 0
 ---
