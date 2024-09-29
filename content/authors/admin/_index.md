@@ -16,8 +16,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "Undergraduate Student Researcher & Teaching Assistant 
-| MSA CPC Community Founder"
+role: "Undergraduate Student Researcher | MSA CPC Community Founder"
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -143,15 +142,7 @@ awards:
       - Synthesize your own blockchain solutions
       - Gain an in-depth understanding of the specific mechanics of Bitcoin
       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
-I am an undergraduate student researcher and teaching assistant at Modern Sciences and Arts University, focusing on machine learning, quantum computing, quantum machine learning, and human-computer interaction. I have published research in HCI and founded the MSA CPC Community Club to prepare students for competitive programming competitions. I assist in teaching a range of computer science courses and am currently a research intern at Nile University, working with the dean of the school on quantum error correction for machine learning applications. In addition, I freelance as a machine learning engineer on Upwork. My work has earned me multiple awards for my undergraduate projects, including recognition for the best sophmore class project. After studying QC for a year, I reccently won second place at Egypt’s first Quantum AI Hackathon. I plan to pursue my MSc degree in London, UK.
+I am an undergraduate student researcher and junior teaching assistant at Modern Sciences and Arts University, focusing on machine learning, quantum computing, quantum machine learning. I have published research in HCI and founded the MSA CPC Community Club to prepare students for competitive programming competitions. I assist in teaching a range of computer science courses and am currently a research intern at Nile University, working with the dean of the school on quantum error correction for machine learning applications. In addition, I freelance as a data analyst on Upwork. My work has earned me multiple awards for my undergraduate projects, including recognition for the best sophmore class project. After studying QC for a year, I reccently won second place at Egypt’s first Quantum AI Hackathon. I plan to pursue a MSc degree.
