@@ -5,7 +5,7 @@ columns: 1
 type: landing
 design:
   spacing:
-    padding: ['20px', '500px', '20px', '0']
+    padding: ['20px', '0', '20px', '0']
   background:
     # Choose colors such as from https://html-color-codes.info
     gradient_start: '#4bb4e3'
