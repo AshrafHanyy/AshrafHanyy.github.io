@@ -2,7 +2,6 @@
 title: Blog
 view: article
 columns: 1
-type: landing
 design:
   spacing:
     padding: ['20px', '0', '20px', '0']
