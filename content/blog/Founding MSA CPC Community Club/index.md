@@ -95,7 +95,7 @@ Another funny thing I did, when we arrived to Alexandria, I contacted a restaura
 
 On the day of the competition, I felt responsible for everything, since Dr. Islam wasn't with us this time. Therefore, a lot of the things he handled very professionally that I didn't he did, were handled by me and the temporary supervisior at last minute (signing and delivering enrollement letters, bus issues, different cases for students & parents, etc.). 
 
-![image](./featured(2).jpg "MSA CPC Community x ECPC 2024")
+![image](./featured.jpg "MSA CPC Community x ECPC 2024")
 
 Due to the fact that I had to endure the entire weight of the responsibility of the trip all myself, I was very relieved when we came out of the competition. I felt like I had dropped the heaviest load that I had been carrying with me for the longest time possible. 
 
