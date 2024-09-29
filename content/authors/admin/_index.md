@@ -16,7 +16,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "Data Analyst Freelancer at Upwork | Undergraduate Student Researcher | MSA CPC Community Founder"
+role: "Data Analyst Freelancer at Upwork & Undergraduate Student Researcher"
 
 # Organizations/Affiliations to show in About widget
 organizations:
