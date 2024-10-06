@@ -31,7 +31,7 @@ And so I adopted that mindset. I told myself, "Look, you are suffering and you h
 
 And so I did, by the end of that fall semester, I had scored a GPA of 4 out of 4, founded a community club and had been awarded multiple times. By the end of the academic year, I had published my first research paper. 
  
-![image](./IMG_4019.jpg)
+![image](./awards.jpg)
 
 Even more, by the end of 2023, I had secured my first internship at the National Bank of Egypt, freelanced as a full-stack developer, and met the Former Minister of Education. 
 
@@ -41,10 +41,7 @@ This experience has strengthened my belief in Solzhenitsyn's words: the only way
 
 
 I also reflect often on this text from Peterson's book, *12 Rules for Life*:
-> You must determine where you are going, so that you can bargain for yourself, so that you don’t end up resentful, vengeful and cruel.  
-> ** You have to articulate your own principles, so that you can defend yourself against others’ taking inappropriate advantage of you, and so that you are secure and safe while you work and play. **
-> You must discipline yourself carefully. You must keep the promises you make to yourself, and reward yourself, so that you can trust and motivate yourself.  
-> You need to determine how to act toward yourself so that you are most likely to become and to stay a good person.  
+> You must determine where you are going, so that you can bargain for yourself, so that you don’t end up resentful, vengeful and cruel. You have to articulate your own principles, so that you can defend yourself against others’ taking inappropriate advantage of you, and so that you are secure and safe while you work and play. You must discipline yourself carefully. You must keep the promises you make to yourself, and reward yourself, so that you can trust and motivate yourself. You need to determine how to act toward yourself so that you are most likely to become and to stay a good person.  
 > It would be good to make the world a better place. Heaven, after all, will not arrive of its own accord. We will have to work to bring it about, and strengthen ourselves, so that we can withstand the deadly angels and flaming sword of judgment that God used to bar its entrance.
 
   
