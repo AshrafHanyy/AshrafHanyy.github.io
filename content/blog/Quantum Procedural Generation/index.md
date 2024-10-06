@@ -10,6 +10,8 @@ featured: true
 ---
 In this blog post, we'll explore how quantum computing principles can be applied to procedural generation, specifically for generating random terrain. Procedural generation is essential in fields such as gaming, where vast landscapes and terrains need to be created with minimal human intervention. Here, we'll use a quantum walk algorithm to generate random movements on a 2D grid, simulating terrain generation.
 
+![image](image.png "Example of how terrarin generation can be used in 2D games (Terraria).")
+
 ## What is Quantum Procedural Generation (QPG)?
 
 Quantum Procedural Generation leverages quantum mechanics to introduce randomness and superposition in procedural algorithms. Classical algorithms use pseudo-random number generators, but quantum computing offers a more intrinsic form of randomness through quantum states. This allows for innovative approaches in generating unpredictable terrain, patterns, or even paths within games.
