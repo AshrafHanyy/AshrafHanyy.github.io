@@ -1,6 +1,6 @@
 ---
 title: 'How I Met The Former Minister of Education, Dr. Tarek Shawki'
-date: 2023-12-25
+date: 2023-12-20
 summary: 'I was extremely fortunate and honored to have a chance to meet and talk with the AUC’s Counselor and former Minister of Higher Education, H.E. Dr. Tarek Shawki. A pioneer in education and a visionary!'
 authors:
   - admin
