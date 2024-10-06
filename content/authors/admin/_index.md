@@ -16,7 +16,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "Quantum Computing Student Researcher & Data Analyst Freelancer"
+role: "Quantum Computing Researcher & Data Analyst Freelancer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
