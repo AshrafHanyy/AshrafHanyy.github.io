@@ -16,6 +16,7 @@ We all know that our daily actions, conversations and promises are all subject t
 
 We know this by heart, all of us do.  A simple illustration as to why that's the case is for example, when you're a child, one of the first things you might try to do is to mimic your parents or the grown ups around you. And if anyone's read a few articles in psychology, you would know that this behavior is directly linked to the child's wish to fit in society. 
 
+![image](./jPicture1.jpg)
 We are great mimics, we learn by mimicking each other's behaviors, we do that all the time, and so when we're trying to fit in, we copy the behavior of the people we trust around us, in the example mentioned, that would be the parents. But by doing so, we're not just copying their behavior, we're also copying something far more important and nesting it within ourselves, and that is their value structure. 
 
 What's a value structure? Think of it like a pyramid, a hierarchy of values. At the top exists the things we value the most. and at the bottom, the least we might care about or regard. The thing that is so important about a value structure is that it makes us better oriented in life, and leaves out less room for chaos and confusion. When we're given a choice to take an action or another, our moral standards, references and codes all come from our value structure.
