@@ -13,21 +13,19 @@ This year has been incredibly rewarding, filled with milestones I once thought w
 
 ### Fall 2022
 
-Starting the 22/23 academic year from Fall 2022 Semester, I was unwell. I don't feel the need to explain what happened to me on the blog here but let's just say that I was suffering quite hard and things felt quite dark. I went through a traumatic phase that eventually left me feeling unwell and took almost 11 months to recover from.
+Starting the 22/23 academic year from Fall 2022 Semester, I was unwell. I don't feel the need to explain what happened to me on the blog here but let's just say that I was suffering quite hard and things felt quite dark. I went through a traumatic phase that eventually left me feeling very unwell and took almost 11 months to recover from.
 
 It was only through that hardship that I decided to pull everything together and focus on one thing which was, studying. At that time, I did nothing but study 24/7. And from there...things got to a really good point. 
 
 Solzhenitsyn, a Russian author who helped to raise global awareness of political repression in the Soviet Union, had once talked about when he was in the camps, that at least if he was laying bricks in a wall, or a bricklayer was doing so, at least he had the satisfaction of building something, there was some tiny iota of meaning in the work, something redemptive in that, a crumb of meaning that you could feast on in the midst of your starvation. 
 
-### Per Aspera Ad Astra
-
-When I first learned that Idea, I thought about it for a long time. I thought that this could be my antidote. That the only way out of any suffering was to allow yourself to have some hope. Although it seems paradoxical but it is true. Also, there's one advantage to specifying darkness to that extent, when you specify something that precisely, you are also specifying it's opposite, so if you are living to a great extent in horrible suffering and darkness, then, at least in principle, there exists the opposite of that. So while I was looking into the heart of darkness, let's say, the light started to shine through. 
+When I first learned that idea, I thought about it for a long time. I thought that this could be my antidote. That the only way out of any suffering was to allow yourself to have some hope. Although it seems paradoxical but it is true. Also, there's one advantage to specifying darkness to that extent, when you specify something that precisely, you are also specifying it's opposite, so if you are living to a great extent in horrible suffering and darkness, then, at least in principle, there exists the opposite of that. So while I was looking into the heart of darkness, let's say, the light started to shine through. 
 
 Moreover, I also came to realize that people often suffer dreadfully. And it's very difficult for a person to suffer dreadfully without getting bitter and resentful. But it doesn't help! All it does is that it makes the suffering worse and spreads it. And so I came to realize that the best way to suffer is to do so with a moral justification in mind. 
 
 "Yes, I'm suffering, but at least I'm learning a valuable lesson out of it and it is that...(whatever it is you should learn from what happened to you)"
 
-And so I adopted that mindset. I told myself, "Look, you are suffering and you have every valid reason to be a complete screw up and everyone would excuse you for not being able to pull through. But hey, wouldn't it be nice if you accomplished something remarkable and looked back on this one day and saw that you came out of it with many achievements?". 
+And so, I adopted that mindset. I told myself, "Yes, you're going through a difficult time, and no one would blame you if you struggled or fell short—everyone would understand. But what if, instead, you turned this into something meaningful? What if you accomplished something remarkable and could one day look back, proud that you not only survived but came out of it with meaningful achievements?"
 
 And so I did, by the end of that fall semester, I had scored a GPA of 4 out of 4, founded a community club and had been awarded multiple times. By the end of the academic year, I had published my first research paper. 
  
