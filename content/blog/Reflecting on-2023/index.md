@@ -35,7 +35,7 @@ Even more, by the end of 2023, I had secured my first internship at the National
 
 ### Per Aspera Ad Astra
 
-This experience has strengthened my belief in Solzhenitsyn's words: the only way to overcome suffering is by holding on to hope. It’s important not to let suffering make us bitter or resentful, as those feelings only worsen the pain and leave us angry. The quote at the footer of this website, Per Aspera Ad Astra — "Through hardships to the stars" — is something I now carry with me everywhere.
+This experience has strengthened my belief in Solzhenitsyn's words: the only way to overcome any suffering is by doing something meaningful. It’s important not to let suffering make us bitter or resentful, as those feelings only worsen the pain and leave us angry. The quote at the footer of this website, Per Aspera Ad Astra — "Through hardships to the stars" — is something I now carry with me everywhere.
 
 
 I also reflect often on this text from Peterson's book, *12 Rules for Life*:
