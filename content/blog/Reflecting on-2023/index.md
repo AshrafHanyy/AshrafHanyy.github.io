@@ -33,7 +33,7 @@ And so I did, by the end of that fall semester, I had scored a GPA of 4 out of 4
 
 Even more, by the end of 2023, I had secured my first internship at the National Bank of Egypt, freelanced as a full-stack developer, and met the Former Minister of Education. 
 
-### Conclusion 
+### Per Aspera Ad Astra
 
 This experience has strengthened my belief in Solzhenitsyn's words: the only way to overcome suffering is by holding on to hope. It’s important not to let suffering make us bitter or resentful, as those feelings only worsen the pain and leave us angry. The quote at the footer of this website, Per Aspera Ad Astra — "Through hardships to the stars" — is something I now carry with me everywhere.
 
