@@ -43,4 +43,4 @@ I also reflect often on this text from Peterson's book, *12 Rules for Life*:
 > It would be good to make the world a better place. Heaven, after all, will not arrive of its own accord. We will have to work to bring it about, and strengthen ourselves, so that we can withstand the deadly angels and flaming sword of judgment that God used to bar its entrance.
 
   
-Yes, suffering is inevitable, but it also presents the chance to transform that pain into something extraordinary. As humans, we are capable of achieving whatever we set our minds to, and in our hardest moments, I hope we choose to set our minds on the right things.
+Yes, suffering is inevitable, but it also presents the chance to transform that pain into something extraordinary. As humans, we are capable of achieving whatever we set our minds to, and in our hardest moments, We should choose to set our minds on the right things.
