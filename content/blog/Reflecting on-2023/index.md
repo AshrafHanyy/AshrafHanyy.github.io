@@ -27,7 +27,7 @@ Moreover, I also came to realize that people often suffer dreadfully. And it's v
 
 And so, I adopted that mindset. I told myself, "Yes, you're going through a difficult time, and no one would blame you if you struggled or fell short—everyone would understand. But what if, instead, you turned this into something meaningful? What if you accomplished something remarkable and could one day look back, proud that you not only survived but came out of it with meaningful achievements?"
 
-And so I did, by the end of that fall semester, I had scored a GPA of 4 out of 4, founded a community club and had been awarded multiple times. By the end of the academic year, I had published my first research paper. 
+And so I did, by the end of that fall semester, I had scored a GPA of 4 out of 4, founded a community club at MSA and had gotten awarded multiple times. By the end of the academic year, I had published my first research paper. 
  
 ![image](./awards.jpg)
 
