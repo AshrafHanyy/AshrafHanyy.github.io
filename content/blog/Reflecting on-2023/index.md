@@ -9,7 +9,7 @@ tags:
 featured: true
 ---
 
-For me, this year was unbelievably rewarding. I went through many achievements and reached a lot of milestones that I honestly thought would take me forever to ever get to. I keep reflecting everyday on how I feel about all of this. Although I'm very grateful for every single award and proud of all these achievements. I wanted to reflect a bit on how all of this made me feel eventually so this blog post will be a bit personal where I will share how my thoughts were back then.
+This year has been incredibly rewarding, filled with milestones I once thought were far beyond my reach. I find myself reflecting daily on everything that has happened and how it has shaped me. While I’m deeply grateful for the recognition and proud of these achievements, I also want to share a more personal perspective. This post will focus on how I felt throughout the journey and the thoughts that stayed with me along the way.
 
 ### Fall 2022
 
