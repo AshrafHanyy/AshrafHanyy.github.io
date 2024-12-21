@@ -1,7 +1,7 @@
 ---
-title: 'Breaking Our Moral Codes, A Thought Dilemma'
+title: 'Breaking Our Moral Codes, A Thought Dilemma '
 date: 2024-12-14
-summary: 'A Thought dilemma with our Morality'
+summary: 'When we think of acts of unimaginable cruelty—like the atrocities committed in Auschwitz, or the horrific torture of prisoners in Saydnaya Prison in Syria—it’s tempting to dismiss the perpetrators as fundamentally evil people, wholly different from us. We console ourselves by believing, “I could never do that.” But how can we be so sure?'
 authors:
   - admin
 tags: 
@@ -10,28 +10,31 @@ show_related: true
 featured: true
 ---
 
-I tend to think a lot about the morality of things, of everything I do or say. I want to share my thoughts on why we should be very careful when breaking any of our moral codes. I have been thinking about this for a while.
+When we think of acts of unimaginable cruelty—like the atrocities committed in Auschwitz, or the horrific torture of prisoners in Saydnaya Prison in Syria—it’s tempting to dismiss the perpetrators as fundamentally evil people, wholly different from us. We might console ourselves by believing, “I could never do that.” But how can we be so sure that we are different from these people?
 
-We all know that our daily actions, conversations and promises are all subject to the virtuous rules that our ancestors once held high into account. We value what they once valued and we want to act the same way they did. 
+What, then, pushes someone to step outside their moral code, to not just tolerate evil but actively participate in it? Is it political pressure? Economic hardship? Or is the root cause psychological, a failure of moral reasoning that allows corruption to thrive in the form of obedience or duty?
 
-We know this by heart, all of us do.  A simple illustration as to why that's the case is for example, when you're a child, one of the first things you might try to do is to mimic your parents or the grown ups around you. And if anyone's read a few articles in psychology, you would know that this behavior is directly linked to the child's wish to fit in society. 
+I recenetly met with a former Saydnaya prisoner who was unjustfully imprisoned and tortured for 11 months at the Saydnaya prison in Syria. He spoke for almost two hours on the unimaginable torture and suffering he went through at the Saydnaya prison. After being shown in front of a judge, he was finally let go, but to continue living in Syria was not a choice for him anymore, he had to leave Syria and come to Cairo. Now, he runs a coffe stand from the back of a car "zooba".
+
+Contemplating these questions is uncomfortable, but it is essential. If we don’t consider what could drive us to such darkness, how can we ever understand what keeps us in the light? I've been thinking about this for a while, let's discuss this further. 
+
+# The ealy developlemt of our moral codes   
+
+Human behavior is deeply influenced by moral reasoning. From a young age, we learn and understand social norms and values by observing and imitating those around us, like parents or caregivers. We're great mimics, we do that all the time. This process, called observational learning, helps us fit in society and feel accepted. When we imitate by mimicking the actions and behaviors of those around us, especially the people we trust, we’re not just copying their actions—we’re also absorbing something much deeper: their value structure.
+
+A value structure is like a mental hierarchy of what matters most to us. At the top are the things we prioritize above all else, and at the bottom are the things we care about the least. This hierarchy helps us navigate life, reducing confusion and chaos by guiding our decisions and actions. When faced with any choice in our daily interactions, our moral compass—shaped by this value structure—helps us decide what to do.
 
 ![image](./jPicture1.jpg)
-We are great mimics, we learn by mimicking each other's behaviors, we do that all the time, and so when we're trying to fit in, we copy the behavior of the people we trust around us, in the example mentioned, that would be the parents. But by doing so, we're not just copying their behavior, we're also copying something far more important and nesting it within ourselves, and that is their value structure. 
 
-What's a value structure? Think of it like a pyramid, a hierarchy of values. At the top exists the things we value the most. and at the bottom, the least we might care about or regard. The thing that is so important about a value structure is that it makes us better oriented in life, and leaves out less room for chaos and confusion. When we're given a choice to take an action or another, our moral standards, references and codes all come from our value structure.
+Our values often reflect those of our ancestors. For example, we value things like honesty or bravery because these traits have been passed down as important through generations. But this raises an important question: when should we challenge the value structure we’ve inherited? How do we know that our moral compass will not mislead us as life becomes more complex?
 
-For example, we value wearing clothes, because our ancestors did. We value honesty, bravery and intelligence, same as our ancestors. The conclusion being that we value what they once valued.
+In my day-to-day actions and as I grew older, I often found myself conflicted with a moral dilemma that stemmed from complicated situations. Sometimes, I’ve found myself questioning whether I should adhere to a particular moral code or whether it’s acceptable to redefine my values. But where do we draw the line? If we start modifying our moral codes, how do we ensure we’re not losing ourselves in the process?
 
-But when should we adjust this value structure? How do we know that the value structure we inherited from our parents isn't going to lead us eventually to a miserable life. Especially, when we're in a complicated situation, or when we get older? Who's a better judge of that?
+At first, this may seem like a trivial issue. "We all know the difference between good and evil by heart". Fair enough, but consider the following. The Nazi Auschwitz guards who tortured thousands of inncocent people in the concertation camps, the Israeli prison guards who did the same to the Palestinians, or the guards in Saydnaya Prison who inflicted unimaginable suffering to syrian prisoners. It’s easy to label them as monsters, as inherently evil. But can we be so certain that we wouldn’t have acted the same in their circumstances? So you might say: "Evil people did this", and again, fair enough, *but don't be so sure that these people aren't you.* 
 
-In my day-to-day actions and as I grew older and found myself often conflicted with a moral dilemma that stems from complicated situations. I found myself thinking more and more about this. And If I refuse to abide by a moral virtue that I know that I should be abiding by. If I begin editing my moral standards and acting out based on a code of my own, I often question, where do we draw the line to that? 
+Now that’s a deeply unsettling thought, and it's a deeply uncomfortable question to ask yourself, but I believe it’s an important one. Instead of only asking, “How do I avoid becoming like them?” we should also ask, “What would it take for me to become like them?”
 
-At first, this may seem like a trivial issue. "We all know the difference between good and evil by heart". Fair enough, but consider the following. The Nazi Auschwitz guards who tortured thousands of  Jews in the concertation camps. The Israeli prison guards who did the same to the Palestinians. You might say,; "Evil people did this", and again, fair enough, *but don't be so sure that these people aren't you.* 
+I reflect on this often, more than I should perhaps. But after reflecting on this, I came to conclude that it’s not just a political or economical issue. Those factors might be the reason for such evil actions to some degree, but they don’t explain the willingness to commit such acts. At its core, this is a psychological issue. There is no economical reason as to why someone would torture another human and have them suffer under their dominion—it’s simply a corruption of moral reasoning.
 
-And you see, that's a horrible thing to contemplate, but in my opinion it's a necessary thing to contemplate. You're always asking yourself how to not be that evil individual. But how about you begin by asking the opposite? "*What would it take me to be this evil as the gurads who tortured these people?*"
-
-I thought about that  for a long time. I thought about what I would have to be like in order to be this evil. At first, I thought Is this a political issue? An economical one? But then I came to the conclusion that this is mainly a psychological issue. There is no economical reason as to why someone would torture another human and have them suffer under their dominion. That's just evil and corrupt. 
-
-And then I thought, why should I care? Why should I contemplate such a thought? And I concluded that, one of the benefits of this, is that when you specify something to that depth, you're also defining it's opposite. So if there's evil to that extent, then there is, at least in theory, the opposite. So while I was looking into the heart of darkness, once again the light started to shine through. 
+But why is this important? Why should I care? Why should I contemplate such a thought? And the answer is, understanding this isn’t just about confronting the darkness in others; it’s about safeguarding ourselves. When you specify something to that depth, you're also defining it's opposite. So if there's evil to that extent, then there is, at least in theory, the opposite. So while I was looking into the heart of darkness, once again, the light started to shine through. 
 
