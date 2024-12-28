@@ -22,7 +22,7 @@ Human behavior is shaped by moral reasoning, but how do we determine right from 
 
 A value structure, is like a mental hierarchy of what matters most to us, a hierarchy of values guiding our choices. At the top are the things we value above all else, and at the bottom are the things we care about the least. This hierarchy helps us navigate life. At its core, this structure reduces uncertainty, helping our moral compass steer our decisions. Previous studies have shown how these values influence real-life choices (Schwartz & Bardi, 2001).
 
-![image](./jPicture1.jpg)
+![image](./Picture1.jpg)
 
 Since our values are often inherited from our ancestors, we often act in the same way that they did, which is often a good thing. For example, we value things like honesty, integrity or bravery because these traits have been passed down as important through generations. But this raises an important question: when should we challenge the value structure we’ve inherited? How do we know that our moral compass will not mislead us as life becomes more complex?
 
