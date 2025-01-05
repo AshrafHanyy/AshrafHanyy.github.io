@@ -1,6 +1,6 @@
 ---
 title: 'Breaking Our Moral Codes: Understanding the Psychology of Evil⁠'
-date: 2024-12-14
+date: 2024-12-24
 summary: 'When we think of acts of unimaginable cruelty—like the atrocities committed in Auschwitz, or the horrific torture of prisoners in Saydnaya Prison in Syria—it’s tempting to dismiss the perpetrators as fundamentally evil people, wholly different from us. We console ourselves by believing, “I could never do that.” But how can we be so sure?'
 authors:
   - admin
