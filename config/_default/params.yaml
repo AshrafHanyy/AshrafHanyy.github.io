@@ -63,3 +63,10 @@ cascade:
       path: /blog/**
     design:
       full_width: true
+design:
+  blog_post:
+    full_width: true
+design:
+ - _target:
+      path: /blog/**
+    full_width: true
