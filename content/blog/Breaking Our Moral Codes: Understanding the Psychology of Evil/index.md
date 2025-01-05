@@ -8,6 +8,8 @@ tags:
 show_related: true
 # Display this page in the Featured widget?
 featured: true
+design:
+  full_width: true
 ---
 
 When we think of acts of unimaginable cruelty—like the atrocities committed in Auschwitz, or the horrific torture of prisoners in Saydnaya Prison in Syria—it’s often the case that we tend to label the perpetrators as fundamentally evil people, wholly different from us. We might console ourselves by believing, “I could never do that.” But how can we be so sure that we are different from these people?

@@ -61,4 +61,5 @@ features:
 cascade:
   - _target:
       path: /blog/**
-    layout: full-width
+    design:
+      full_width: true
