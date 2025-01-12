@@ -16,7 +16,7 @@ When we think of acts of unimaginable cruelty—like the atrocities committed in
 
 What, then, pushes someone to step outside their moral code, to not just tolerate evil but actively participate in it? Is it political pressure? Economic hardship? Or is the root cause psychological, a failure of moral reasoning that allows corruption to thrive in the form of obedience or duty? 
 
-In this blog post, I want to explain the danger of straying away from our moral principles. When we believe we can stretch our boundaries, we may actually be engaging in something far more harmful than it initially appears.
+In this blog post, I want to explain, from my point of view, the danger of straying away from our moral principles. When we believe we can stretch our boundaries, we may actually be engaging in something far more harmful than it initially appears.
 
 # Understanding the Foundations of Moral Reasoning
 
@@ -46,7 +46,9 @@ Now let’s consider the people who did this to him, they were normal human bein
 
 So how did they reach a point where they are actively participating in evil acts? The answer is, they kept straying away from their fundamental moral codes, one tiny unethical act a time. 
 
-My aim is to clarify that we must exercise extreme caution when stepping outside our moral boundaries. As we drift from our principles—one tiny step at a time—we’re reshaping our value structure and risk losing our core identity in the process.
+My aim is to clarify that we must exercise extreme caution when stepping outside our moral boundaries. As we drift from our principles—one tiny step at a time—we’re reshaping our value structure and risk losing our core moral values in the process.
 
+>"I'm terrified at the moral apathy, the death of the heart, which is happening in my country. These people have deluded themselves for so long that they really don't think I'm human. And I base this on their conduct, not on what they say. And this means that they have become in themselves moral monsters."
+James Baldwin
 
 
