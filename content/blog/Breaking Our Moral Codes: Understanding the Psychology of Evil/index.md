@@ -48,7 +48,8 @@ So how did they reach a point where they are actively participating in evil acts
 
 My aim is to clarify that we must exercise extreme caution when stepping outside our moral boundaries. As we drift from our principles—one tiny step at a time—we’re reshaping our value structure and risk losing our core moral values in the process.
 
->"I'm terrified at the moral apathy, the death of the heart, which is happening in my country. These people have deluded themselves for so long that they really don't think I'm human. And I base this on their conduct, not on what they say. And this means that they have become in themselves moral monsters."
+>I'm terrified at the moral apathy, the death of the heart, which is happening in my country. These people have deluded themselves for so long that they really don't think I'm human. And I base this on their conduct, not on what they say. And this means that they have become in themselves moral monsters.
+
 James Baldwin
 
 
