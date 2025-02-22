@@ -49,7 +49,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 1
+      columns: 3
   # - block: collection
   #   id: papers
   #   content:
@@ -61,16 +61,16 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 1
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
   # - block: collection
   #   id: talks
   #   content:
@@ -131,3 +131,6 @@ sections:
   #       css_class: "bg-primary-700"
   #       css_style: ""
 ---
+**Research Work**
+
+I've researched and published in Human-Computer Interaction (HCI). I'm currently doing research in Qunatum Machine learning. 
