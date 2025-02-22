@@ -48,8 +48,8 @@ sections:
           - blog
         featured_only: true
     design:
-      view: article-grid
-      columns: 4
+      view: card
+      columns: 2
   # - block: collection
   #   id: papers
   #   content:
