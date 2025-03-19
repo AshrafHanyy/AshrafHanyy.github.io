@@ -23,3 +23,16 @@ body[class*="blog"] h1 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+/* Ensure the sidebar and TOC do not interfere with the full-width layout */
+body[class*="blog"] .hb-sidebar-container,
+body[class*="blog"] .hb-toc {
+  display: none; /* Hide sidebar and TOC on blog pages */
+}
+
+/* Adjust the main content area to take full width */
+body[class*="blog"] main {
+  max-width: 100% !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
