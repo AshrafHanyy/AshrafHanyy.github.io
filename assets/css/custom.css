@@ -1,38 +1,26 @@
-/* Target the blog pages specifically */
-body[class*="blog"] .prose {
-  max-width: 100% !important; /* Make the text width full screen */
-  padding-left: 1.5rem; /* Add some padding for better readability */
-  padding-right: 1.5rem; /* Add some padding for better readability */
-}
-
-/* Ensure the container for the blog content takes full width */
-body[class*="blog"] .max-w-6xl {
-  max-width: 100% !important;
-}
-
-/* Adjust the featured image container to fit the full width */
-body[class*="blog"] .featured-image-wrapper {
-  max-width: 100% !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Optional: Adjust the header and other elements for better alignment */
-body[class*="blog"] h1 {
-  max-width: 100%;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-/* Ensure the sidebar and TOC do not interfere with the full-width layout */
-body[class*="blog"] .hb-sidebar-container,
-body[class*="blog"] .hb-toc {
-  display: none; /* Hide sidebar and TOC on blog pages */
-}
-
-/* Adjust the main content area to take full width */
-body[class*="blog"] main {
-  max-width: 100% !important;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+/* Adjust blog content to be full-screen with minimal margins on PC/desktop */
+@media screen and (min-width: 1024px) {
+  /* Target only the blog content */
+  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex {
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Target the main content area specifically for blog posts */
+  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex main.w-full.min-w-0.max-w-6xl {
+    max-width: 90%; /* Wider content area */
+    padding-left: 2rem; /* Reduced padding */
+    padding-right: 2rem; /* Reduced padding */
+  }
+  
+  /* Make sure the article-container within the main also uses full width */
+  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex .article-container {
+    max-width: 100%;
+  }
+  
+  /* Ensure prose content uses full width */
+  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex .prose {
+    max-width: 100%;
+  }
 }
