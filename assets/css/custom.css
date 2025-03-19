@@ -2,13 +2,13 @@
 @media screen and (min-width: 1024px) {
   /* Target the article container for blog posts */
   article.w-full.break-words.flex {
-    justify-content: center;
+    justify-content: left;
   }
   
   /* Target the main content area within blog posts */
   article.w-full.break-words.flex main.w-full.min-w-0.max-w-6xl {
-    max-width: 75%; /* Reduce from max-w-6xl for wider margins */
-    padding-left: 6rem; /* Increase from px-6/md:px-12 */
-    padding-right: 6rem; /* Increase from px-6/md:px-12 */
+    max-width: 95%; /* Reduce from max-w-6xl for wider margins */
+    padding-left: 3rem; /* Increase from px-6/md:px-12 */
+    padding-right: 3rem; /* Increase from px-6/md:px-12 */
   }
 }
