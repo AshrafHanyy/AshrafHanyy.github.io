@@ -5,11 +5,13 @@
     justify-content: center;
     width: 100%;
     max-width: 100%;
+    margin:0%;
   }
   
   /* Target the main content area specifically for blog posts */
   .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex main.w-full.min-w-0.max-w-6xl {
     max-width: 90%; /* Wider content area */
+    margin:0%;
     padding-left: 2rem; /* Reduced padding */
     padding-right: 2rem; /* Reduced padding */
   }
@@ -17,10 +19,12 @@
   /* Make sure the article-container within the main also uses full width */
   .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex .article-container {
     max-width: 100%;
+    margin:0%;
   }
   
   /* Ensure prose content uses full width */
   .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex .prose {
     max-width: 100%;
+    margin:0%;
   }
 }
