@@ -1,0 +1,13 @@
+/* Increase margins for PC/desktop */
+@media screen and (min-width: 1024px) {
+    .container {
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    
+    /* For the main content area */
+    .article-container {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
