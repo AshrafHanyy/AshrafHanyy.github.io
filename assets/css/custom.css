@@ -1,14 +1,29 @@
-/* Increase margins for blog pages only on PC/desktop */
-@media screen and (min-width: 1024px) {
-  /* Target the article container for blog posts */
-  article.w-full.break-words.flex {
-    justify-content: left;
+/* Make the content area wider */
+main {
+  max-width: 100%; /* Expands content to full width */
+  padding-left: 20px;  /* Adjust padding as needed */
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  main {
+      max-width: 90%; /* Ensures some margins on larger screens */
+      margin: 0 auto; /* Centers content */
   }
-  
-  /* Target the main content area within blog posts */
-  article.w-full.break-words.flex main.w-full.min-w-0.max-w-6xl {
-    max-width: 95%; /* Reduce from max-w-6xl for wider margins */
-    padding-left: 3rem; /* Increase from px-6/md:px-12 */
-    padding-right: 3rem; /* Increase from px-6/md:px-12 */
+}
+
+/* Optional: Adjust sidebar width if needed */
+.sidebar {
+  width: 250px; /* Modify this to widen/narrow the sidebar */
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+      width: 100%; /* Full width on smaller screens */
   }
+}
+
+/* Smooth transition effects */
+main, .sidebar {
+  transition: all 0.3s ease-in-out;
 }
