@@ -1,30 +1,35 @@
-/* Adjust blog content to be full-screen with minimal margins on PC/desktop */
-@media screen and (min-width: 1024px) {
-  /* Target only the blog content */
-  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex {
-    justify-content: center;
-    width: 100%;
-    max-width: 100%;
-    margin:0%;
-  }
-  
-  /* Target the main content area specifically for blog posts */
-  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex main.w-full.min-w-0.max-w-6xl {
-    max-width: 90%; /* Wider content area */
-    margin:0%;
-    padding-left: 2rem; /* Reduced padding */
-    padding-right: 2rem; /* Reduced padding */
-  }
-  
-  /* Make sure the article-container within the main also uses full width */
-  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex .article-container {
-    max-width: 100%;
-    margin:0%;
-  }
-  
-  /* Ensure prose content uses full width */
-  .mx-auto.flex.max-w-screen-xl article.w-full.break-words.flex .prose {
-    max-width: 100%;
-    margin:0%;
-  }
+/* Target blog pages specifically */
+body[class*="blog"] main .prose {
+  max-width: 100% !important; /* Make the text width full screen */
+  padding-left: 1.5rem; /* Add some padding for better readability */
+  padding-right: 1.5rem; /* Add some padding for better readability */
+}
+
+/* Ensure the container for the blog content takes full width */
+body[class*="blog"] .max-w-6xl {
+  max-width: 100% !important;
+  margin:0%;
+}
+
+/* Adjust the featured image container to fit the full width */
+body[class*="blog"] .featured-image-wrapper {
+  max-width: 100% !important;
+  margin-left: 0%;
+  margin:0%;
+  margin-right: auto;
+}
+
+/* Hide sidebar and TOC on blog pages */
+body[class*="blog"] .hb-sidebar-container,
+body[class*="blog"] .hb-toc {
+  display: none;
+
+}
+
+/* Adjust the main content area to take full width */
+body[class*="blog"] main {
+  max-width: 100% !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin:0% !important;
 }
