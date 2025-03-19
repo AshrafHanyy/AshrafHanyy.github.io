@@ -1,13 +1,10 @@
-/* Increase margins for PC/desktop */
+/* Increase margins for blog pages only on PC/desktop */
 @media screen and (min-width: 1024px) {
-    .container {
-      margin-left: 5rem;
-      margin-right: 5rem;
-    }
-    
-    /* For the main content area */
-    .article-container {
-      max-width: 80%;
-      margin: 0 auto;
-    }
+  main.w-full.min-w-0.max-w-6xl {
+    max-width: 90%; /* Increase from max-w-6xl to a larger percentage */
+    padding-left: 8rem; /* Increase from px-6/md:px-12 */
+    padding-right: 8rem; /* Increase from px-6/md:px-12 */
+    margin-left: auto;
+    margin-right: auto;
   }
+}
