@@ -1,10 +1,14 @@
 /* Increase margins for blog pages only on PC/desktop */
 @media screen and (min-width: 1024px) {
-  main.w-full.min-w-0.max-w-6xl {
-    max-width: 90%; /* Increase from max-w-6xl to a larger percentage */
-    padding-left: 8rem; /* Increase from px-6/md:px-12 */
-    padding-right: 8rem; /* Increase from px-6/md:px-12 */
-    margin-left: auto;
-    margin-right: auto;
+  /* Target the article container for blog posts */
+  article.w-full.break-words.flex {
+    justify-content: center;
+  }
+  
+  /* Target the main content area within blog posts */
+  article.w-full.break-words.flex main.w-full.min-w-0.max-w-6xl {
+    max-width: 75%; /* Reduce from max-w-6xl for wider margins */
+    padding-left: 6rem; /* Increase from px-6/md:px-12 */
+    padding-right: 6rem; /* Increase from px-6/md:px-12 */
   }
 }
