@@ -1,29 +1,25 @@
-/* Make the content area wider */
-main {
-  max-width: 100%; /* Expands content to full width */
-  padding-left: 20px;  /* Adjust padding as needed */
-  padding-right: 20px;
+/* Target the blog pages specifically */
+body[class*="blog"] .prose {
+  max-width: 100% !important; /* Make the text width full screen */
+  padding-left: 1.5rem; /* Add some padding for better readability */
+  padding-right: 1.5rem; /* Add some padding for better readability */
 }
 
-@media (min-width: 768px) {
-  main {
-      max-width: 90%; /* Ensures some margins on larger screens */
-      margin: 0 auto; /* Centers content */
-  }
+/* Ensure the container for the blog content takes full width */
+body[class*="blog"] .max-w-6xl {
+  max-width: 100% !important;
 }
 
-/* Optional: Adjust sidebar width if needed */
-.sidebar {
-  width: 250px; /* Modify this to widen/narrow the sidebar */
+/* Adjust the featured image container to fit the full width */
+body[class*="blog"] .featured-image-wrapper {
+  max-width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-      width: 100%; /* Full width on smaller screens */
-  }
-}
-
-/* Smooth transition effects */
-main, .sidebar {
-  transition: all 0.3s ease-in-out;
+/* Optional: Adjust the header and other elements for better alignment */
+body[class*="blog"] h1 {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
