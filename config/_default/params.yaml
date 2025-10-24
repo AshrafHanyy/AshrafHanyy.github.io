@@ -1,4 +1,5 @@
 # SITE SETUP
+#config/params.yaml
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
@@ -60,9 +61,12 @@ features:
     enable: false
 cascade:
   - _target:
-      path: /blog/**
+      kind: page
+      path: /content/blog/**
     design:
       full_width: true
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
 design:
   blog_post:
     full_width: true
