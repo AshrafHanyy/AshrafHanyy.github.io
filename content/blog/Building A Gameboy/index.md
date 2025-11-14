@@ -4,12 +4,12 @@ date: 2025-8-14
 summary: 'A handcrafted Game Boy powered by the ESP32-S3, running a custom-built Retro-Go firmware configuration — awarded Third Place in the Engineering Track at NU UGRF 20th Edition.'
 authors:
   - admin
-tags:
-  - embedded-systems
-  - hardware
-  - electronics
-  - game-development
+tags: 
+show_related: true
+# Display this page in the Featured widget?
 featured: true
+design:
+  full_width: true
 ---
 
 Over the past three months, I built something I’ve dreamed of since childhood — **a fully working custom Game Boy**, developed from scratch using the **ESP32-S3**. What started as a personal challenge quickly grew into a full hardware–software engineering project, earning **Third Place in the Engineering Track at NU UGRF 20th Edition**.
