@@ -1,6 +1,6 @@
 ---
 title: 'Building a Custom Game Boy with the ESP32-S3'
-date: 2025-8-24
+date: 2025-08-24
 summary: 'A handcrafted Game Boy powered by the ESP32-S3, running a custom-built Retro-Go firmware configuration awarded Third Place in the Engineering Track at NU UGRF 20th Edition.'
 authors:
   - admin
