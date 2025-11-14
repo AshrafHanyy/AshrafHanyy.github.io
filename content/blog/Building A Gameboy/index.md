@@ -9,8 +9,14 @@ tags:
   - hardware
   - electronics
   - game-development
+
+show_related: true
+# Display this page in the Featured widget?
 featured: true
+design:
+  full_width: true
 ---
+
 
 Over the past three months, I built something I’ve dreamed of since childhood — **a fully working custom Game Boy**, developed from scratch using the **ESP32-S3**. What started as a personal challenge quickly grew into a full hardware–software engineering project, earning **Third Place in the Engineering Track at NU UGRF 20th Edition**.
 
