@@ -32,6 +32,7 @@ I based the software on **Retro-Go**, but because the ESP32-S3 is not supported 
 One of the highlights of the journey was preparing and delivering a **detailed engineering presentation** that broke down every component of the device: electrical wiring, display timing, input mapping, firmware architecture, SD file system integration, and the challenges of adapting Retro-Go to a new microcontroller. This presentation played a big role in communicating the complexity of the work and contributed to winning the award.
 
 ![image](./ESP32-S3HANDHELD.png)
+![image](./winning.jpg)
 This project taught me more about embedded systems, debugging, hardware design, and low-level optimization than any course ever has. And best of all — I open-sourced everything.
 
 GitHub repo: **https://github.com/AshrafHanyy/GameBoy-ESP32-S3**
