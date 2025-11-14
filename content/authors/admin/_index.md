@@ -16,7 +16,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "Quantum Computing Researcher & Data Analyst Freelancer"
+role: "Teaching Assistant @ MSA Uni"
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -63,13 +63,13 @@ education:
     date_start: 2021-09-01
     date_end: 2024-01-31
     summary: |
-      GPA: 3.78/4.0
+      GPA: 3.8/4.0
   - area: BSc Computer Science 
     institution: MSA University
     date_start: 2021-09-01
     date_end: 2024-01-31
     summary: |
-      GPA: 3.78/4.0
+      GPA: 3.8/4.0
 work:
   - position: Intern
     company_name: National Bank of Egypt
