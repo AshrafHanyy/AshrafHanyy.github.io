@@ -14,8 +14,10 @@ In early July of 2025, I decided to take on a project that sat right at the inte
 
 Not a USB toy, not a commercial controller — but a fully custom-built gun that translates real-world motion into **mouse movement**, designed to work with PC games. Every part of it, from the electronics to the calibration logic, was built and tuned by hand.
 
-![image](./IMG_7314.png)
-
+![image](./IMG_7320.JPG)
+<video controls autoplay loop playsinline width="100%">
+  <source src="./IMG_7515.mp4" type="video/mp4">
+</video>
 ---
 
 ## The Idea
@@ -35,7 +37,7 @@ That’s where **IMU-based tracking** came in.
 
 The core of the build revolves around a few key components:
 
-- **Arduino Pro Mini** – compact, reliable, and easy to embed
+- **Arduino Pro Micro** – compact, reliable, and easy to embed
 - **MPU6050** – 6-axis IMU (accelerometer + gyroscope)
 - **Solenoid** – for recoil feedback on trigger pull
 - **MOSFET + flyback diode** – to safely drive the solenoid
@@ -94,7 +96,8 @@ Once dialed in, the gun behaves just like a mouse — which means it works with:
 ## Internal Layout
 
 Here’s a look inside the gun before closing it up:
-![image](./IMG_7171 2 copy.png)
+![image](./IMG_7171 2 copy.jpeg)
+![image](./IMG_7220 copy.jpeg)
 ![image](./IMG_7320.JPG)
 
 It’s messy in the way all real prototypes are — wires routed by necessity, hot glue where screws wouldn’t fit, and components packed tighter than planned. But everything i

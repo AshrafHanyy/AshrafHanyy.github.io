@@ -25,6 +25,11 @@ The project is powered by the ESP32-S3 microcontroller, chosen for its dual-core
 
 I based the software on **Retro-Go**, but because the ESP32-S3 is not supported natively, the firmware had to be **rebuilt and reconfigured from scratch**. That included adapting display drivers, redefining hardware mappings, and tailoring configuration files so everything—from frame rendering to input polling—worked smoothly on the new hardware.
 
+First Run of the System:
+<video controls autoplay muted loop playsinline width="100%">
+  <source src="./first.mp4" type="video/mp4">
+</video>
+
 
 ![image](./IMG_5831.jpeg)
 ![image](./IMG_5885.jpeg)
