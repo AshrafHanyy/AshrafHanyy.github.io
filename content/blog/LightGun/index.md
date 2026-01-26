@@ -14,7 +14,7 @@ In early July of 2025, I decided to take on a project that sat right at the inte
 
 Not a USB toy, not a commercial controller — but a fully custom-built gun that translates real-world motion into **mouse movement**, designed to work with PC games. Every part of it, from the electronics to the calibration logic, was built and tuned by hand.
 
-![image](./IMG_7320.JPG)
+![image](./IMG_7314.png)
 
 ---
 
@@ -45,7 +45,7 @@ The core of the build revolves around a few key components:
 All electronics were mounted inside the shell with zero PCBs — everything is point-to-point wired and secured manually.
 
 <video controls autoplay muted loop playsinline width="100%">
-  <source src="./LIGHTGUN.mov" type="video/quicktime">
+  <source src="./LIGHTGUN.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -94,7 +94,7 @@ Once dialed in, the gun behaves just like a mouse — which means it works with:
 ## Internal Layout
 
 Here’s a look inside the gun before closing it up:
-
-![image](./lightgun_inside.jpg)
+![image](./IMG_7171 2 copy.png)
+![image](./IMG_7320.JPG)
 
 It’s messy in the way all real prototypes are — wires routed by necessity, hot glue where screws wouldn’t fit, and components packed tighter than planned. But everything i
