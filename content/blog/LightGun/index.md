@@ -10,14 +10,12 @@ design:
   full_width: true
 ---
 
-In early July of 2025, I decided to take on a project that sat right at the intersection of **nostalgia, hardware hacking, and software experimentation** — building a **motion-controlled light gun** from scratch.
+In early July of 2025 and after building my ESP32-S3 gameboy, I decided to take on a project that sat right at the intersection of nostalgia, hardware hacking, and software experimentation, I decided to try building a motion-controlled light gun from scratch.
 
 Not a USB toy, not a commercial controller — but a fully custom-built gun that translates real-world motion into **mouse movement**, designed to work with PC games. Every part of it, from the electronics to the calibration logic, was built and tuned by hand.
 
 ![image](./IMG_7320.JPG)
-<video controls autoplay loop playsinline width="100%">
-  <source src="./IMG_7515.mp4" type="video/mp4">
-</video>
+
 ---
 
 ## The Idea
@@ -29,7 +27,11 @@ Classic light guns relied on CRT displays, which made them almost useless in the
 - Behaves like a mouse, so it works with *any* PC game
 - Starts centered on screen and stays controllable
 
-That’s where **IMU-based tracking** came in.
+Most of the modern light guns that are built nowadays have an IR positioning camera built inside. Since this camera was not available to me. I had to develop another method to detect motion of the gun and map it to mouse movments. 
+That’s where IMU-based tracking came in.
+<video controls autoplay muted loop playsinline width="100%">
+  <source src="./IMG_7515.mp4" type="video/mp4">
+</video>
 
 ---
 
@@ -42,7 +44,7 @@ The core of the build revolves around a few key components:
 - **Solenoid** – for recoil feedback on trigger pull
 - **MOSFET + flyback diode** – to safely drive the solenoid
 - **Custom trigger switch**
-- **3D-printed enclosure**, shaped like a pistol grip
+- **3D-printed enclosure**, PS1CON Scanned STL file printed
 
 All electronics were mounted inside the shell with zero PCBs — everything is point-to-point wired and secured manually.
 
@@ -51,13 +53,13 @@ All electronics were mounted inside the shell with zero PCBs — everything is p
   Your browser does not support the video tag.
 </video>
 
-The solenoid was a must. I didn’t want this to feel like clicking a mouse — I wanted **mechanical feedback**. When the trigger is pulled, the solenoid snaps back instantly, giving a sharp recoil that makes the whole thing feel alive.
+The solenoid was a must. I didn’t want this to feel like clicking a mouse — I wanted mechanical feedback. When the trigger is pulled, the solenoid snaps back instantly, giving a sharp recoil that makes the whole thing feel alive.
 
 ---
 
 ## Motion Tracking with MPU6050
 
-The MPU6050 handles all orientation and movement sensing. Rather than relying on absolute position (which IMUs are terrible at), the system tracks **angular velocity** and integrates it into smooth cursor movement.
+The MPU6050 handles all orientation and movement sensing. Rather than relying on absolute position (which IMUs are terrible at), the system tracks angular velocity and integrates it into smooth cursor movement.
 
 Key challenges here:
 
@@ -76,14 +78,14 @@ The result is motion that feels responsive without being jittery.
 
 ## Turning Motion into a Mouse
 
-On the Arduino side, the gun streams processed motion data over serial. On the PC side, I wrote a **custom calibration and mapping program** that:
+On the Arduino side, the gun streams processed motion data over serial. On the PC side, I wrote a custom calibration and mapping program that:
 
-- Starts the cursor **locked to the center of the screen**
+- Starts the cursor locked to the center of the screen
 - Converts angular motion into relative mouse movement
 - Applies smoothing and gain curves
 - Allows recalibration without restarting
 
-This software layer was critical. Raw IMU data alone doesn’t feel good — the calibration logic is what makes the gun *usable*.
+This software layer was critical. Raw IMU data alone doesn’t feel good — the calibration logic is what makes the gun usable.
 
 Once dialed in, the gun behaves just like a mouse — which means it works with:
 - FPS games
