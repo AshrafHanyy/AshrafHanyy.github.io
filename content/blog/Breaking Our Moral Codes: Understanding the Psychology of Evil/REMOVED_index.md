@@ -7,7 +7,7 @@ authors:
 tags: 
 show_related: true
 # Display this page in the Featured widget?
-featured: true
+featured: false
 design:
   full_width: true
 ---
