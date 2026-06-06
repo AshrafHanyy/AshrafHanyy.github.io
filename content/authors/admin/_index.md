@@ -238,8 +238,6 @@ awards:
 
 ## About Me
 
-I am an Egyptian computer scientist and researcher currently working as an AI & Data Engineer at Techlabs London, where I design and deploy AI-powered solutions including LLM-based conversational agents, RAG pipelines, and computer vision systems. I also serve as a Teaching Assistant at Modern Sciences and Arts University (MSA), teaching courses such as Design & Analysis of Algorithms, Embedded Systems, and Calculus.
+I am an Egyptian computer scientist and researcher working as an AI & Data Engineer at Techlabs London and a Teaching Assistant at MSA University. My work spans deep learning, computer vision, and quantum machine learning, with multiple first-author IEEE publications.
 
-I graduated with First Class Honors from a dual-degree BSc Computer Science program at MSA University and the University of Greenwich (CGPA 3.81/4.0). My research spans deep learning, natural language processing, quantum machine learning, and human–computer interaction, with multiple first-author IEEE conference publications. As an undergraduate, I founded the MSA Competitive Programming Community (CPC) and led university teams at ECPC 2023–2025.
-
-My project work has earned several awards, including third place in the Engineering Track of Nile University's Undergraduate Research Forum for a custom ESP32-S3 handheld console, and second place at Egypt's first Quantum-AI Hackathon. Alongside my academic work, I freelance as a Top Rated data analyst on Upwork. I plan to pursue an MSc to further my research career.
+I hold a First Class Honors BSc in Computer Science (MSA University & University of Greenwich, CGPA 3.81/4.0). I founded MSA's Competitive Programming Community and have won awards including third place at NU's Undergraduate Research Forum and second place at Egypt's first Quantum-AI Hackathon. I plan to pursue an MSc to further my research career.
