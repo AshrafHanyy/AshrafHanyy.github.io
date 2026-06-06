@@ -1,35 +1,32 @@
-/* Target blog pages specifically */
-body[class*="blog"] main .prose {
-  max-width: 100% !important; /* Make the text width full screen */
-  padding-left: 1.5rem; /* Add some padding for better readability */
-  padding-right: 1.5rem; /* Add some padding for better readability */
-}
+/* Expand blog post content to full width */
 
-/* Ensure the container for the blog content takes full width */
-body[class*="blog"] .max-w-6xl {
+/* Remove outer container width cap */
+.page-body .mx-auto.max-w-screen-xl {
   max-width: 100% !important;
-  margin:0%;
 }
 
-/* Adjust the featured image container to fit the full width */
-body[class*="blog"] .featured-image-wrapper {
+/* Remove main content width cap */
+article main.max-w-6xl {
   max-width: 100% !important;
-  margin-left: 0%;
-  margin:0%;
-  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-/* Hide sidebar and TOC on blog pages */
-body[class*="blog"] .hb-sidebar-container,
-body[class*="blog"] .hb-toc {
-  display: none;
-
-}
-
-/* Adjust the main content area to take full width */
-body[class*="blog"] main {
+/* Remove prose text width cap */
+article .prose {
   max-width: 100% !important;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  margin:0% !important;
+}
+
+/* Override featured image inline max-width */
+.article-header.featured-image-wrapper {
+  max-width: 100% !important;
+}
+
+/* Hide sidebar and TOC so content takes full width */
+.hb-sidebar-container {
+  display: none !important;
+}
+
+.hb-toc {
+  display: none !important;
 }
