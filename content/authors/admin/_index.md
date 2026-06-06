@@ -16,10 +16,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "Teaching Assistant @ MSA Uni"
+role: "AI & Data Engineer @ Techlabs London"
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Techlabs London
+    url: ''
   - name: MSA University
     url: https://www.msa.edu.eg/
 
@@ -46,39 +48,89 @@ highlight_name: true
 interests:
   - Artificial Intelligence
   - Machine Learning
+  - Computer Vision
   - Quantum Computing
-  
+  - Embedded Systems & Robotics
+
 education:
-  # - area: PhD Artificial Intelligence
-  #   institution: Stanford University
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-  #   button:
-  #     text: 'Read Thesis'
-  #     url: 'https://example.com'
-  - area: BSc Computer Science 
-    institution: Greenwich University, UK
+  - area: BSc Computer Science (Dual Degree Program)
+    institution: University of Greenwich, UK
     date_start: 2021-09-01
-    date_end: 2024-01-31
+    date_end: 2025-06-30
     summary: |
-      GPA: 3.8/4.0
-  - area: BSc Computer Science 
-    institution: MSA University
+      CGPA: 3.81/4.0. Graduated with First Class Honors.
+  - area: BSc Computer Science (Dual Degree Program)
+    institution: MSA University, Egypt
     date_start: 2021-09-01
-    date_end: 2024-01-31
+    date_end: 2025-06-30
     summary: |
-      GPA: 3.8/4.0
+      CGPA: 3.81/4.0. Graduated with First Class Honors.
+
 work:
-  - position: Intern
+  - position: AI & Data Engineer
+    company_name: Techlabs London
+    company_url: ''
+    company_logo: ''
+    date_start: 2026-02-01
+    date_end: 2026-05-31
+    summary: |2-
+      - Designed and deployed AI-powered solutions including LLM-based conversational agents, RAG pipelines, and predictive analytics workflows using Python, LangChain, and modern ML frameworks to support intelligent automation across enterprise platforms.
+      - Developed scalable machine learning and computer vision pipelines for data extraction, classification, and operational insights, integrating models into production using Docker, REST APIs, and cloud-based infrastructure.
+      - Collaborated with cross-functional engineering and product teams to translate business requirements into production-ready AI features, conducting model evaluation, experimentation, and optimization.
+  - position: Teaching Assistant
+    company_name: MSA University
+    company_url: https://www.msa.edu.eg/
+    company_logo: ''
+    date_start: 2025-08-01
+    date_end: ''
+    summary: |2-
+      - Instructed Design & Analysis of Algorithms (5 groups, 150 students), Embedded Systems (2 groups, 60 students), and Calculus 2 (2 groups, 60 students).
+      - Designed and delivered lab sessions, assignments, and problem-solving tutorials reinforcing theoretical concepts.
+      - Provided individual academic guidance to students working through programming logic and hardware implementation challenges.
+  - position: Data Analyst — Top Rated Freelancer
+    company_name: Upwork
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-08-01
+    date_end: 2026-05-31
+    summary: |2-
+      - Designed educational and scientific animations using Manim for clear visual communication of complex topics.
+      - Conducted AI research including implementation and evaluation of machine learning and quantum machine learning models.
+      - Collected, cleaned, and preprocessed data from diverse sources to build high-quality datasets.
+  - position: Research Intern
+    company_name: Nile University
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-08-01
+    date_end: 2024-09-30
+    summary: |2-
+      - Researched quantum machine learning (QML) models in noisy environments to improve fault tolerance.
+      - Analyzed and documented techniques for optimizing QML model performance under realistic noise conditions.
+  - position: Quantum Machine Learning Researcher
+    company_name: MSA University
+    company_url: https://www.msa.edu.eg/
+    company_logo: ''
+    date_start: 2024-02-01
+    date_end: 2025-02-28
+    summary: |2-
+      - Developed QML classifier models using PennyLane, benchmarked across multiple datasets as part of a university research project.
+  - position: Junior Teaching Assistant (Volunteer)
+    company_name: MSA University
+    company_url: https://www.msa.edu.eg/
+    company_logo: ''
+    date_start: 2023-09-01
+    date_end: 2023-12-31
+    summary: |2-
+      - Supported instruction for four courses: Discrete Math, Multimedia Programming, Algorithms & Data Structures, and Fundamentals of Computing II.
+  - position: Cybersecurity Intern
     company_name: National Bank of Egypt
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-07-01
+    date_end: 2023-08-31
     summary: |2-
-      Responsibilities include:
+      - Developed a Python script for domain variant detection using symbol-oriented permutation.
+      - Shadowed senior professionals across Web & Network Penetration Testing, Threat Intelligence, VA, Incident Handling, and Phishing analysis.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -87,16 +139,32 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: code-bracket
-      - name: Data Science
+      - name: Machine Learning & Deep Learning
         description: ''
-        percent: 100
+        percent: 90
         icon: chart-bar
-      - name: PennyLane
+      - name: PyTorch
         description: ''
-        percent: 40
+        percent: 85
+        icon: cpu-chip
+      - name: Computer Vision
+        description: ''
+        percent: 80
+        icon: eye
+      - name: LLMs & RAG (LangChain / LangGraph)
+        description: ''
+        percent: 80
+        icon: chat-bubble-left-right
+      - name: Quantum ML (PennyLane / Qiskit)
+        description: ''
+        percent: 60
         icon: circle-stack
+      - name: Embedded Systems (ESP32 / Arduino)
+        description: ''
+        percent: 80
+        icon: cog
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -124,24 +192,54 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Third Place — Engineering Track, 20th NU UGRF
+    url: ''
+    date: '2025-05-01'
+    awarder: Nile University
+    icon: 
+    summary: |
+      Awarded third place in the Engineering Track of Egypt's most competitive national undergraduate research fair for designing and building a fully custom ESP32-S3 handheld game console from scratch.
+  - title: Second Place — NU Quantum-AI Hackathon
+    url: ''
+    date: '2024-07-01'
+    awarder: Nile University
+    icon: 
+    summary: |
+      Placed second in Egypt's first Quantum-AI Hackathon. Preprocessed a 1389-feature Raman shift spectroscopy dataset for encoding into a Variational Quantum Classifier (VQC), then built and optimized the VQC using Qiskit's RealAmplitudes ansatz, ZZFeatureMap, and COBYLA optimizer.
+  - title: First Place — Best Undergraduate Project, MSA DeepMinds Event
+    url: ''
+    date: '2023-05-01'
+    awarder: MSA University
+    icon: 
+    summary: |
+      Recognised as Sophomore Best Undergraduate Project for publishing an IEEE conference paper during the 2nd year of undergraduate studies.
+  - title: Machine Learning Specialization
+    url: https://www.coursera.org/specializations/machine-learning-introduction
+    date: '2024-01-01'
+    awarder: Coursera / DeepLearning.AI / Stanford
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+      Completed Andrew Ng's Machine Learning Specialization covering supervised learning, advanced learning algorithms, and unsupervised learning and recommenders.
+  - title: CS50 & CS50 AI with Python
+    url: https://cs50.harvard.edu/
+    date: '2023-09-01'
+    awarder: Harvard University / edX
     icon: edx
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      Completed Harvard's CS50 Introduction to Computer Science and CS50 Introduction to Artificial Intelligence with Python.
+  - title: Microsoft Azure AI Fundamentals (AI-900) & Azure Fundamentals (AZ-900)
+    url: https://learn.microsoft.com/en-us/certifications/
+    date: '2023-08-01'
+    awarder: Microsoft
+    icon: 
+    summary: |
+      Earned Microsoft Azure AI Fundamentals (AI-900) and Azure Fundamentals (AZ-900) certifications.
 ---
 
 ## About Me
-I am an Egyptian computer scientist, researcher, and teaching assistant at Modern Sciences and Arts University (MSA), with a focus on deep learning, quantum computing, and robotics. I have published research in deep learning, natural language processing, and human–computer interaction. As an undergraduate, I founded the MSA CPC Community Club to prepare students for competitive programming competitions, and as a teaching assistant, I have taught computer science courses including Embedded Systems and Analysis of Algorithms. Alongside my academic work, I freelance as a data analyst on Upwork and have earned Top Rated Freelancer achievement. My undergraduate projects earned multiple awards, including third place in the Engineering Track of NU’s Undergraduate Research Forum for building a Game Boy–inspired console. I also won second place at Egypt’s first Quantum AI Hackathon. I plan to pursue an MSc degree to further my research career.
+
+I am an Egyptian computer scientist and researcher currently working as an AI & Data Engineer at Techlabs London, where I design and deploy AI-powered solutions including LLM-based conversational agents, RAG pipelines, and computer vision systems. I also serve as a Teaching Assistant at Modern Sciences and Arts University (MSA), teaching courses such as Design & Analysis of Algorithms, Embedded Systems, and Calculus.
+
+I graduated with First Class Honors from a dual-degree BSc Computer Science program at MSA University and the University of Greenwich (CGPA 3.81/4.0). My research spans deep learning, natural language processing, quantum machine learning, and human–computer interaction, with multiple first-author IEEE conference publications. As an undergraduate, I founded the MSA Competitive Programming Community (CPC) and led university teams at ECPC 2023–2025.
+
+My project work has earned several awards, including third place in the Engineering Track of Nile University's Undergraduate Research Forum for a custom ESP32-S3 handheld console, and second place at Egypt's first Quantum-AI Hackathon. Alongside my academic work, I freelance as a Top Rated data analyst on Upwork. I plan to pursue an MSc to further my research career.
