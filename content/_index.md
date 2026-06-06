@@ -20,6 +20,8 @@ sections:
       #   url: uploads/resume.pdf
     design:
       css_class: dark
+      spacing:
+        padding: ["1rem", "0", "6rem", "0"]
       background:
         # color: blue
         # image:
