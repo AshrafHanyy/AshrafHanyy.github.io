@@ -1,7 +1,7 @@
 ---
 title: 'Building a DIY Motion-Controlled Light Gun with Arduino and MPU6050'
 date: 2025-07-08
-summary: 'A DIY motion-controlled light gun built with Arduino Pro Mini, MPU6050, and a solenoid, featuring custom mouse-calibration software for PC gaming.'
+summary: 'A DIY motion-controlled light gun built with Arduino Pro Micro, MPU6050 IMU, and a JF-0826B solenoid for recoil — featuring custom PC software that converts gyroscope data into mouse movement for use with any PC game.'
 authors:
   - admin
 show_related: true
@@ -10,96 +10,104 @@ design:
   full_width: true
 ---
 
-In early July of 2025 and after building my ESP32-S3 gameboy, I decided to take on a project that sat right at the intersection of nostalgia, hardware hacking, and software experimentation, I decided to try building a motion-controlled light gun from scratch.
-
-Not a USB toy, not a commercial controller — but a fully custom-built gun that translates real-world motion into **mouse movement**, designed to work with PC games. Every part of it, from the electronics to the calibration logic, was built and tuned by hand.
+Right after finishing the ESP32-S3 Game Boy, I wanted to build something that sat at the intersection of hardware and software in a different way — a motion-controlled light gun, built from scratch, that works with modern PC games. Not a toy, not a commercial controller. A fully custom build that translates physical gun movement into mouse input, complete with mechanical recoil on every trigger pull.
 
 ![image](./IMG_7320.JPG)
 
 ---
 
-## The Idea
+## Why IMU Instead of IR
 
-Classic light guns relied on CRT displays, which made them almost useless in the modern LCD era. Instead of trying to replicate old-school optical detection, I wanted something different:
+Classic light guns from the CRT era worked by detecting the brief flash of phosphor on the screen at the exact moment the electron beam swept past the gun's optical sensor. That technique is physically impossible on modern LCD and OLED displays — there is no beam, no phosphor flash.
 
-- A gun that **tracks motion**
-- Feels physical (real trigger, real kick)
-- Behaves like a mouse, so it works with *any* PC game
-- Starts centered on screen and stays controllable
+Most modern DIY light gun projects solve this by pairing a camera with an IR LED bar: the camera tracks the position of the IR sources and derives absolute screen coordinates from their positions. This is how the Wiimote's pointing works. It's accurate and drift-free, but it requires a dedicated IR position sensor (typically a Wii sensor bar camera module).
 
-Most of the modern light guns that are built nowadays have an IR positioning camera built inside. Since this camera was not available to me. I had to develop another method to detect motion of the gun and map it to mouse movments. 
-That’s where IMU-based tracking came in.
+Without that camera available, I went a different route: **gyroscope-based relative tracking**. The gun tracks *how much it has rotated* since the last calibration point, and maps that rotation to mouse movement. This avoids the IR hardware dependency entirely, at the cost of requiring periodic recentering.
+
 <video controls autoplay muted loop playsinline width="100%">
   <source src="./IMG_7515.mp4" type="video/mp4">
 </video>
 
 ---
 
-## Hardware Overview
+## The 3D Printed Shell
 
-The core of the build revolves around a few key components:
+The enclosure is a 3D printed two-part shell based on a scanned PS1CON STL model — a pistol-shaped case with internal cavities designed to hold electronics. It prints in two halves that clip together, with dedicated pockets for the trigger mechanism, solenoid, and main board.
 
-- **Arduino Pro Micro** – compact, reliable, and easy to embed
-- **MPU6050** – 6-axis IMU (accelerometer + gyroscope)
-- **Solenoid** – for recoil feedback on trigger pull
-- **MOSFET + flyback diode** – to safely drive the solenoid
-- **Custom trigger switch**
-- **3D-printed enclosure**, PS1CON Scanned STL file printed
+![image](./IMG_7171 2 copy.jpeg)
 
-All electronics were mounted inside the shell with zero PCBs — everything is point-to-point wired and secured manually.
+The internal layout was dictated by the shell geometry. The solenoid sits in the center of the body where it has room to actuate. The MPU6050 mounts in the upper slide section, as far from the solenoid's vibration as the shell allows. The Arduino Pro Micro and MOSFET board sit in the grip area, and the microswitch trigger lines up with the trigger guard opening.
+
+![image](./IMG_7220 copy.jpeg)
+
+All components are wired point-to-point and secured with hot glue. There is no PCB — everything is hand-wired inside the shell.
+
+---
+
+## Electronics
+
+**Arduino Pro Micro (ATmega32U4).** The main controller. The ATmega32U4 has native full-speed USB, which means it shows up as a real serial device without an FTDI adapter. It reads the MPU6050 over I2C, reads the trigger microswitch on a digital input, and streams processed motion data to the PC over USB serial. All motion-to-mouse translation happens on the PC side.
+
+**MPU6050.** A 6-axis MEMS IMU — 3-axis accelerometer and 3-axis gyroscope on a single chip, communicating over I2C. The gyroscope measures angular velocity on three axes (pitch, yaw, roll) in degrees per second.
+
+![image](./imu.png)
+
+For this application, only two axes matter:
+- **Pitch** (tilting the barrel up/down) → vertical mouse movement
+- **Yaw** (rotating the gun left/right) → horizontal mouse movement
+
+Roll is ignored. The gyroscope output is read at a fixed interval and the angular velocity is integrated over time to produce a cumulative angle delta, which maps to a relative mouse displacement on the PC.
+
+**JF-0826B Solenoid.** A push-type solenoid rated at **6VDC, 2A, 20N force**. When the trigger is pulled, the solenoid fires and its plunger snaps back sharply — producing a physical recoil kick. At 20N and 2A draw, it hits hard enough to feel realistic but won't stall out under the spring return load.
+
+**Power supply — two independent rails.** The Arduino Pro Micro is always powered via the USB-C cable that also carries the serial data to the PC. The solenoid runs on a completely separate rail: a **250mAh LiPo cell** with a dedicated USB-C charging module, mounted inside the shell. Keeping the solenoid power isolated from the USB rail is important — the JF-0826B pulls 2A on trigger, a spike large enough to droop a shared supply and potentially reset or glitch the Arduino mid-session.
+
+**MOSFET driver module + flyback diode.** The solenoid draws 2A — far beyond what an Arduino GPIO pin can source (40mA maximum). A MOSFET module switches the solenoid load from the LiPo battery, controlled by a digital Arduino pin. A flyback diode across the solenoid clamps the inductive voltage spike that occurs when current is cut, protecting the MOSFET from the reverse EMF.
+
+**Microswitch trigger.** A small momentary microswitch is mounted behind the trigger guard, actuated by the physical trigger on the 3D print. It connects to a digital input pin on the Arduino with the internal pull-up enabled — pressing the trigger pulls the pin low.
+
+![image](./featured.jpg)
+
+---
+
+## Motion Tracking: Gyroscope Integration and Drift
+
+The fundamental challenge with gyroscope-based tracking is **drift**. A gyroscope measures angular velocity, and to get position you integrate that velocity over time. Any small constant error in the measured angular velocity accumulates into a growing position error — the cursor will slowly drift even if the gun is perfectly still.
+
+Three measures address this:
+
+**Bias calibration at startup.** When the gun is powered on and held still, the firmware samples the gyroscope for several hundred milliseconds and computes the average reading on each axis. This average is the *bias* — the non-zero offset the sensor reports even with zero real rotation. It is subtracted from every subsequent reading before integration.
+
+**Dead zone.** Angular velocity readings below a threshold (a few degrees per second) are treated as zero and contribute nothing to the integrated position. This prevents the cursor from slowly drifting due to noise and very small hand tremors. The threshold is tunable to match how steady the user holds the gun.
+
+**Recalibration.** Since gyro drift is unavoidable over long sessions, the PC software supports instant recentering — pressing a button snaps the cursor back to the center of the screen and resets the accumulated angle. This is the same pattern used by joystick-based "mouse look" in games.
+
+---
+
+## PC Software: Serial to Mouse
+
+The Arduino does not emulate a mouse directly. It streams raw processed angle deltas over USB serial to a custom PC application, which is responsible for all the mouse movement.
+
+The PC software:
+- Opens the serial port and reads angle delta packets from the Arduino
+- Maintains a running cursor position, initialized to the center of the screen
+- Converts each angle delta to a pixel displacement using a configurable sensitivity multiplier
+- Applies a smoothing curve so fast movements are responsive but fine aiming isn't jittery
+- Calls the OS mouse movement API to move the cursor by the computed delta
+- Supports recalibration (center-lock reset) without restarting
+
+Because the gun outputs relative mouse movement through the OS, it is compatible with any PC application that reads mouse input — FPS games, emulators, browser games, anything.
+
+---
+
+## Result
 
 <video controls autoplay muted loop playsinline width="100%">
   <source src="./LIGHTGUN.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 
-The solenoid was a must. I didn’t want this to feel like clicking a mouse — I wanted mechanical feedback. When the trigger is pulled, the solenoid snaps back instantly, giving a sharp recoil that makes the whole thing feel alive.
+<video controls autoplay muted loop playsinline width="100%">
+  <source src="./IMG_7397.mp4" type="video/mp4">
+</video>
 
----
-
-## Motion Tracking with MPU6050
-
-The MPU6050 handles all orientation and movement sensing. Rather than relying on absolute position (which IMUs are terrible at), the system tracks angular velocity and integrates it into smooth cursor movement.
-
-Key challenges here:
-
-- Gyro drift
-- Noise from small hand movements
-- Sensitivity tuning so aiming feels natural
-
-To deal with this, I implemented:
-- Gyroscope bias calibration at startup
-- Dead zones for micro-movements
-- Adjustable sensitivity scaling
-
-The result is motion that feels responsive without being jittery.
-
----
-
-## Turning Motion into a Mouse
-
-On the Arduino side, the gun streams processed motion data over serial. On the PC side, I wrote a custom calibration and mapping program that:
-
-- Starts the cursor locked to the center of the screen
-- Converts angular motion into relative mouse movement
-- Applies smoothing and gain curves
-- Allows recalibration without restarting
-
-This software layer was critical. Raw IMU data alone doesn’t feel good — the calibration logic is what makes the gun usable.
-
-Once dialed in, the gun behaves just like a mouse — which means it works with:
-- FPS games
-- Emulators
-- Target-shooting games
-- Any application that accepts mouse input
-
----
-
-## Internal Layout
-
-Here’s a look inside the gun before closing it up:
-![image](./IMG_7171 2 copy.jpeg)
-![image](./IMG_7220 copy.jpeg)
-![image](./IMG_7320.JPG)
-
-It’s messy in the way all real prototypes are — wires routed by necessity, hot glue where screws wouldn’t fit, and components packed tighter than planned. But everything i
+The gun tracks smoothly, the solenoid recoil is sharp and satisfying, and the cursor stays controllable across a full gaming session with occasional recentering. Drift is present but manageable — bias calibration handles startup offset, and the dead zone keeps the cursor from wandering during still aiming. The biggest remaining limitation is long-session drift, which IMU-only tracking cannot fully eliminate without an absolute position reference.
