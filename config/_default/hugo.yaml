@@ -34,7 +34,7 @@ permalinks:
   authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, headers, redirects, backlinks, sitemap]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
