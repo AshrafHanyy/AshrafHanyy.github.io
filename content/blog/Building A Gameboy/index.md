@@ -11,9 +11,13 @@ design:
   full_width: true
 ---
 
-Over three months I built a fully working handheld retro console from scratch — wiring, firmware, and enclosure — around the **ESP32-S3-N16R8**. Every subsystem was hand-assembled: point-to-point wiring on perfboard, off-the-shelf modules, a hand-soldered button matrix, and a 3D-printed shell. The firmware required porting **Retro-Go** — an ESP-IDF multi-emulator launcher — to a target it was never written for. The project earned **Third Place in the Engineering Track at NU UGRF 20th Edition**.
+Over three months I built a fully working handheld retro console from scratch — wiring, firmware, and enclosure — around the **ESP32-S3-N16R8**. Every subsystem was hand-assembled: point-to-point wiring on perfboard, off-the-shelf modules, a hand-soldered input board, and a 3D-printed shell. The firmware required porting **Retro-Go** — an ESP-IDF multi-emulator launcher — to a target it was never written for, which meant writing a full `config.h` from scratch across multiple iterations to get every pin, bus, and display register right. The project earned **Third Place in the Engineering Track at NU UGRF 20th Edition**.
+
+<br>
 
 ![image](./IMG_6588.jpeg)
+
+<br>
 
 First run of the system:
 
@@ -39,12 +43,15 @@ The build uses off-the-shelf modules wired point-to-point on perfboard, housed i
 
 | Component | Module | Interface |
 |---|---|---|
-| 3.2″ ILI9341 TFT (320×240) | Pre-made SPI display board | SPI + DMA |
-| SD card reader | Breakout module | SPI (shared bus) |
-| Button matrix (8 keys) | Hand-soldered on perfboard | GPIO rows/cols |
-| Audio amplifier | I2S Class-D module | I2S |
+| 3.2″ ILI9341 TFT (320×240) | Pre-made SPI display board | SPI2 + DMA |
+| SD card reader | Breakout module | SPI3 |
+| D-pad (Up/Down/Left/Right) | Resistor ladder | ADC1 CH5 & CH6 |
+| Action buttons (A, B, Select, Start, Menu, Option) | Hand-soldered on perfboard | GPIO pull-up |
+| I2S audio amplifier | MAX98357A | I2S |
 | Power regulation | MT3608 boost + LM2596 buck | — |
 | Battery charging | TP4056 USB-C module | — |
+
+Full pin assignments are in [`config.h`](https://github.com/AshrafHanyy/GameBoy-ESP32-S3).
 
 ![image](./IMG_5831.jpeg)
 ![image](./IMG_5885.jpeg)
@@ -63,46 +70,43 @@ Charging is handled by a **TP4056-based USB-C module** that feeds the 18650 dire
 
 ## Porting Retro-Go to the ESP32-S3
 
-**Retro-Go** is an ESP-IDF multi-emulator launcher with native support for the ESP32 and ESP32-WROVER. The ESP32-S3 is not a supported target — its GPIO matrix, peripheral base addresses, PSRAM controller, and Kconfig surface differ enough that the existing firmware would not boot. The port required rebuilding the hardware abstraction layer from the ground up.
+**Retro-Go** is an ESP-IDF multi-emulator launcher that natively targets the ESP32 and ESP32-WROVER. The ESP32-S3 is not a supported target — its peripheral base addresses, GPIO matrix, PSRAM controller, and Kconfig surface all differ. There was no existing board file to adapt: the port meant writing `config.h` from scratch and iterating until every subsystem came up correctly.
 
-### Target definition and build system
+### config.h: the board definition file
 
-Retro-Go uses board-specific headers gated by Kconfig. Adding the ESP32-S3-N16R8 required:
+In Retro-Go, each hardware target is described in a single `config.h` that defines every GPIO assignment, bus host, peripheral driver, and display initialization sequence. Writing it required tracing every wire on the board, identifying which ESP32-S3 GPIO each peripheral was connected to, and encoding that into the correct Retro-Go macros. The full file is in the [GitHub repo](https://github.com/AshrafHanyy/GameBoy-ESP32-S3).
 
-1. A new `sdkconfig.defaults` with the correct flash size (16 MB), PSRAM mode (octal), and PSRAM clock (80 MHz).
-2. A `board.h` mapping every logical pin name (`LCD_CS`, `LCD_DC`, `LCD_RST`, `SD_CS`, `BTN_*`, `I2S_*`) to the physical GPIO numbers on my wiring.
-3. Enabling `CONFIG_ESP32S3_SPIRAM_SUPPORT`, `CONFIG_SPIRAM_MODE_OCT`, and cache-through PSRAM access so that `heap_caps_malloc(MALLOC_CAP_SPIRAM)` allocates into external RAM without faulting.
+Getting a wrong GPIO means the peripheral either does nothing or corrupts the bus. The first several builds produced a black screen, no SD mount, or silent audio — each failure pointed to a specific mismatch that had to be traced and corrected.
 
-### Display pipeline: SPI, DMA, and framebuffer
+### Display: ILI9341 init sequence and 180° rotation
 
-The ILI9341 runs on SPI2 at 40 MHz with a dedicated DMA channel. The pipeline per frame:
+The ILI9341 runs on SPI2 at 40 MHz. The display module was physically mounted inverted inside the enclosure, so the image came out upside down on first boot. Fixing this required setting `RG_SCREEN_ROTATE 2` in Retro-Go and writing the correct value to the ILI9341 MADCTL register (`0x36`) in the init sequence:
 
-1. Emulator core writes a completed frame into a PSRAM-backed framebuffer (320×240×2 = 150 KB).
-2. A display task on Core 1 detects the frame-ready flag, issues the ILI9341 column/row address window commands over SPI, then kicks off a DMA transfer of the entire buffer via a single linked-list descriptor.
-3. The DMA completion ISR clears the flag and signals Core 0 that the buffer is free.
+```c
+ILI9341_CMD(0x36, 0xA8); // MADCTL: MY=1, MV=1, BGR=1 → 180° rotation
+```
 
-The ILI9341 initialization sequence required careful attention: the controller needs `SLPOUT → COLMOD → MADCTL → DISPON` with specific inter-command delays, and any deviation produces a black screen or color corruption. Getting this right took several iterations cross-referencing the datasheet against the logic analyzer traces on the SPI lines.
+`0xA8` = `10101000` in binary: bit 7 (MY) flips row order, bit 5 (MV) exchanges rows and columns, bit 3 (BGR) sets the color filter to match the panel. The combination produces a 180° rotation with correct color output.
 
-PSRAM cache alignment also mattered: octal PSRAM on the ESP32-S3 has 64-byte cache lines. Framebuffer writes that cross a cache line boundary generate extra bus transactions. Aligning the buffer to 64 bytes and writing in row-major order eliminated the excess traffic.
+The rest of the init sequence sets up power control, VCOM voltage, frame rate (~119 Hz), and positive/negative gamma correction — values that had to match the specific panel variant. Any mismatch produces color corruption or a washed-out image. The full `RG_SCREEN_INIT()` macro is in [`config.h`](https://github.com/AshrafHanyy/GameBoy-ESP32-S3).
 
-### Input: matrix scanning and debounce
+Once the init sequence was correct and rotation applied, the SPI2 DMA pipeline handled frame delivery: the emulator writes a completed 320×240 RGB565 frame into PSRAM, a display task on Core 1 kicks off the DMA descriptor chain transfer, and the DMA completion ISR signals the emulator that the buffer is free.
 
-The button matrix is 4 rows × 2 columns (8 keys). A 10 ms timer ISR on Core 1 scans it:
+### Input: ADC resistor ladder + GPIO buttons
 
-1. Pull each row low in sequence.
-2. Sample the column GPIO states.
-3. XOR current sample against previous to detect edges.
-4. Commit an edge to the event queue only after it holds stable for two consecutive scans (20 ms total) — a simple counter-based debounce.
+The input scheme uses two different mechanisms. The D-pad is wired as a **resistor ladder** on two ADC channels (ADC1 CH5 and CH6). Each direction pulls the line to a different voltage level; Retro-Go distinguishes directions by comparing the ADC reading against defined min/max thresholds. Up and Down share CH5, Left and Right share CH6 — four directions multiplexed onto two ADC pins.
 
-The resulting key-down/key-up event stream feeds into Retro-Go's input layer, which translates it to the per-core button bitmask each emulator expects.
+Action buttons use standard GPIO with internal pull-ups; a pressed button pulls the pin low.
+
+The full `RG_GAMEPAD_ADC_MAP` and `RG_GAMEPAD_GPIO_MAP` definitions are in [`config.h`](https://github.com/AshrafHanyy/GameBoy-ESP32-S3).
 
 ### Storage and ROM loading
 
-The SD card shares the SPI2 bus with the display, with chip-select arbitration preventing bus conflicts. It is formatted FAT32 and mounted via `esp_vfs_fat_sdspi_mount`. At boot the launcher walks `/roms` with `readdir`, builds an in-memory title list grouped by system, and renders the menu. ROM data streams into PSRAM during emulator init rather than fully buffering at load time, keeping load times under two seconds for most titles.
+The SD card runs on SPI3 (separate host from the display on SPI2), mounted as FAT32 via `esp_vfs_fat_sdspi_mount` at `/sd`. At boot the launcher enumerates `/sd/roms`, builds an in-memory title list grouped by system, and renders the menu. ROM data is streamed into PSRAM during emulator init rather than fully buffered at load time.
 
 ### Audio
 
-The I2S peripheral runs in master TX mode at 22 kHz, 16-bit mono. Emulator cores write samples into a FreeRTOS ring buffer; a dedicated task drains it into the I2S DMA TX FIFO. The ring buffer is sized at 1024 samples (~46 ms latency) — enough to absorb worst-case emulator timing variance without audible lag.
+The **MAX98357A** I2S DAC/amplifier runs in master TX mode. Emulator cores push samples into a FreeRTOS ring buffer; a dedicated task drains it into the I2S DMA TX FIFO. The internal DAC is disabled in `config.h` (`RG_AUDIO_USE_INT_DAC 0`, `RG_AUDIO_USE_EXT_DAC 1`) — GPIO assignments are in the [repo](https://github.com/AshrafHanyy/GameBoy-ESP32-S3).
 
 With all four subsystems stable — display, input, storage, audio — the NES, Game Boy, and Sega Master System cores ran at full speed with no frame drops.
 
