@@ -19,10 +19,6 @@ article .prose {
   max-width: 100% !important;
 }
 
-/* Override featured image inline max-width */
-.article-header.featured-image-wrapper {
-  max-width: 100% !important;
-}
 
 /* Hide sidebar and TOC so content takes full width */
 .hb-sidebar-container {
