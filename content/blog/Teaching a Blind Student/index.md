@@ -1,5 +1,5 @@
 ---
-title: 'The Blind Student Who Asked Me to Teach Him Image Processing'
+title: 'I Once Taught a Blind Man'
 date: 2026-07-02
 summary: "A master's student who lost his sight at 28 — at the peak of his career — needed someone to teach him image processing. What followed was one of the strangest and most humbling teaching experiences I have ever had."
 authors:
