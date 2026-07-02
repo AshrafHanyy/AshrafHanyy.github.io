@@ -8,7 +8,7 @@ show_related: true
 featured: true
 ---
 
-Some experiences are strange in the best possible way — the kind that make you stop mid-sentence and think about what you are actually doing. Teaching a blind student image processing was one of them. But to call him simply "a blind student" would be to miss almost everything about who he was.
+Some experiences are strange in the best possible way, the kind that make you stop mid-sentence and think about what you are actually doing. Teaching a blind student image processing was one of them. But to call him simply "a blind student" would be to miss almost everything about who he was.
 
 ### His Story
 
