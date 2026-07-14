@@ -6,7 +6,7 @@ authors:
   - admin
 tags: 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
 In this blog post, we'll explore how quantum computing principles can be applied to procedural generation, specifically for generating random terrain. Procedural generation is essential in fields such as gaming, where vast landscapes and terrains need to be created with minimal human intervention. Here, we'll use a quantum walk algorithm to generate random movements on a 2D grid, simulating terrain generation.
 
