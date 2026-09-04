@@ -59,14 +59,10 @@ features:
     enable: false
   privacy_pack:
     enable: false
-cascade:
-  - _target:
-      kind: page
-      path: /content/blog/**
-    design:
-      full_width: true
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
+  comment:
+    provider: disqus
+    disqus:
+      shortname: 'https-ashrafhanyy-github-io-blog'
 design:
   blog_post:
     full_width: true

@@ -53,3 +53,12 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+cascade:
+  - _target:
+      kind: page
+      path: /blog/**
+    commentable: true
+    design:
+      full_width: true
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
