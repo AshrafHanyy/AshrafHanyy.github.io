@@ -1,6 +1,6 @@
 ---
 title: "What happened post graduation?"
-date: 2026-09-08
+date: 2026-09-04
 summary: "Been quite the journey"
 authors:
   - admin
