@@ -1,4 +1,14 @@
-# What happened post graduation?
+---
+title: "What happened post graduation?"
+date: 2026-09-08
+summary: "Been quite the journey"
+authors:
+  - admin
+tags:
+# Display this page in the Featured widget?
+featured: true
+---
+
 
 It's been a while since I last wrote on this blog, but I felt the need to write and share this since I saw the graduation posts of the class of 2026.
 

@@ -1,0 +1,19 @@
+{{ $provider := trim (site.Params.features.comment.provider | lower) " " }}
+
+{{ if $provider }}
+  {{ $provider_tpl := printf "partials/comments/%s.html" $provider }}
+  {{ $provider_exists := templates.Exists $provider_tpl }}
+  {{ if not $provider_exists }}
+    {{ errorf "The '%s' comment provider was not found." $provider }}
+  {{ end }}
+
+  {{ $commentable_page := .Params.commentable }}
+
+  {{ if $commentable_page }}
+  <hr class="comments-divider border-dotted border-neutral-300 dark:border-neutral-600">
+  <section id="comments">
+    <h3>Comments</h3>
+    {{ partial $provider_tpl . }}
+  </section>
+  {{ end }}
+{{ end }}
