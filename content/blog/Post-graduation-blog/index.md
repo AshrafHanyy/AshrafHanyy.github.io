@@ -1,5 +1,5 @@
 ---
-title: "My Reflections One Year After Graduation"
+title: "Reflecting on One Year After Graduation"
 date: 2026-09-04
 summary: ""
 authors:
@@ -8,6 +8,7 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 ---
+
 It's been a while since I last wrote a non-technical blog post, but I felt the need to write and share this since I saw the graduation posts of the class of 2026.
   
 It's been a year since I graduated, I remember I was very excited to graduate back in 2025 but to be honest it has been a roller coaster of events ever since I graduated. I want to explain the story of everything that has happened to me after graduating, so let's start from August 2025.
@@ -15,22 +16,22 @@ It's been a year since I graduated, I remember I was very excited to graduate ba
 
 After graduating, I was quite worried for what was coming ahead. I knew that the tiny world I had lived in for 4 years and built for myself (as a very convenient comfort zone) would change, if not collapse entirely, but to be honest, I felt the need for that change. It was about time to leave MSA and enter a new era.  
 
-That small world was made of small things mostly. The people I would see every day, the campus I liked staying in after class, the community we built, the research I got to work on. None of it was very big, but it was mine and I always knew exactly where I stood in it. After graduation all of that just stops at once, and you are left with infinite emptiness. A sense of not belonging. What made this worse was that most of the professors who taught me, for whatever reason they decided to do this, left the university right after we graduated in August. 
+That small world was made of small things mostly. The people I would see every day, the campus I liked staying in after class, the community we built, the research I got to work on. None of it was very big, but it was mine and I always knew exactly where I stood in it. After graduation all of that just stops at once, and you are left with infinite emptiness. A sense of not belonging. 
 
 There were a series of events that took place all at once that made my graduation very rough. 
-My classmates were of course gone (but I had to stay as a TA until my military check), the faculty moved from Building D to a new building K.  Most of the very good professors who shaped my university experience quit. These might all be trivial events, but their timings and their rapid occurence made it somehow shocking to see how quickly the place (physically) you once spent 4 years at and the people (classmates and professors) disappear all once.
+My classmates were of course gone (but I had to stay as a TA until my military check), the faculty moved from Building D to a new building K.  Most of the very good professors who shaped my university experience quit. These might all be trivial events, but their timings and their rapid occurrence made it somehow shocking to see how quickly the place (physically) you once spent 4 years at and the people (classmates and professors) can disappear all once.
 
 What I was most sad about was that after graduation, was that many of the scientific endeavors I used to love exploring would stop making sense. At the end of the day, for any graduate, any sense of meaning comes from how much money you make, not from how much science you hold. So unless you enter a new entity where you are rewarded for scientific endeavors within that entity, scientific work doesn't really make sense if it doesn't help you achieve certain financial goals. In plain words, any work would be valued by how much money it generates, not by any scientific progress, which was something I used to enjoy doing a lot.
 
 As a student you never have to justify any of it. You can read a paper just because it's interesting, or spend weeks on a problem that will never pay you anything, and nobody asks you why you are doing it. After graduation that question comes up in almost every conversation, and I didn't really have an answer for it yet.
 
-Anyways, I had to do my military check in January and could not enter an official position anywhere until after that was done. So, I started working at MSA as a part-time teaching assistant.
+Anyways, I had to do my military check in January and could not enter an official position anywhere until after that was done. So, I started working at MSA as a part-time teaching assistant for 3 days per week.
 
 ## Life of a Teaching Assistant (September – January)
 
 As a TA, things are quite different. You can't really do most of the things you can do freely as a student, there is always the responsibility of having to be the bigger person, always.
 
-It is also strange being in the same place with a different title, different building, different corridors and different halls. You can't complain about a course out loud anymore. You can't join in when the room gets loud. And the students treat you like you were always on that side of the desk, they have no idea you were sitting exactly where they are sitting a month ago.
+It is also strange being in the same place with a different title, different building, different corridors and different halls. You can't complain about a course out loud anymore. And the students treat you like you were always on that side of the desk, they have no idea you were sitting exactly where they are sitting a month ago.
 
 And I can't begin to explain how lonely it was after my class graduated and left. Most of my friends got into the military or traveled abroad.
 
@@ -46,12 +47,12 @@ This meant I could finally leave MSA. But... for the first time, I realized that
 
 But there was another reason why I wouldn't leave. I thought about this for a long time, I remembered a story Dr. Islam ElSharaawy told us once about the founding president of the Knowledge Hub Universities, Dr. Mahmoud Allam. He told us that Dr. Allam taught him, and that he would teach at Benha University despite not needing the money nor the connections at the place, and when students asked him why he would leave the US and come teach at Benha's faculty of engineering each year, he told them that If he doesn't do so, many of the good engineers that graduate from this place will disappear from the Egyptian Market. 
 
-I thought this was a noble goal. And I decided to do the same. I had no reason to take on an extra day of work and work 6 days per week. But helping teach the students something valuable meant trying to build better individuals, which meant a better community, which eventually would let us have a better working world, so yeah, I thought if I could do that it would be worth the burden.
+I thought this was a noble goal. And I decided to do the same. I had no reason to take on an extra day of work and work 6 days per week. But helping teach the students something valuable meant trying to build better individuals, which meant a better community, which eventually would let us have a better world, so yeah, I thought if I could do that it would be worth the burden.
 
 So, instead of completely leaving, I suggested to the faculty that I would teach 1 day, to try to provide as much quality input as I could to the courses I would teach.  
 ## Looking for a job
 
-I started applying on LinkedIn for jobs. I thought I would find a job very easily. I graduated top of my class (first class honours), worked as a TA and freelanced. I thought I would get hired immediately by the first employer. This was hardly true.
+I started applying on LinkedIn for jobs in January. I thought I would find a job very easily. I had graduated top of my class (first class honour's), worked as a TA and freelanced. I thought I would get hired immediately by the first employer. This was hardly true.
 
 The tech market was collapsing due to AI and everyone was pulling recommendations to get into any company. And I tried doing that, but most of the recommendations I got were for positions very far from my area of expertise, which was AI. I had been interviewed for CRM developer, Database, Full stack, ERP and anything else you could imagine. But never for AI, as the market was kind of saturated with AI developers.
   
@@ -65,9 +66,13 @@ In May, on a random day, I received a call from an HR from a random company I ha
 
 I took the interview and passed! Ironically, this was my first job at TechLabs London. And to be honest, I am very grateful it was at this place, the environment was wonderful and people were amazing. After 5 months of thinking I would have to accept literally anything, I ended up somewhere I actually liked, which I really did not expect.
   
-After a month, I got a message from a LinkedIn recruiter from one of the big 4 consulting firms, EY, telling me she saw my profile and thought I was a good fit. She invited me to an interview and I accepted, I went to the interview and passed two rounds. The funny part is that it was the same LinkedIn profile that had been sitting there for 5 months while nothing happened. Nothing about it had changed.
+After a month, I got an important message on LinkedIn from a recruiter from one of the big 4 consulting firms, EY, telling me she saw my profile and thought I was a good fit. They were building their AI team in Cairo and needed people. She invited me to an interview and I accepted, I went to the interview and passed two rounds. The funny part is that it was the same LinkedIn profile that had been sitting there for 5 months while nothing happened. Nothing about it had changed.
 
-I am currently an AI Engineer at EY.
+I got in, I am currently an AI Engineer at EY.
+
+![image](./IMG_2756.jpg) 
+
+I couldn't be more grateful.
 
 ## What I got out of this year
 
