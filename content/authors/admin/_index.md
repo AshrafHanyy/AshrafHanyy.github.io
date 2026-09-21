@@ -16,11 +16,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "AI & Data Engineer @ Techlabs London"
+role: "AI Engineer @ Ernest & Young"
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Techlabs London
+  - name: Ernest & Young
     url: ''
   - name: MSA University
     url: https://www.msa.edu.eg/
@@ -238,6 +238,6 @@ awards:
 
 ## About Me
 
-I am an Egyptian computer scientist and researcher working as an AI & Data Engineer at Techlabs London and a Teaching Assistant at MSA University. My work spans deep learning, computer vision, and quantum machine learning, with multiple first-author IEEE publications.
+I am an Egyptian computer scientist and researcher working as an AI Engineer at Ernest & Young and a Teaching Assistant at MSA University. My work spans deep learning, computer vision, and quantum machine learning, with multiple first-author IEEE publications.
 
 I hold a First Class Honors BSc in Computer Science (MSA University & University of Greenwich, CGPA 3.81/4.0). I founded MSA's Competitive Programming Community and have won awards including third place at NU's Undergraduate Research Forum and second place at Egypt's first Quantum-AI Hackathon. I plan to pursue an MSc to further my research career.
