@@ -72,11 +72,13 @@ I got in, I am currently an AI Engineer at EY.
 
 ![image](./IMG_2756.jpg) 
 
-I couldn't be more grateful.
+I couldn't be more grateful. 
+
+Furthermore, I accepted to supervise 10 graduation projects starting Fall 2026. As an attempt to mentor as many students as I can while I am still at MSA.
 
 ## What I got out of this year
 
-This journey was rough but I am very grateful for every part of it.
+This year was really rough, for all the technical reasons and the personal as well. But I am very humbled by every part of it. It was not easy to go through this roller coaster of events.
 
 If I look at the whole year now, the thing I notice is that nothing moved for 5 months and then everything moved in about a month. I had no way of knowing that while it was happening. Month 4 felt exactly like month 1. So if you are in the middle of that period right now, the silence doesn't actually mean anything about you, it just feels like it does.
 
