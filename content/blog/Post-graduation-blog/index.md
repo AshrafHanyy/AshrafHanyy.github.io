@@ -81,8 +81,8 @@ Furthermore, I accepted to supervise 10 graduation projects starting Fall 2026. 
 
 This year was really rough, for all the technical reasons and the personal as well. But I am very humbled by every part of it. It was not easy to go through this roller coaster of events.
 
-If I look at the whole year now, the thing I notice is that nothing moved for 5 months and then everything moved in about a month. I had no way of knowing that while it was happening. Month 4 felt exactly like month 1. So if you are in the middle of that period right now, the silence doesn't actually mean anything about you, it just feels like it does.
+If I look at the whole year now, the thing I notice is that nothing moved for 5 months and then everything moved in about a month. I had no way of knowing that while it was happening. So if you are in the middle of that period right now, the silence from employers doesn't actually mean anything about you, it just feels like it does.
 
-And about the thing I was most scared of back in August, I was partly right. Work does get measured by how much money it makes, and I have accepted that by now. But I also found that you can still keep a small space for the other thing. For me it's the 1 teaching day I kept, which is the least profitable day in my week and the last one I would ever give up.
+And about the thing I was most scared of back in August, I was partly right. Work does get measured by how much money it makes, and I have accepted that by now. But I also found that you can still keep a small space for the other thing. For me it's the 1 teaching day I kept, which is the least profitable day in my week and the last one I would ever give up. It allows for me to study topics that I would never study otherwise.
   
-So to the class of 2026, the year after graduation is not the year your plan works out, it's the year you end up rewriting it, and that is fine. Keep applying, keep the part you actually love alive somewhere, and don't be too hard on yourself while nobody is replying.
+So to the class of 2026, the year after graduation is not the year your plan works out, it's the year you end up rewriting it, and that is fine, keep the part you actually love alive somewhere, and don't be too hard on yourself. 
