@@ -9,23 +9,24 @@ tags:
 featured: true
 ---
 
-It's been a while since I last wrote a non-technical blog post, but I felt the need to write and share this since I saw the graduation posts of the class of 2026.
+It's been a while since I last wrote a non-technical blog post, but I felt the need to write and share this ever since I saw the graduation posts of the class of 2026.
   
-It's been a year since I graduated, I remember I was very excited to graduate back in 2025 but to be honest it has been a roller coaster of events ever since I graduated. I want to explain the story of everything that has happened to me after graduating, so let's start from August 2025.
+It's been a year since I graduated, I remember I was very excited to graduate back in 2025 but to be honest it has been a roller coaster of events ever since I graduated. Graduating has been an unfriendly event that I am still trying to recover from. I am going to explain the story of everything that has happened to me after graduating, so let's start from August 2025.
+
 ## August 2025
 
 After graduating, I was quite worried for what was coming ahead. I knew that the tiny world I had lived in for 4 years and built for myself (as a very convenient comfort zone) would change, if not collapse entirely, but to be honest, I felt the need for that change. It was about time to leave MSA and enter a new era.  
 
 That small world was made of small things mostly. The people I would see every day, the campus I liked staying in after class, the community we built, the research I got to work on. None of it was very big, but it was mine and I always knew exactly where I stood in it. After graduation all of that just stops at once, and you are left with infinite emptiness. A sense of not belonging. 
 
-There were a series of events that took place all at once that made my graduation very rough. 
-My classmates were of course gone (but I had to stay as a TA until my military check), the faculty moved from Building D to a new building K.  Most of the very good professors who shaped my university experience quit. These might all be trivial events, but their timings and their rapid occurrence made it somehow shocking to see how quickly the place (physically) you once spent 4 years at and the people (classmates and professors) can disappear all once.
+There were a series of events that took place all at once while I was graduating that made my graduation very rough. 
+My classmates were of course gone (but I had to stay as a TA until my military check), so all of the people I saw everyday disappeared from the place. The faculty moved from Building D to a new building K, so all the rooms I spent 4 years at suddenly changed.  Most of the very good professors who shaped my university experience resigned from MSA. The univeristy president, who knew me very well, suddenly passed away as well. These might all be trivial events for anyone, but their timings and their rapid occurrence made it shocking to me to see how quickly the place (physically) you once spent 4 years at and the people (classmates and professors) can disappear all once.
 
 What I was most sad about was that after graduation, was that many of the scientific endeavors I used to love exploring would stop making sense. At the end of the day, for any graduate, any sense of meaning comes from how much money you make, not from how much science you hold. So unless you enter a new entity where you are rewarded for scientific endeavors within that entity, scientific work doesn't really make sense if it doesn't help you achieve certain financial goals. In plain words, any work would be valued by how much money it generates, not by any scientific progress, which was something I used to enjoy doing a lot.
 
 As a student you never have to justify any of it. You can read a paper just because it's interesting, or spend weeks on a problem that will never pay you anything, and nobody asks you why you are doing it. After graduation that question comes up in almost every conversation, and I didn't really have an answer for it yet.
 
-Anyways, I had to do my military check in January and could not enter an official position anywhere until after that was done. So, I started working at MSA as a part-time teaching assistant for 3 days per week.
+Anyways, I had to do the military medical check in January and could not enter an official position anywhere until after that was done. So, I started working at MSA as a part-time teaching assistant for 3 days per week.
 
 ## Life of a Teaching Assistant (September – January)
 
@@ -35,13 +36,13 @@ It is also strange being in the same place with a different title, different bui
 
 And I can't begin to explain how lonely it was after my class graduated and left. Most of my friends got into the military or traveled abroad.
 
-This was quite a lonely period where I couldn't work at a new place because of my military status, so I couldn't meet new people there either, and at the same time I couldn't meet the people I used to know here since they all left after graduation. So most days were the same, I would go to campus, do my work, and go home. The place was full of people I didn't know. And And what made this period worse was that I had fallen out with a few people who were very close to me, for various reasons, but that is out of scope for this blog post.
+This was quite a lonely period where I couldn't work at a new place because of my military status, so I couldn't meet new people there either, and at the same time I couldn't meet the people I used to know here since they all left after graduation. So most days were the same, I would go to campus, do my work, and go home. The place was full of people I didn't know. And And what made this period worse was that I had fallen out with a few people who were very close to me, for various reasons, but that is out of scope for this blog post. This resulted in this phase being very rough for me.
 
 But I am very grateful that I at least had Amr Akl as a work colleague and as a friend, as he was the only one left from my class who got hired as a TA as well and survived his military check (exempted). To be honest if he wasn't there I don't know how that period would have gone. Every bad period has one person that makes it bearable, and he was that person.
 
 ## Start of Spring 2026
 
-I went to my military check and got my exemption. So, finally, I was able to work!
+I went to my military medical check and got my exemption. So, finally, I was able to work!
 
 This meant I could finally leave MSA. But...for the first time, I realized that I don't want to leave this place, it is my second home after all. Which was kind of strange, because I had spent the whole year before that telling everyone I was just waiting to leave.
 
