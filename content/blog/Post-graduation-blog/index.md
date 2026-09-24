@@ -20,7 +20,7 @@ After graduating, I was quite worried for what was coming ahead. I knew that the
 That small world was made of small things mostly. The people I would see every day, the campus I liked staying in after class, the community we built, the research I got to work on. None of it was very big, but it was mine and I always knew exactly where I stood in it. After graduation all of that just stops at once, and you are left with infinite emptiness. A sense of not belonging. 
 
 There were a series of events that took place all at once while I was graduating that made my graduation very rough. 
-My classmates were of course gone (but I had to stay as a TA until my military check), so all of the people I saw everyday disappeared from the place. The faculty moved from Building D to a new building K, so all the rooms I spent 4 years at suddenly changed.  Most of the very good professors who shaped my university experience resigned from MSA. The univeristy president, who knew me very well, suddenly passed away as well. These might all be trivial events for anyone, but their timings and their rapid occurrence made it shocking to me to see how quickly the place (physically) you once spent 4 years at and the people (classmates and professors) can disappear all once.
+My classmates were of course gone (but I had to stay as a TA until my military check), so all of the people I saw everyday disappeared from the place. The faculty moved from an old building to a new building, so all the rooms I spent 4 years at suddenly changed.  Most of the very good professors who shaped my university experience resigned from MSA. The university president, who knew me very well, suddenly passed away as well. These might all be trivial events for anyone, but their timings and their rapid occurrence made it shocking to me to see how quickly the place (physically) you once spent 4 years at and the people (classmates and professors) can disappear all at once.
 
 What I was most sad about was that after graduation, was that many of the scientific endeavors I used to love exploring would stop making sense. At the end of the day, for any graduate, any sense of meaning comes from how much money you make, not from how much science you hold. So unless you enter a new entity where you are rewarded for scientific endeavors within that entity, scientific work doesn't really make sense if it doesn't help you achieve certain financial goals. In plain words, any work would be valued by how much money it generates, not by any scientific progress, which was something I used to enjoy doing a lot.
 
@@ -75,7 +75,7 @@ I got in, I am currently an AI Engineer at EY.
 
 I couldn't be more grateful. 
 
-Furthermore, I accepted to supervise 10 graduation projects starting Fall 2026. As an attempt to mentor as many students as I can while I am still at MSA.
+Furthermore, I started to supervise 10 graduation projects starting Fall 2026. As an attempt to mentor as many students as I can while I am still at MSA. 
 
 ## What I got out of this year
 
@@ -83,6 +83,6 @@ This year was really rough, for all the technical reasons and the personal as we
 
 If I look at the whole year now, the thing I notice is that nothing moved for 5 months and then everything moved in about a month. I had no way of knowing that while it was happening. So if you are in the middle of that period right now, the silence from employers doesn't actually mean anything about you, it just feels like it does.
 
-And about the thing I was most scared of back in August, I was partly right. Work does get measured by how much money it makes, and I have accepted that by now. But I also found that you can still keep a small space for the other thing. For me it's the 1 teaching day I kept, which is the least profitable day in my week and the last one I would ever give up. It allows for me to study topics that I would never study otherwise.
+And about the thing I was most scared of back in August, I was partly right. Work does get measured by how much money it makes, and I have accepted that by now. But I also found that you can still keep a small space for the other thing. For me it's the 1 teaching day I kept, which is the least profitable day in my week and the last one I would ever give up. It allows for me to study topics that I would never study otherwise. And I find joy in pursuing any scientific endeavour I could find. 
   
 So to the class of 2026, the year after graduation is not the year your plan works out, it's the year you end up rewriting it, and that is fine, keep the part you actually love alive somewhere, and don't be too hard on yourself. 
