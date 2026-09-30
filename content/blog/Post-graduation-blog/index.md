@@ -91,6 +91,8 @@ If I look at the whole year now, the thing I notice is that nothing moved for 5 
 
 And about the thing I was most scared of back in August, I was partly right. Work does get measured by how much money it makes, and I have accepted that by now. But I also found that you can still keep a small space for the other thing. For me it's the 1 teaching day I kept, which is the least profitable day in my week and the last one I would ever give up. It allows for me to study topics that I would never study otherwise. And I find joy in pursuing any scientific endeavour I could find and to share this with the students I supervise. 
   
-So, I guess the year after graduation is not the year your plan works out, it's the year you end up doing your transition into a new life, and that is fine, keep the part you actually love alive somewhere, and don't be too hard on yourself. It really does take time to get settled.
+So, I guess the year after graduation is not the year things works out, it's the year you transition into a new life, and it's fine that it shoudl take a year, don't be too hard on yourself. It really does take time to get settled.
+
+If anyone has read so far to the bottom of this blog post, thank you. I doubt many will be interested in reading all of this.
 
 
