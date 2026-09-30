@@ -37,7 +37,7 @@ As a TA, things are quite different. Despite being underpaid, you can't really d
 
 It is also strange being in the same place with a different title, different building, different corridors and different halls. You can't complain about a course out loud anymore. And the students treat you like you were always on that side of the desk, they have no idea you were sitting exactly where they are sitting a month ago.
 
-And I can't begin to explain how lonely it was after my class graduated and left. Most of my friends got into the military or traveled abroad.
+And I can't begin to explain how lonely it was at the university after my class graduated and left. Most of my friends got into the military or traveled abroad.
 
 This was quite a lonely period where I couldn't work at a new place because of my military status, so I couldn't meet new people there either, and at the same time I couldn't meet the people I used to know here since they all left after graduation. So most days were the same, I would go to campus, do my work, and go home. The place was full of people I didn't know. And And what made this period worse was that I had fallen out with a few people who were very close to me for various reasons, but that is out of scope for this blog post. This resulted in this phase feeling rough for me.
 
@@ -45,7 +45,7 @@ However, I am very grateful that I at least had Amr Akl as a work colleague and 
 
 ## Start of Spring 2026
 
-I went to my military medical check and got my exemption. So, finally, I was able to work!
+I went to my military medical check and got an exemption. So, finally, I was able to work!
 
 This meant I could finally leave MSA. But...for the first time, I realized that I don't want to leave this place, it is my second home after all. Which was kind of strange, because I had spent the whole year before that telling everyone I was just waiting to leave.
 
@@ -91,8 +91,7 @@ If I look at the whole year now, the thing I notice is that nothing moved for 5 
 
 And about the thing I was most scared of back in August, I was partly right. Work does get measured by how much money it makes, and I have accepted that by now. But I also found that you can still keep a small space for the other thing. For me it's the 1 teaching day I kept, which is the least profitable day in my week and the last one I would ever give up. It allows for me to study topics that I would never study otherwise. And I find joy in pursuing any scientific endeavour I could find and to share this with the students I supervise. 
   
-So, I guess the year after graduation is not the year things works out, it's the year you transition into a new life, and it's fine that it shoudl take a year, don't be too hard on yourself. It really does take time to get settled.
+So, I guess the year after graduation is not the year things works out, it's the year you transition into a new life, and it's fine that it should take a year, don't be too hard on yourself. It really does take time to get settled.
 
-If anyone has read so far to the bottom of this blog post, thank you. I doubt many will be interested in reading all of this.
 
 
