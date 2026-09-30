@@ -71,13 +71,13 @@ In May, on a random day, I received a call from an HR from a random company I ha
 
 I took the interview and passed! Ironically, this was my first job at TechLabs London. And to be honest, I am very grateful it was at this place, the environment was wonderful and people were amazing. After 5 months of thinking I would have to accept literally anything, I ended up somewhere I actually liked, which I really did not expect.
   
-After a month, I got an important message on LinkedIn from a recruiter from one of the big 4 consulting firms, EY, telling me she saw my profile and thought I was a good fit. 
+I started working there and learned so much during my time at Techlabs, shortly after a month, I got an important message on LinkedIn from a recruiter from one of the big 4 consulting firms, EY, telling me they saw my profile and thought I was a good fit.
 
 ![image](./IMG_2132.jpg) 
 
-They were building their AI team in Cairo and needed people. She invited me to an interview and I accepted, I went to the interview and passed two rounds. Two Months later, I got the offer. 
+They were building their AI team in Cairo and needed people from all levels. She invited me to an interview and I accepted, I went to the interview and passed two rounds. Two Months later, I got the offer. 
 
-I accepted and got in, I am currently an AI Engineer at EY.
+I am currently an AI Engineer at EY at their technology consulting team.
 
 ![image](./IMG_2756.jpg) 
 
