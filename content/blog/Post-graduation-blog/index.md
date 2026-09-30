@@ -73,7 +73,7 @@ I took the interview and passed! Ironically, this was my first job at TechLabs L
   
 After a month, I got an important message on LinkedIn from a recruiter from one of the big 4 consulting firms, EY, telling me she saw my profile and thought I was a good fit. 
 
-![image](./IMG_2130.jpg) 
+![image](./IMG_2132.jpg) 
 
 They were building their AI team in Cairo and needed people. She invited me to an interview and I accepted, I went to the interview and passed two rounds. Two Months later, I got the offer. 
 
