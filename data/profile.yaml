@@ -3,19 +3,19 @@
 # Numbered research areas on the Research page.
 focus:
   - title: Medical image segmentation
-    text: Deep learning segmentation (U-Net, SAM, fine-tuned SAM and MedSAM) of microscopic bone-marrow images, in collaboration with the National Cancer Institute, Cairo University.
+    text: Finding cancer cells in bone-marrow images with U-Net, SAM and MedSAM, with the National Cancer Institute, Cairo University.
   - title: Quantum machine learning
-    text: Variational quantum classifiers and quantum walks with Qiskit and PennyLane, including QML models that hold up under realistic noise.
+    text: Quantum classifiers and quantum walks with Qiskit and PennyLane, and how they cope with noise.
     post: quantum-procedural-generation
   - title: HCI & learning
-    text: Experimental studies of tangible user interfaces and interactive 3D applications as teaching tools, from programming courses to dental crown preparation.
+    text: Testing whether hands-on and 3D tools help students learn, from programming to dentistry.
     post: tuis
   - title: NLP benchmarking
-    text: Benchmarking classical, recurrent and transformer-based models for sentiment analysis, and how their performance changes with text length.
+    text: Comparing classic, recurrent and transformer models for sentiment analysis on short and long texts.
   - title: Agentic AI & LLM systems
-    text: Agent workflows built with LangChain, LangGraph and Deep Agents that turn engineering drawings into quantities, pricing and bills of quantities.
+    text: AI agents that read engineering drawings and work out quantities and prices.
   - title: Embedded systems & hardware
-    text: An ESP32-S3 handheld console, an IMU-driven light gun and YOLO tracking on a Raspberry Pi 5, designed, wired and 3D-printed by hand.
+    text: A handheld game console, a motion-controlled light gun and a Raspberry Pi tracking camera, all built by hand.
     post: building-a-gameboy
 
 # Recognition list on the About page.
