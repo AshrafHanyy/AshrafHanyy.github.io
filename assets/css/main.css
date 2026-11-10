@@ -271,7 +271,7 @@ em { font-weight: 400; }
   text-transform: uppercase; letter-spacing: .6px;
   border-bottom: 1px solid var(--line-strong); padding-bottom: 1px;
 }
-.paper-link::after { content: '->'; margin-left: 6px; font-family: var(--mono); letter-spacing: -1px; }
+.paper-link::after { content: '→'; margin-left: 6px; font-family: var(--sans); }
 .paper-link:hover { color: var(--accent); border-color: var(--accent); }
 
 /* ---------- News / recognition band ---------- */
@@ -305,6 +305,9 @@ em { font-weight: 400; }
   display: grid; grid-template-columns: 1.3fr 1fr; gap: 10%; align-items: end;
 }
 .listing-head p { color: var(--muted); font-size: 14px; margin: 0; max-width: 380px; }
+.research-head .listing-head { grid-template-columns: 1.7fr 1fr; gap: 6%; }
+.research-head .page-title { font-size: clamp(46px, 5vw, 72px); }
+.research-head .hero-actions { margin-top: 26px; }
 .page-title { font-size: clamp(46px, 5.6vw, 80px); letter-spacing: -3.5px; line-height: 1.02; }
 .page-title em { letter-spacing: -2.5px; }
 
@@ -484,8 +487,8 @@ em { font-weight: 400; }
 #recognition .news-grid > div > p { font-size: 13px; color: var(--muted); }
 
 /* ---------- Arrows (plain characters) ---------- */
-.arrow { font-family: var(--mono); font-weight: 400; letter-spacing: -1px; white-space: nowrap; }
-.button .arrow, .banner-action > .arrow { font-size: 13px; }
+.arrow { font-family: var(--sans); font-weight: 400; white-space: nowrap; }
+.button .arrow, .banner-action > .arrow { font-size: 16px; line-height: 1; }
 .text-link .arrow { margin-left: 12px; }
 .plus { font-family: var(--mono); font-weight: 400; }
 
@@ -554,7 +557,7 @@ em { font-weight: 400; }
   .news-grid { grid-template-columns: 1fr; gap: 34px; }
   .card-grid { grid-template-columns: 1fr 1fr; }
   .card-grid > :nth-child(3) { display: none; }
-  .listing-head { grid-template-columns: 1fr; gap: 24px; }
+  .listing-head, .research-head .listing-head { grid-template-columns: 1fr; gap: 24px; }
   .listing-head p { max-width: none; }
   .service-grid { grid-template-columns: 1fr; gap: 48px; }
   .service-intro { position: static; }

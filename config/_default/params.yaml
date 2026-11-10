@@ -17,6 +17,8 @@ resume: /uploads/resume.pdf
 social:
   - name: Email
     url: 'mailto:ashraf.hany@msa.edu.eg'
+  - name: Google Scholar
+    url: 'https://scholar.google.com/citations?user=6R0e7NQAAAAJ&hl=en'
   - name: LinkedIn
     url: 'https://www.linkedin.com/in/ashraf-hany-/'
   - name: GitHub

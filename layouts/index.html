@@ -7,7 +7,6 @@
     <div class="hero-copy">
       <div class="eyebrow">{{ .Params.eyebrow }}</div>
       <h1 id="hero-heading">{{ .Params.headline }}<br><em>{{ .Params.headline_accent }}</em></h1>
-      <p class="hero-description">{{ .Params.tagline }}</p>
     </div>
     <figure class="portrait">
       {{- with resources.Get "media/avatar.jpg" }}
@@ -24,8 +23,8 @@
       </details>
       {{- end }}
       <div class="hero-actions">
-        <a class="button button-dark" href="{{ "/technical/" | relURL }}">Read the technical blog <span class="arrow" aria-hidden="true">-&gt;</span></a>
-        {{- with site.Params.resume }}<a class="text-link" href="{{ . | relURL }}">Download CV <span class="arrow" aria-hidden="true">-&gt;</span></a>{{ end }}
+        <a class="button button-dark" href="{{ "/research/" | relURL }}">Explore my research <span class="arrow" aria-hidden="true">→</span></a>
+        {{- with site.Params.resume }}<a class="text-link" href="{{ . | relURL }}">Download CV <span class="arrow" aria-hidden="true">→</span></a>{{ end }}
       </div>
       <div class="social-links">
         {{- range site.Params.social }}
@@ -40,65 +39,14 @@
 <a class="banner" href="{{ .url | relURL }}">
   <div class="wrap">
     <span class="banner-copy"><i class="status-dot" aria-hidden="true"></i><span>{{ .text | markdownify }}</span></span>
-    <span class="banner-action">{{ .link_text }} <span class="arrow" aria-hidden="true">-&gt;</span></span>
+    <span class="banner-action">{{ .link_text }} <span class="arrow" aria-hidden="true">→</span></span>
   </div>
 </a>
 {{- end }}
 
-<section class="band" id="focus" aria-labelledby="focus-heading">
+<section class="band band-alt" id="recognition" aria-labelledby="rec-heading">
   <div class="wrap">
-  <div class="section-label"><span><b class="section-index">01</b>RESEARCH &amp; BUILDING</span><span class="tiny-cross" aria-hidden="true">+</span></div>
-  <div class="split-heading">
-    <h2 id="focus-heading">What I<br><em>work on.</em></h2>
-    <p>Most of my work sits where machine learning meets something physical: a microscope slide, an engineering drawing, a qubit or a circuit board.</p>
-  </div>
-  <div class="focus-grid">
-    {{- range $i, $f := hugo.Data.profile.focus }}
-    <article class="focus-item">
-      <span class="focus-number">{{ printf "%02d" (add $i 1) }}</span>
-      <h3>{{ $f.title }}</h3>
-      <p>{{ $f.text }}</p>
-      {{- with $f.post }}{{ with partial "post-by-slug.html" . }}
-      <a class="paper-link" href="{{ .RelPermalink }}">Related post</a>
-      {{- end }}{{ end }}
-    </article>
-    {{- end }}
-  </div>
-  </div>
-</section>
-
-<section class="band band-alt" id="publications" aria-labelledby="pub-heading">
-  <div class="wrap">
-  <div class="section-label"><span><b class="section-index">02</b>PUBLICATIONS</span><span>{{ len hugo.Data.publications }} PAPERS · IEEE</span></div>
-  <div class="split-heading">
-    <h2 id="pub-heading">Selected<br><em>papers.</em></h2>
-    <p>Conference papers on tangible interfaces in education, medical image segmentation and sentiment-analysis benchmarking.</p>
-  </div>
-  <ol class="pub-list">
-    {{- range hugo.Data.publications }}
-    <li class="pub">
-      <div class="pub-year">{{ .year }}</div>
-      <div>
-        <div class="paper-kicker"><span>{{ .short }} {{ .year }}</span>Conference paper</div>
-        <h3>{{ .title }}</h3>
-        <div class="paper-details">
-          {{ .authors | markdownify }}<br>
-          <em>{{ .venue }}</em>{{ with .place }}, {{ . }}{{ end }}{{ with .pages }}, pp. {{ . }}{{ end }}.
-        </div>
-        <div class="paper-links">
-          {{- with .doi }}<a class="paper-link" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI {{ . }}</a>{{ end }}
-          {{- with .post }}{{ with partial "post-by-slug.html" . }}<a class="paper-link" href="{{ .RelPermalink }}">Blog post</a>{{ end }}{{ end }}
-        </div>
-      </div>
-    </li>
-    {{- end }}
-  </ol>
-  </div>
-</section>
-
-<section class="band" id="recognition" aria-labelledby="rec-heading">
-  <div class="wrap">
-  <div class="section-label"><span><b class="section-index">03</b>RECOGNITION</span><span>{{ len hugo.Data.profile.recognition }} HIGHLIGHTS</span></div>
+  <div class="section-label"><span><b class="section-index">01</b>RECOGNITION</span><span>{{ len hugo.Data.profile.recognition }} HIGHLIGHTS</span></div>
   <div class="news-grid">
     <div>
       <h2 id="rec-heading">Awards &amp;<br><em>milestones.</em></h2>
@@ -118,9 +66,9 @@
   </div>
 </section>
 
-<section class="band band-alt" id="writing" aria-labelledby="writing-heading">
+<section class="band" id="writing" aria-labelledby="writing-heading">
   <div class="wrap">
-  <div class="section-label"><span><b class="section-index">04</b>WRITING</span><a href="{{ "/blog/" | relURL }}">ALL {{ len $posts }} POSTS <span class="arrow" aria-hidden="true">-&gt;</span></a></div>
+  <div class="section-label"><span><b class="section-index">02</b>WRITING</span><a href="{{ "/blog/" | relURL }}">ALL {{ len $posts }} POSTS <span class="arrow" aria-hidden="true">→</span></a></div>
   <div class="split-heading">
     <h2 id="writing-heading">Latest from<br><em>the blog.</em></h2>
     <p>Build logs and research notes on the <a class="underline" href="{{ "/technical/" | relURL }}">technical blog</a>; people, places and lessons on the <a class="underline" href="{{ "/non-technical/" | relURL }}">non-technical</a> side.</p>

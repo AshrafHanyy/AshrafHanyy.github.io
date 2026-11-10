@@ -5,6 +5,10 @@ main:
     identifier: about
     url: /
     weight: 10
+  - name: Research
+    identifier: research
+    url: /research/
+    weight: 15
   - name: Technical Blog
     identifier: technical
     url: /technical/

@@ -1,7 +1,7 @@
 ---
 title: "Becoming a Top Rated Freelancer on Upwork as a Student"
 date: 2026-11-10
-summary: "How a niche I picked up by accident, making algorithm animations in Manim, turned into almost two years of freelancing on Upwork, a Top Rated badge, and lessons I still use at work."
+summary: "How a niche I picked up by accident, making algorithm animations in Manim, turned into a Top Rated Upwork profile with a 100% Job Success Score from just six jobs, and lessons I still use at work."
 authors:
   - admin
 category: non-technical
@@ -10,9 +10,9 @@ category: non-technical
 draft: true
 ---
 
-Between August 2024 and May 2026 I worked as a freelance data analyst on Upwork, mostly making scientific animations and doing machine learning research for clients, while I was still a student and later a teaching assistant. Somewhere along the way my profile got the **Top Rated** badge. This post is about how that happened, what the work actually looked like, and what I would tell any student thinking about freelancing.
+Between August 2024 and May 2026 I worked as a freelance data analyst on Upwork, mostly making scientific animations and doing machine learning research for clients, while I was still a student and later a teaching assistant. By the end, my profile had the **Top Rated** badge and a **100% Job Success Score**, from just six jobs. This post is about how that happened, what the work actually looked like, and what I would tell any student thinking about freelancing.
 
-[TODO: add a screenshot of your profile or the Top Rated badge here, e.g. `![image](./profile.jpg)`]
+![image](./featured.png "My Upwork profile: Top Rated, 100% Job Success, 6 jobs")
 
 ## Why I started
 
@@ -46,7 +46,9 @@ Most projects followed the same shape. First, understand what the client actuall
 
 ## How the Top Rated badge happens
 
-Upwork awards Top Rated based on your track record over time: how satisfied clients are (your Job Success Score), consistent work, and a clean account history. There is no trick to it. It is the side effect of a lot of small, boring things done consistently:
+My profile shows six jobs and 70 logged hours. That is not a lot. Plenty of freelancers have hundreds of jobs and no badge. Upwork awards Top Rated based on your track record: above all, how satisfied your clients are (your Job Success Score), along with consistent work and a clean account history. Volume helps far less than people think. Six clients who would all hire you again count for more than sixty who were merely fine.
+
+There is no trick to it. A 100% Job Success Score is the side effect of a lot of small, boring things done consistently:
 
 - **Scope before you start.** Most bad reviews come from mismatched expectations, not bad work. Write down exactly what will be delivered and when.
 - **Communicate before you are asked.** A short update when something takes longer than planned builds more trust than delivering silently on time.
@@ -54,7 +56,7 @@ Upwork awards Top Rated based on your track record over time: how satisfied clie
 - **Make the handover complete.** Clean code, a short README, the rendered video *and* the source. Clients come back to people who are easy to work with.
 - **Say no to jobs outside your niche.** One unhappy client on a job you should not have taken costs more than the job pays.
 
-[TODO: when did you reach Top Rated, and roughly how many jobs or clients did it take? Did anything specific change after you got the badge, such as invitations or rates?]
+[TODO: roughly when did you get the badge (after which job?), and did anything change afterwards, such as more invitations or higher rates?]
 
 ## Balancing it with university and teaching
 
@@ -68,7 +70,7 @@ I stopped freelancing in May 2026 when I joined Techlabs London full-time, and l
 
 1. **Turn coursework into a portfolio.** Whatever you build for a course can become proof that you can deliver.
 2. **Find the niche nobody else wants to learn.** For me it was Manim. For you it might be a library, a tool or a field that sits between two disciplines.
-3. **Start small and protect your reviews.** Early reviews shape everything that comes after, so take jobs you are sure you can do well.
+3. **Protect your Job Success Score.** Six good jobs got me Top Rated. Take fewer jobs that you are sure you can do well rather than many that you might not.
 4. **Treat every client like a long-term one.** Most of the value comes from people who come back.
 
 [TODO: closing line in your own words.]

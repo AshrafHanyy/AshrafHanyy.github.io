@@ -16,11 +16,12 @@ Requires Hugo **0.169.0** or newer (the version pinned in the deploy workflow).
 
 | What | File |
 | --- | --- |
-| Navigation (About, Technical Blog, Non-Technical, Service) | `config/_default/menus.yaml` |
-| Site description, contact links, CV link | `config/_default/params.yaml` |
+| Navigation (About, Research, Technical Blog, Non-Technical, Service) | `config/_default/menus.yaml` |
+| Site description, contact links (incl. Google Scholar), CV link | `config/_default/params.yaml` |
 | About page hero, biography and banner | `content/_index.md` |
-| Publications on the About page | `data/publications.yaml` |
-| Research focus, awards, skills, courses | `data/profile.yaml` |
+| Research page heading | `content/research.md` |
+| Publications (Research page) | `data/publications.yaml` |
+| Research areas, awards, skills, courses | `data/profile.yaml` |
 | Service timeline ("where I've been") | `data/timeline.yaml` |
 | Portrait | `assets/media/avatar.jpg` |
 | CV PDF | `static/uploads/resume.pdf` |

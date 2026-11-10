@@ -1,14 +1,19 @@
 # Content blocks for the About and Service pages.
 
-# Numbered "What I work on" grid on the About page.
+# Numbered research areas on the Research page.
 focus:
   - title: Medical image segmentation
     text: Deep learning segmentation (U-Net, SAM, fine-tuned SAM and MedSAM) of microscopic bone-marrow images, in collaboration with the National Cancer Institute, Cairo University.
-  - title: Agentic AI & LLM systems
-    text: Agent workflows built with LangChain, LangGraph and Deep Agents that turn engineering drawings into quantities, pricing and bills of quantities.
   - title: Quantum machine learning
     text: Variational quantum classifiers and quantum walks with Qiskit and PennyLane, including QML models that hold up under realistic noise.
     post: quantum-procedural-generation
+  - title: HCI & learning
+    text: Experimental studies of tangible user interfaces and interactive 3D applications as teaching tools, from programming courses to dental crown preparation.
+    post: tuis
+  - title: NLP benchmarking
+    text: Benchmarking classical, recurrent and transformer-based models for sentiment analysis, and how their performance changes with text length.
+  - title: Agentic AI & LLM systems
+    text: Agent workflows built with LangChain, LangGraph and Deep Agents that turn engineering drawings into quantities, pricing and bills of quantities.
   - title: Embedded systems & hardware
     text: An ESP32-S3 handheld console, an IMU-driven light gun and YOLO tracking on a Raspberry Pi 5, designed, wired and 3D-printed by hand.
     post: building-a-gameboy

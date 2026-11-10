@@ -1,0 +1,73 @@
+{{ define "bodyclass" }}research-page{{ end }}
+{{ define "main" }}
+{{- $pubs := hugo.Data.publications }}
+
+<section class="section wrap listing research-head" aria-labelledby="research-heading">
+  <div class="listing-head">
+    <div>
+      <div class="section-label">{{ upper .Params.label }}</div>
+      <h1 class="page-title" id="research-heading">{{ .Params.headline }}<br><em>{{ .Params.headline_accent }}</em></h1>
+    </div>
+    <div>
+      {{- with .Params.description }}<p>{{ . }}</p>{{ end }}
+      <div class="hero-actions">
+        {{- range where site.Params.social "name" "Google Scholar" }}
+        <a class="button button-dark" href="{{ .url }}" target="_blank" rel="noopener">Google Scholar <span class="arrow" aria-hidden="true">→</span></a>
+        {{- end }}
+        <a class="text-link" href="#publications">All publications <span class="arrow" aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="areas" aria-labelledby="areas-heading">
+  <div class="wrap">
+  <div class="section-label"><span><b class="section-index">01</b>RESEARCH AREAS</span><span>{{ len hugo.Data.profile.focus }} AREAS</span></div>
+  <div class="split-heading">
+    <h2 id="areas-heading">What I<br><em>work on.</em></h2>
+    <p>Most of my work sits where machine learning meets something physical: a microscope slide, a classroom, an engineering drawing, a qubit or a circuit board.</p>
+  </div>
+  <div class="focus-grid">
+    {{- range $i, $f := hugo.Data.profile.focus }}
+    <article class="focus-item">
+      <span class="focus-number">{{ printf "%02d" (add $i 1) }}</span>
+      <h3>{{ $f.title }}</h3>
+      <p>{{ $f.text }}</p>
+      {{- with $f.post }}{{ with partial "post-by-slug.html" . }}
+      <a class="paper-link" href="{{ .RelPermalink }}">Related post</a>
+      {{- end }}{{ end }}
+    </article>
+    {{- end }}
+  </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="publications" aria-labelledby="pub-heading">
+  <div class="wrap">
+  <div class="section-label"><span><b class="section-index">02</b>PUBLICATIONS</span><span>{{ len $pubs }} PAPERS · IEEE</span></div>
+  <div class="split-heading">
+    <h2 id="pub-heading">Selected<br><em>papers.</em></h2>
+    <p>Conference papers on medical image segmentation, sentiment-analysis benchmarking and interactive learning tools{{ range where site.Params.social "name" "Google Scholar" }}. Citations are on <a class="underline" href="{{ .url }}" target="_blank" rel="noopener">Google Scholar</a>{{ end }}.</p>
+  </div>
+  <ol class="pub-list">
+    {{- range $pubs }}
+    <li class="pub">
+      <div class="pub-year">{{ .year }}</div>
+      <div>
+        <div class="paper-kicker"><span>{{ .short }} {{ .year }}</span>Conference paper</div>
+        <h3>{{ .title }}</h3>
+        <div class="paper-details">
+          {{ .authors | markdownify }}<br>
+          <em>{{ .venue }}</em>{{ with .place }}, {{ . }}{{ end }}{{ with .pages }}, pp. {{ . }}{{ end }}.
+        </div>
+        <div class="paper-links">
+          {{- with .doi }}<a class="paper-link" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI {{ . }}</a>{{ end }}
+          {{- with .post }}{{ with partial "post-by-slug.html" . }}<a class="paper-link" href="{{ .RelPermalink }}">Blog post</a>{{ end }}{{ end }}
+        </div>
+      </div>
+    </li>
+    {{- end }}
+  </ol>
+  </div>
+</section>
+{{ end }}
