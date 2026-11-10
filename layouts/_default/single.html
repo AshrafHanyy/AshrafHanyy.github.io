@@ -4,7 +4,7 @@
 {{- $cat := index site.Params.categories $catKey }}
 <article class="post">
   <header class="post-header wrap-narrow">
-    <div class="section-label"><a href="{{ $cat.url | relURL }}">← {{ upper $cat.label }}</a><span>{{ .ReadingTime }} MIN READ</span></div>
+    <div class="section-label"><a href="{{ $cat.url | relURL }}"><span class="arrow" aria-hidden="true">&lt;-</span> {{ upper $cat.label }}</a><span>{{ .ReadingTime }} MIN READ</span></div>
     <h1 class="post-title">{{ .Title }}</h1>
     {{- with .Params.summary }}<p class="post-lede">{{ . }}</p>{{ end }}
     <div class="post-meta">
@@ -32,10 +32,10 @@
   {{- range $i, $p := $list }}{{ if eq $p.RelPermalink $.RelPermalink }}{{ $idx = $i }}{{ end }}{{ end }}
   <nav class="post-nav wrap-narrow" aria-label="More posts">
     {{- if gt $idx 0 }}{{ with index $list (sub $idx 1) }}
-    <a class="post-nav-link" href="{{ .RelPermalink }}"><span class="section-label">← NEWER</span><span class="post-nav-title">{{ .Title }}</span></a>
+    <a class="post-nav-link" href="{{ .RelPermalink }}"><span class="section-label"><span><span class="arrow" aria-hidden="true">&lt;-</span> NEWER</span></span><span class="post-nav-title">{{ .Title }}</span></a>
     {{- end }}{{ else }}<span></span>{{ end }}
     {{- if and (ge $idx 0) (lt $idx (sub (len $list) 1)) }}{{ with index $list (add $idx 1) }}
-    <a class="post-nav-link next" href="{{ .RelPermalink }}"><span class="section-label">OLDER →</span><span class="post-nav-title">{{ .Title }}</span></a>
+    <a class="post-nav-link next" href="{{ .RelPermalink }}"><span class="section-label"><span>OLDER <span class="arrow" aria-hidden="true">-&gt;</span></span></span><span class="post-nav-title">{{ .Title }}</span></a>
     {{- end }}{{ end }}
   </nav>
 

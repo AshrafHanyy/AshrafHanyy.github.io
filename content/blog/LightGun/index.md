@@ -54,8 +54,8 @@ All components are wired point-to-point and secured with hot glue. There is no P
 ![image](./imu.png)
 
 For this application, only two axes matter:
-- **Pitch** (tilting the barrel up/down) → vertical mouse movement
-- **Yaw** (rotating the gun left/right) → horizontal mouse movement
+- **Pitch** (tilting the barrel up/down) -> vertical mouse movement
+- **Yaw** (rotating the gun left/right) -> horizontal mouse movement
 
 Roll is ignored. The gyroscope output is read at a fixed interval and the angular velocity is integrated over time to produce a cumulative angle delta, which maps to a relative mouse displacement on the PC.
 

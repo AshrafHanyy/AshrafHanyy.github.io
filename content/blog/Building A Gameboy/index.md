@@ -46,7 +46,7 @@ The power chain uses a two-stage conversion from an **18650 LiPo cell** (3.7 V n
 
 An **MT3608 DC-DC boost converter** first steps the battery voltage up to a fixed **6 V**. That regulated 6 V then feeds an **LM2596 DC-DC buck converter**, which steps it down to a stable **3.3 V** for the ESP32-S3 and all peripherals.
 
-The reason for boost-then-buck rather than a direct buck from 3.7 V: a buck converter requires its input to be higher than its output by its dropout margin. As the 18650 discharges toward 3.0 V, a direct 3.7→3.3 V buck loses regulation and browns out the system. By boosting to 6 V first, the LM2596 always has sufficient headroom to hold 3.3 V flat across the entire battery life.
+The reason for boost-then-buck rather than a direct buck from 3.7 V: a buck converter requires its input to be higher than its output by its dropout margin. As the 18650 discharges toward 3.0 V, a direct 3.7->3.3 V buck loses regulation and browns out the system. By boosting to 6 V first, the LM2596 always has sufficient headroom to hold 3.3 V flat across the entire battery life.
 
 Charging is handled separately by a **TP4056-based USB-C module** that feeds the 18650 directly, independent of the boost converter. A power switch on the battery output line gates the rest of the circuit.
 
@@ -74,7 +74,7 @@ In Retro-Go, emulator cores push audio samples into a FreeRTOS ring buffer. A de
 The display module was physically mounted inverted inside the enclosure, so the image came out upside down on first boot. Fixing this required setting `RG_SCREEN_ROTATE 2` and writing the correct value to the ILI9341 MADCTL register in the init sequence:
 
 ```c
-ILI9341_CMD(0x36, 0xA8); // MADCTL: MY=1, MV=1, BGR=1 → 180° rotation
+ILI9341_CMD(0x36, 0xA8); // MADCTL: MY=1, MV=1, BGR=1 -> 180° rotation
 ```
 
 `0xA8` = `10101000`: bit 7 (MY) flips row order, bit 5 (MV) exchanges rows and columns, bit 3 (BGR) sets the color filter. The combination produces a 180° rotation with correct color output. The full `RG_SCREEN_INIT()` sequence covering power control, VCOM, frame rate, and gamma is in [`config.h`](https://github.com/AshrafHanyy/GameBoy-ESP32-S3).
