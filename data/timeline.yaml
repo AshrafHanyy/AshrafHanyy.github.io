@@ -1,0 +1,134 @@
+# "Where I've been" — the timeline on the Service page.
+#
+#   start:   YYYY-MM, used for ordering (newest first) and for the year markers
+#   when:    the date range exactly as it should be displayed
+#   type:    work | teaching | research | leadership | award | education
+#   current: true marks an ongoing role
+#   post:    (optional) URL slug of a related blog post, e.g. tuis for /blog/tuis/
+#   url:     (optional) external link for the organisation
+
+- title: AI Engineer
+  org: Ernst & Young (EY)
+  place: Egypt
+  type: work
+  start: "2026-09"
+  when: "Sep 2026 – Present"
+  current: true
+  post: post-graduation-blog
+  points:
+    - Contribute to client-facing Requests for Proposals (RFPs), translating business requirements into structured technical solutions and proposed approaches.
+    - Support the design of AI and data solutions by assessing client needs, identifying relevant technologies and outlining implementation approaches aligned with business objectives.
+    - Collaborate with consulting teams on technical documentation and solution proposals that communicate AI capabilities and implementation considerations.
+
+- title: AI & Data Engineer
+  org: Techlabs London
+  type: work
+  start: "2026-05"
+  when: "May – Aug 2026"
+  points:
+    - Built the MVP of an AI-powered construction estimation platform that automates quantity takeoff, drawing analysis and Bill of Quantities (BOQ) generation from engineering drawings.
+    - Designed agentic AI workflows with Deep Agents, LangChain and LLM-based architectures for drawing interpretation, element counting and construction pricing.
+    - Developed pipelines that turn unstructured technical drawings and BOQs into structured quantities, pricing and estimation outputs.
+    - Used LangSmith for agent tracing, evaluation and debugging to improve the reliability of the estimation system.
+
+- title: Teaching Assistant
+  org: MSA University
+  url: https://www.msa.edu.eg/
+  type: teaching
+  start: "2025-08"
+  when: "Aug 2025 – Present"
+  current: true
+  points:
+    - Instructed Design & Analysis of Algorithms (5 groups, 150 students), Embedded Systems (2 groups, 60 students) and Calculus 2 (2 groups, 60 students).
+    - Designed and delivered lab sessions, assignments and problem-solving tutorials.
+    - Provided individual guidance to students working through programming logic and hardware implementation challenges.
+
+- title: BSc Computer Science — First Class Honours
+  org: MSA University & University of Greenwich
+  type: education
+  start: "2025-06"
+  when: "Graduated 2025"
+  points:
+    - Dual degree programme, CGPA 3.81 / 4.0, First Class Honours from both institutions.
+
+- title: Third Place — Engineering Track, 20th NU UGRF
+  org: Nile University
+  type: award
+  start: "2025-04"
+  when: "Spring 2025"
+  post: building-a-gameboy
+  points:
+    - Awarded third place at Egypt's most competitive national undergraduate research fair for designing and building a fully custom ESP32-S3 handheld game console from scratch.
+
+- title: Data Analyst — Top Rated Freelancer
+  org: Upwork
+  type: work
+  start: "2024-08"
+  when: "Aug 2024 – May 2026"
+  post: math-animations
+  points:
+    - Designed educational and scientific animations with Manim to communicate complex topics visually.
+    - Implemented and evaluated machine learning and quantum machine learning models for research clients.
+    - Collected, cleaned and preprocessed data from diverse sources to build high-quality datasets.
+
+- title: Research Intern
+  org: Nile University
+  type: research
+  start: "2024-08"
+  when: "Aug – Sep 2024"
+  points:
+    - Researched quantum machine learning (QML) models in noisy environments to improve fault tolerance.
+    - Analysed and documented techniques for optimising QML performance under realistic noise conditions.
+
+- title: Second Place — NU Quantum-AI Hackathon
+  org: Nile University
+  type: award
+  start: "2024-07"
+  when: "Summer 2024"
+  post: nus-quantum-ai-hackathon
+  points:
+    - Second place in Egypt's first Quantum-AI Hackathon. Reduced a 1389-feature Raman spectroscopy dataset for encoding into a Variational Quantum Classifier, then built and optimised the VQC with Qiskit.
+
+- title: Founder & Leader — MSA Competitive Programming Community
+  org: MSA University
+  type: leadership
+  start: "2023-10"
+  when: "Fall 2023 – Present"
+  current: true
+  post: founding-msa-cpc-community-club
+  points:
+    - Founded MSA's first dedicated competitive programming community and grew it into a recognised campus organisation.
+    - Led the university's participation in ECPC 2023, 2024 and 2025 with teams of 21, 28 and 28 students.
+    - Designed training programmes, organised practice contests and mentored students in competitive problem solving.
+
+- title: Junior Teaching Assistant (Volunteer)
+  org: MSA University
+  type: teaching
+  start: "2023-09"
+  when: "Fall 2023"
+  points:
+    - Supported instruction for MTH103 Discrete Math, CS213 Multimedia Programming, CS232 Algorithms & Data Structures and CS102 Fundamentals of Computing II.
+
+- title: Intern
+  org: National Bank of Egypt
+  type: work
+  start: "2023-07"
+  when: "Jul – Aug 2023"
+  points:
+    - Developed a Python script for domain variant detection using symbol-oriented permutation.
+    - Shadowed senior professionals across web & network penetration testing, threat intelligence, vulnerability assessment, incident handling and phishing analysis.
+
+- title: First Place — Best Undergraduate Project, MSA DeepMinds
+  org: MSA University
+  type: award
+  start: "2023-04"
+  when: "Spring 2023"
+  post: tuis
+  points:
+    - Recognised as the sophomore Best Undergraduate Project for publishing an IEEE conference paper during the second year of undergraduate studies.
+
+- title: Started BSc Computer Science (Dual Degree)
+  org: MSA University & University of Greenwich
+  type: education
+  start: "2021-09"
+  when: "Sep 2021"

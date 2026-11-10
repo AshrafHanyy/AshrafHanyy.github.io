@@ -1,0 +1,4 @@
+{{- /* Returns a plain-text summary for a post: front-matter `summary`, else the first words of the post. */ -}}
+{{- $s := .Params.summary -}}
+{{- if not $s }}{{ $s = .Summary }}{{ end -}}
+{{- return ($s | plainify | htmlUnescape | truncate 260) -}}

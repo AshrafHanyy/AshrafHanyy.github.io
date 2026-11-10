@@ -7,6 +7,7 @@ authors:
 tags: 
 # Display this page in the Featured widget?
 featured: true
+category: technical
 ---
 ## Learning Manim
 

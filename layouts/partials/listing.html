@@ -1,0 +1,28 @@
+{{- /* Blog listing. Args: dict "page" <page> "category" <key or ""> */ -}}
+{{- $page := .page }}
+{{- $all := where site.RegularPages "Section" "blog" }}
+{{- $posts := $all }}
+{{- with .category }}{{ $posts = where $all "Params.category" . }}{{ end }}
+<section class="section wrap listing">
+  <div class="listing-head">
+    <div>
+      <div class="section-label">{{ upper $page.Params.label }}</div>
+      <h1 class="page-title">{{ $page.Params.headline }}<br><em>{{ $page.Params.headline_accent }}</em></h1>
+    </div>
+    {{- with $page.Params.description }}<p>{{ . }}</p>{{ end }}
+  </div>
+  <nav class="filter-tabs" aria-label="Blog categories">
+    <a class="filter-tab{{ if not .category }} active{{ end }}" href="{{ "/blog/" | relURL }}"{{ if not .category }} aria-current="page"{{ end }}>All <span>{{ len $all }}</span></a>
+    {{- range slice "technical" "non-technical" }}
+    {{- $c := index site.Params.categories . }}
+    <a class="filter-tab{{ if eq . $.category }} active{{ end }}" href="{{ $c.url | relURL }}"{{ if eq . $.category }} aria-current="page"{{ end }}>{{ $c.label }} <span>{{ len (where $all "Params.category" .) }}</span></a>
+    {{- end }}
+  </nav>
+  <div class="post-list">
+    {{- range $posts.ByDate.Reverse }}
+    {{- partial "post-row.html" . }}
+    {{- else }}
+    <p class="no-results">Nothing here yet.</p>
+    {{- end }}
+  </div>
+</section>

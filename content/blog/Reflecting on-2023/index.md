@@ -7,6 +7,7 @@ authors:
 tags: 
 # Display this page in the Featured widget?
 featured: true
+category: non-technical
 ---
 
 This year has been incredibly rewarding, filled with milestones I once thought were far beyond my reach. I find myself reflecting daily on everything that has happened and how it has shaped me. While I’m deeply grateful for the recognition and proud of these achievements, I also want to share a more personal perspective. This post will focus on how I felt throughout the journey and the thoughts that stayed with me along the way.

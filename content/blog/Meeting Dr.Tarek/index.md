@@ -8,6 +8,7 @@ tags:
 show_related: true
 # Display this page in the Featured widget?
 featured: true
+category: non-technical
 ---
 
 The one thing I obviously never expected when this story first started is that I would meet the former minister of education and someone who I consider a role model in science and in life.

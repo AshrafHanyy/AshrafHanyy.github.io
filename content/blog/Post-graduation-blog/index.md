@@ -7,6 +7,7 @@ authors:
 tags:
 # Display this page in the Featured widget?
 featured: true
+category: non-technical
 ---
 
 It's been a while since I last wrote a non-technical blog post, but I felt the need to write and share this since it has been a year since my graduation ceremony and ever since I saw the graduation posts of the class of 2026.

@@ -1,0 +1,10 @@
+<footer class="site-footer wrap">
+  <a class="footer-name" href="{{ "/" | relURL }}">{{ site.Title }}<span>© {{ now.Year }}</span></a>
+  <span class="footer-motto">{{ upper site.Params.motto }}{{ with site.Params.license }} · CONTENT {{ . }}{{ end }}</span>
+  <div class="footer-links">
+    {{- range site.Params.social }}
+    <a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+    {{- end }}
+    <a href="#top">Top <span aria-hidden="true">↑</span></a>
+  </div>
+</footer>

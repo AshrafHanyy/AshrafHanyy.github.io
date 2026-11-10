@@ -1,0 +1,90 @@
+{{ define "bodyclass" }}service-page{{ end }}
+{{ define "main" }}
+{{- $labels := dict "work" "Work" "teaching" "Teaching" "research" "Research" "leadership" "Leadership" "award" "Award" "education" "Education" }}
+{{- $order := slice "work" "teaching" "research" "leadership" "award" "education" }}
+{{- $items := sort hugo.Data.timeline "start" "desc" }}
+{{- $years := slice }}
+{{- range $items }}{{ $y := substr .start 0 4 }}{{ if not (in $years $y) }}{{ $years = $years | append $y }}{{ end }}{{ end }}
+
+<section class="section wrap" id="service" aria-labelledby="service-heading">
+  <div class="service-grid">
+    <div class="service-intro">
+      <div class="section-label">{{ upper .Params.label }}</div>
+      <h1 class="page-title" id="service-heading">{{ .Params.headline }}<br><em>{{ .Params.headline_accent }}</em></h1>
+      <p class="muted">{{ .Params.description }}</p>
+      <div class="timeline-filters" role="group" aria-label="Filter the timeline" hidden>
+        <button class="filter-tab active" type="button" data-filter="all" aria-pressed="true">All <span>{{ len $items }}</span></button>
+        {{- range $order }}
+        {{- $n := len (where $items "type" .) }}
+        {{- if $n }}
+        <button class="filter-tab" type="button" data-filter="{{ . }}" aria-pressed="false">{{ index $labels . }} <span>{{ $n }}</span></button>
+        {{- end }}
+        {{- end }}
+      </div>
+      {{- with site.Params.resume }}
+      <a class="text-link" href="{{ . | relURL }}">Download the full CV <span aria-hidden="true">↗</span></a>
+      {{- end }}
+    </div>
+
+    <div class="timeline">
+      {{- range $years }}
+      {{- $y := . }}
+      <section class="tl-year" aria-label="{{ $y }}">
+        <h2 class="tl-year-label">{{ $y }}</h2>
+        <ol class="tl-list">
+          {{- range $items }}
+          {{- if eq (substr .start 0 4) $y }}
+          {{- $it := . }}
+          <li class="tl-item{{ if .current }} is-current{{ end }}" data-type="{{ .type }}">
+            <div class="tl-kicker">
+              <span class="tl-when">{{ .when }}</span>
+              <span class="tl-type tl-type-{{ .type }}">{{ index $labels .type }}</span>
+              {{- if .current }}<span class="tl-now">Now</span>{{ end }}
+            </div>
+            <h3>{{ .title }}</h3>
+            <div class="tl-org">
+              {{- with $it.url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $it.org }}</a>{{ else }}{{ $it.org }}{{ end }}
+              {{- with $it.place }} · {{ . }}{{ end }}
+            </div>
+            {{- with .points }}
+            <ul class="tl-points">
+              {{- range . }}<li>{{ . }}</li>{{ end }}
+            </ul>
+            {{- end }}
+            {{- with .post }}{{ with partial "post-by-slug.html" . }}
+            <a class="paper-link" href="{{ .RelPermalink }}">Read the story</a>
+            {{- end }}{{ end }}
+          </li>
+          {{- end }}
+          {{- end }}
+        </ol>
+      </section>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+<section class="section wrap toolkit" id="toolkit" aria-labelledby="toolkit-heading">
+  <div class="service-grid">
+    <div>
+      <div class="section-label">TOOLKIT</div>
+      <h2 id="toolkit-heading">What I<br><em>work with.</em></h2>
+    </div>
+    <div>
+      {{- range hugo.Data.profile.skills }}
+      <div class="service-row">
+        <h3>{{ .label }}</h3>
+        <p>{{ .items }}</p>
+      </div>
+      {{- end }}
+      <h3 class="rows-heading">Courses &amp; certificates</h3>
+      {{- range hugo.Data.profile.courses }}
+      <div class="service-row">
+        <h3>{{ .by }}</h3>
+        <p>{{ .name }}</p>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{ end }}

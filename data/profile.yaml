@@ -1,0 +1,61 @@
+# Content blocks for the About and Service pages.
+
+# Numbered "What I work on" grid on the About page.
+focus:
+  - title: Medical image segmentation
+    text: Deep learning segmentation (U-Net, SAM, fine-tuned SAM and MedSAM) of microscopic bone-marrow images, in collaboration with the National Cancer Institute, Cairo University.
+  - title: Agentic AI & LLM systems
+    text: Agent workflows built with LangChain, LangGraph and Deep Agents that turn engineering drawings into quantities, pricing and bills of quantities.
+  - title: Quantum machine learning
+    text: Variational quantum classifiers and quantum walks with Qiskit and PennyLane, including QML models that hold up under realistic noise.
+    post: quantum-procedural-generation
+  - title: Embedded systems & hardware
+    text: An ESP32-S3 handheld console, an IMU-driven light gun and YOLO tracking on a Raspberry Pi 5, designed, wired and 3D-printed by hand.
+    post: building-a-gameboy
+
+# Recognition list on the About page.
+recognition:
+  - when: Spring 2025
+    title: Third Place — Engineering Track, 20th NU UGRF
+    by: Nile University
+    post: building-a-gameboy
+  - when: Summer 2024
+    title: Second Place — NU Quantum-AI Hackathon
+    by: Nile University
+    post: nus-quantum-ai-hackathon
+  - when: Spring 2023
+    title: First Place — Best Undergraduate Project, MSA DeepMinds Event
+    by: MSA University
+    post: tuis
+  - when: 2021 – 2025
+    title: First Class Honours, BSc Computer Science (CGPA 3.81 / 4.0)
+    by: MSA University & University of Greenwich
+
+# Toolkit rows on the Service page.
+skills:
+  - label: Languages
+    items: Python, C/C++, Java, SQL (PostgreSQL), NoSQL (MongoDB), JavaScript, HTML/CSS, LaTeX
+  - label: ML / AI
+    items: PyTorch, Scikit-learn, PennyLane, Qiskit, LangChain, LangGraph, OpenCV, Copilot Agents, Copilot Studio
+  - label: Frameworks & tools
+    items: Django, Flask, Bootstrap, Git, Google Cloud Platform, MATLAB, VS Code
+  - label: Hardware
+    items: ESP32-S3, Arduino, MPU6050, PCB design (KiCad), 3D printing (FDM)
+  - label: Mathematics
+    items: Calculus, Discrete Math, Linear Algebra, Numerical Methods, Coding Theory
+  - label: Algorithms
+    items: Greedy, Divide & Conquer, Dynamic Programming, Graph Algorithms
+  - label: Spoken
+    items: Arabic, English
+
+courses:
+  - name: Harvard CS50
+    by: Harvard / edX
+  - name: Harvard CS50 AI with Python
+    by: Harvard / edX
+  - name: Machine Learning Specialization — Andrew Ng
+    by: Coursera / DeepLearning.AI / Stanford
+  - name: Microsoft Azure AI Fundamentals (AI-900)
+    by: Microsoft
+  - name: Microsoft Azure Fundamentals (AZ-900)
+    by: Microsoft

@@ -1,0 +1,11 @@
+{{- $cat := index site.Params.categories (.Params.category | default "technical") }}
+<a class="post-card" href="{{ .RelPermalink }}">
+  <span class="post-card-media">
+    {{- with partial "featured.html" . }}
+    {{- $t := partial "thumb.html" (dict "img" . "spec" "720x450 Center q78") }}
+    <img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async">
+    {{- end }}
+  </span>
+  <span class="paper-kicker"><span>{{ $cat.label }}</span><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time></span>
+  <span class="post-card-title">{{ .Title }}</span>
+</a>

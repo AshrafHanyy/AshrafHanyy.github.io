@@ -1,0 +1,48 @@
+{{ define "bodyclass" }}post-page{{ end }}
+{{ define "main" }}
+{{- $catKey := .Params.category | default "technical" }}
+{{- $cat := index site.Params.categories $catKey }}
+<article class="post">
+  <header class="post-header wrap-narrow">
+    <div class="section-label"><a href="{{ $cat.url | relURL }}">← {{ upper $cat.label }}</a><span>{{ .ReadingTime }} MIN READ</span></div>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Params.summary }}<p class="post-lede">{{ . }}</p>{{ end }}
+    <div class="post-meta">
+      <span>By {{ site.Title }}</span>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+  </header>
+
+  {{- /* Show the cover image unless the post already embeds it in its body. */}}
+  {{- with partial "featured.html" . }}
+  {{- if not (strings.Contains $.RawContent .Name) }}
+  {{- $c := . }}
+  {{- if gt .Width 1800 }}{{ $c = (.Filter images.AutoOrient).Resize "1800x q80" }}{{ end }}
+  <figure class="post-cover wrap-wide"><img src="{{ $c.RelPermalink }}" width="{{ $c.Width }}" height="{{ $c.Height }}" alt="" fetchpriority="high"></figure>
+  {{- end }}
+  {{- end }}
+
+  <div class="prose wrap-narrow">
+    {{ .Content }}
+  </div>
+
+  {{- /* Newer / older posts within the same category */}}
+  {{- $list := (where (where site.RegularPages "Section" "blog") "Params.category" $catKey).ByDate.Reverse }}
+  {{- $idx := -1 }}
+  {{- range $i, $p := $list }}{{ if eq $p.RelPermalink $.RelPermalink }}{{ $idx = $i }}{{ end }}{{ end }}
+  <nav class="post-nav wrap-narrow" aria-label="More posts">
+    {{- if gt $idx 0 }}{{ with index $list (sub $idx 1) }}
+    <a class="post-nav-link" href="{{ .RelPermalink }}"><span class="section-label">← NEWER</span><span class="post-nav-title">{{ .Title }}</span></a>
+    {{- end }}{{ else }}<span></span>{{ end }}
+    {{- if and (ge $idx 0) (lt $idx (sub (len $list) 1)) }}{{ with index $list (add $idx 1) }}
+    <a class="post-nav-link next" href="{{ .RelPermalink }}"><span class="section-label">OLDER →</span><span class="post-nav-title">{{ .Title }}</span></a>
+    {{- end }}{{ end }}
+  </nav>
+
+  {{- if and site.Params.comments (ne .Params.commentable false) }}
+  <section id="comments" class="comments wrap-narrow">
+    {{- partial "disqus.html" . }}
+  </section>
+  {{- end }}
+</article>
+{{ end }}

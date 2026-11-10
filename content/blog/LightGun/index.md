@@ -8,6 +8,7 @@ show_related: true
 featured: true
 design:
   full_width: true
+category: technical
 ---
 
 Right after finishing the ESP32-S3 Game Boy, I wanted to build something that sat at the intersection of hardware and software in a different way — a motion-controlled light gun, built from scratch, that works with modern PC games. Not a toy, not a commercial controller. A fully custom build that translates physical gun movement into mouse input, complete with mechanical recoil on every trigger pull.
@@ -34,11 +35,11 @@ Without that camera available, I went a different route: **gyroscope-based relat
 
 The enclosure is a 3D printed two-part shell based on a scanned PS1CON STL model — a pistol-shaped case with internal cavities designed to hold electronics. It prints in two halves that clip together, with dedicated pockets for the trigger mechanism, solenoid, and main board.
 
-![image](./IMG_7171 2 copy.jpeg)
+![image](<./IMG_7171 2 copy.jpeg>)
 
 The internal layout was dictated by the shell geometry. The solenoid sits in the center of the body where it has room to actuate. The MPU6050 mounts in the upper slide section, as far from the solenoid's vibration as the shell allows. The Arduino Pro Micro and MOSFET board sit in the grip area, and the microswitch trigger lines up with the trigger guard opening.
 
-![image](./IMG_7220 copy.jpeg)
+![image](<./IMG_7220 copy.jpeg>)
 
 All components are wired point-to-point and secured with hot glue. There is no PCB — everything is hand-wired inside the shell.
 

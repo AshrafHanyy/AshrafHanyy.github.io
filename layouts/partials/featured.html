@@ -1,0 +1,6 @@
+{{- /* Returns the page's `featured.*` image resource, or "" if it has none. */ -}}
+{{- $img := "" -}}
+{{- with .Resources.GetMatch "featured*" -}}
+  {{- if eq .ResourceType "image" }}{{ $img = . }}{{ end -}}
+{{- end -}}
+{{- return $img -}}

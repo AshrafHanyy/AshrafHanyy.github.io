@@ -1,0 +1,17 @@
+{{- $cat := index site.Params.categories (.Params.category | default "technical") }}
+<article class="post-row">
+  <a class="post-media" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">
+    {{- with partial "featured.html" . }}
+    {{- $t := partial "thumb.html" (dict "img" . "spec" "720x480 Center q78") }}
+    <img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async">
+    {{- else }}
+    <span class="media-placeholder">{{ substr .Title 0 1 }}</span>
+    {{- end }}
+  </a>
+  <div class="post-row-body">
+    <div class="paper-kicker"><span>{{ $cat.label }}</span><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time><span class="kicker-plain">{{ .ReadingTime }} min read</span></div>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="post-summary">{{ partial "summary.html" . }}</p>
+    <a class="paper-link" href="{{ .RelPermalink }}">Read post</a>
+  </div>
+</article>

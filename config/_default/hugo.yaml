@@ -1,64 +1,51 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Hugo configuration for ashrafhanyy.github.io
+# The site uses its own lightweight theme in `layouts/` and `assets/` (no Hugo modules).
 
-# Website name
 title: Ashraf Hany
-# Website URL
-baseURL: 'https://ashrafhanyy.github.io'
-
-############################
-## LANGUAGE
-############################
-
+baseURL: 'https://ashrafhanyy.github.io/'
+locale: en-US
 defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
 removePathAccents: true
 
-############################
-## ADVANCED
-############################
-
-build:
-  writeStats: true
-enableGitInfo: false
-summaryLength: 30
-paginate: 12
-enableEmoji: true
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
-permalinks:
-  authors: '/author/:slug/'
-disableAliases: true
+enableEmoji: true
+summaryLength: 40
+
+# Taxonomy pages are not used on this site.
+disableKinds: [taxonomy, term]
+
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks, sitemap]
+  home: [HTML, RSS]
   section: [HTML, RSS]
+
+# Old URLs from the previous theme redirect to their new homes (see `aliases` in front matter).
+disableAliases: false
+
+services:
+  disqus:
+    shortname: 'https-ashrafhanyy-github-io-blog'
+  rss:
+    limit: 30
+
 imaging:
   resampleFilter: lanczos
-  quality: 100
-  anchor: smart
-timeout: 600000
-taxonomies:
-  author: authors
-  tag: tags
-  publication_type: publication_types
+  anchor: center
+  jpeg:
+    quality: 82
+
 markup:
-  _merge: deep
+  goldmark:
+    renderer:
+      # Posts embed raw HTML such as <video> tags.
+      unsafe: true
+    parser:
+      wrapStandAloneImageWithinParagraph: false
   highlight:
+    style: github
+    noClasses: true
     lineNos: false
-security:
-  _merge: deep
-sitemap:
-  _merge: deep
-cascade:
-  - _target:
-      kind: page
-      path: /blog/**
-    commentable: true
-    design:
-      full_width: true
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
+    tabWidth: 4
+
+timeout: 600s
+
+ignoreFiles: ['\.ipynb$', '\.ipynb_checkpoints$', '\.Rmd$', '\.Rmarkdown$', '_cache$', '\.HEIC$']

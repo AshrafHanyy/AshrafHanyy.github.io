@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.126.3'
+  WC_HUGO_VERSION: '0.169.0'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -36,23 +36,20 @@ jobs:
       with:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
+    # Cache resized images so only new or changed photos are processed on each deploy.
     - uses: actions/cache@v4
       with:
-        path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+        path: resources/_gen
+        key: ${{ runner.os }}-hugo-images-${{ hashFiles('content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.JPG', 'content/**/*.JPEG', 'content/**/*.png', 'assets/media/**') }}
         restore-keys: |
-          ${{ runner.os }}-hugomod-
+          ${{ runner.os }}-hugo-images-
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v4
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
-      run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-    - name: Generate Pagefind search index
-      run: npx pagefind --site "public"
+      run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:

@@ -1,68 +1,35 @@
-# SITE SETUP
-#config/params.yaml
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Site-wide settings used by the templates in `layouts/`.
 
-# Appearance
-appearance:
-  mode: dark
-  color: emerald
+description: "Personal website of Ashraf Hany — AI Engineer at EY and Teaching Assistant at MSA University, working across deep learning, computer vision, quantum machine learning and embedded systems."
 
-# SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: "Personal website of Ashraf Hany — AI & Data Engineer, researcher in deep learning, computer vision, and quantum machine learning. First Class Honours BSc, MSA University & University of Greenwich."
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: 'xmBSew_uKO_u7cEQczXCIRUnCvokVaFYQeOArvFVESs'
-    baidu: ''
+# Shown under the name in the header (keep it short, it is set in small caps).
+wordmark_sub: "AI Engineer · EY"
 
-# Site header
-header:
-  navbar:
-    enable: true
-    blox: "navbar"
-    fixed_to_top: true
-    show_search: true
-    show_theme_chooser: false
-    logo:
-      text: ""
+# Footer motto
+motto: "Per Aspera Ad Astra"
+license: "CC BY-NC-ND 4.0"
 
-# Site footer
-footer:
-  copyright:
-    notice: 'Per Aspera Ad Astra'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+google_site_verification: 'xmBSew_uKO_u7cEQczXCIRUnCvokVaFYQeOArvFVESs'
 
-# Localization
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+resume: /uploads/resume.pdf
 
-# Site features
-features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  comment:
-    provider: disqus
-    disqus:
-      shortname: 'https-ashrafhanyy-github-io-blog'
-design:
-  blog_post:
-    full_width: true
+# Contact links shown on the About page and in the footer.
+social:
+  - name: Email
+    url: 'mailto:ashraf.hany@msa.edu.eg'
+  - name: LinkedIn
+    url: 'https://www.linkedin.com/in/ashraf-hany-/'
+  - name: GitHub
+    url: 'https://github.com/AshrafHanyy'
+
+# Blog categories. Every post in `content/blog/` sets `category:` to one of these keys.
+categories:
+  technical:
+    label: Technical Blog
+    url: /technical/
+  non-technical:
+    label: Non-Technical
+    url: /non-technical/
+
+# Disqus comments on blog posts (shortname is under `services.disqus` in hugo.yaml).
+comments: true

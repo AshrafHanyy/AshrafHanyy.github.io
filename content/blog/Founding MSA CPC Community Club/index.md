@@ -7,6 +7,7 @@ authors:
 tags: 
 # Display this page in the Featured widget?
 featured: true
+category: non-technical
 ---
 
 I want this blog post to be a place where the story of how I founded this club is shared publicly for the first time. This is the achievement I'm most proud of during my four years at university. This is mainly written for all the younger generation of students studying computer science at MSA.

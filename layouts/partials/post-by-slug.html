@@ -1,0 +1,8 @@
+{{- /* Returns the blog post published at /blog/<slug>/, or "" if there is none. */ -}}
+{{- $target := printf "/blog/%s/" . -}}
+{{- $found := "" -}}
+{{- range where site.RegularPages "Section" "blog" -}}
+  {{- if eq .RelPermalink $target }}{{ $found = . }}{{ end -}}
+{{- end -}}
+{{- if not $found }}{{ warnf "No blog post found for slug %q" . }}{{ end -}}
+{{- return $found -}}

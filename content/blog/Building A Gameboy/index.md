@@ -9,6 +9,7 @@ show_related: true
 featured: true
 design:
   full_width: true
+category: technical
 ---
 
 Over three months I built a fully working handheld retro console from scratch — wiring, firmware, and enclosure — around the **ESP32-S3-N16R8**. Every subsystem was hand-assembled: point-to-point wiring on perfboard, off-the-shelf modules, a hand-soldered input board, and a 3D-printed shell. The firmware required porting **Retro-Go** — an ESP-IDF multi-emulator launcher — to a target it was never written for, which meant writing a full `config.h` from scratch across multiple iterations to get every pin, bus, and display register right. The project earned **Third Place in the Engineering Track at NU UGRF 20th Edition**.

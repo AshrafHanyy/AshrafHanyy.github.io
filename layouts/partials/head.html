@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $title := printf "%s — %s" .Title site.Title }}
+{{- if .IsHome }}{{ $title = printf "%s — AI Engineer & Researcher" site.Title }}{{ end }}
+{{- $desc := site.Params.description }}
+{{- if not .IsHome }}
+  {{- with .Params.description }}{{ $desc = . }}{{ end }}
+  {{- if eq .Section "blog" }}{{ if .IsPage }}{{ $desc = partial "summary.html" . }}{{ end }}{{ end }}
+{{- end }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc | plainify | truncate 300 }}">
+<meta name="author" content="{{ site.Title }}">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- with site.Params.google_site_verification }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ cond .IsHome site.Title .Title }}">
+<meta property="og:description" content="{{ $desc | plainify | truncate 300 }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ cond (and .IsPage (eq .Section "blog")) "article" "website" }}">
+{{- $og := "" }}
+{{- with partial "featured.html" . }}{{ $og = (.Filter images.AutoOrient).Fill "1200x630 Center q78 jpg" }}{{ end }}
+{{- if not $og }}{{ with resources.Get "media/avatar.jpg" }}{{ $og = .Fill "800x800 Center q80" }}{{ end }}{{ end }}
+{{- with $og }}
+<meta property="og:image" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary_large_image">
+{{- end }}
+{{- if and .IsPage (eq .Section "blog") }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end }}
+
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+{{- with resources.Get "media/avatar.jpg" }}
+{{- $touch := (.Crop "330x330 Center").Resize "180x180 q85" }}
+<link rel="apple-touch-icon" href="{{ $touch.RelPermalink }}">
+{{- end }}
+{{- with site.Home.OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">
+{{- end }}
+{{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

@@ -1,0 +1,48 @@
+# Publications shown on the About page, newest first.
+# `authors` is Markdown: wrap your own name in ** ** to bold it.
+# `post` (optional) is the URL slug of a related blog post, e.g. `tuis` for /blog/tuis/.
+
+- title: "Context-Aware Deep Learning Segmentation of Multiple Myeloma Cells Via Combined Mask Preprocessing"
+  authors: "**Alatawi, A. H.**; Mohammed, A."
+  venue: "2026 Intelligent Methods, Systems, and Applications (IMSA)"
+  short: IMSA
+  year: 2026
+  place: "Giza, Egypt"
+  pages: "426–433"
+  doi: "10.1109/IMSA70415.2026.11700291"
+
+- title: "Comprehensive Benchmark: Comparing Classical, Recurrent, and Transformer-Based Models for Sentiment Analysis Across Text Length Strata"
+  authors: "**Hany, Ashraf**; Gomma, W. H."
+  venue: "2025 Intelligent Methods, Systems, and Applications (IMSA)"
+  short: IMSA
+  year: 2025
+  place: "Giza, Egypt"
+  pages: "487–494"
+  doi: "10.1109/IMSA65733.2025.11166950"
+
+- title: "Deep Learning for Microscopic Image Segmentation in Multiple Myeloma: A Comparative Study"
+  authors: "**Hany, Ashraf**; Mohammed, A."
+  venue: "2025 Intelligent Methods, Systems, and Applications (IMSA)"
+  short: IMSA
+  year: 2025
+  place: "Giza, Egypt"
+  pages: "256–262"
+  doi: "10.1109/IMSA65733.2025.11167795"
+
+- title: "Integrating Interactive 3D Applications for Enhanced Learning in Crown Preparations: A Comparative Experimental Study"
+  authors: "Ramadan, Enjy; et al."
+  venue: "2025 International Conference on Activity and Behavior Computing (ABC)"
+  short: ABC
+  year: 2025
+  place: "Al Ain, UAE"
+  pages: "1–10"
+  doi: "10.1109/ABC64332.2025.11118293"
+
+- title: "The Effect of Using Tangible User Interfaces Compared to Traditional Learning for Teaching Programming in Higher Education: An Experimental Study"
+  authors: "**Hany, Ashraf**; Ramadan, Enjy; Akl, Amr; Atia, Ayman"
+  venue: "2023 Intelligent Methods, Systems, and Applications (IMSA)"
+  short: IMSA
+  year: 2023
+  pages: "514–519"
+  doi: "10.1109/IMSA58542.2023.10217780"
+  post: tuis

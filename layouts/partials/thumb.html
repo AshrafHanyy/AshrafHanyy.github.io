@@ -1,0 +1,6 @@
+{{- /* Returns a cropped thumbnail. Args: dict "img" <image resource> "spec" "<WxH ...>" */ -}}
+{{- $img := .img -}}
+{{- if in (slice "jpeg" "png" "webp" "bmp" "tiff") $img.MediaType.SubType -}}
+  {{- $img = ($img.Filter images.AutoOrient).Fill .spec -}}
+{{- end -}}
+{{- return $img -}}

@@ -1,0 +1,16 @@
+{{- /* Highlight the menu item matching the page's `nav` param, or a post's `category`. */ -}}
+{{- $active := .Params.nav | default .Params.category }}
+{{- if .IsHome }}{{ $active = "about" }}{{ end }}
+<header class="site-header" id="top">
+  <a class="wordmark" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} — home">
+    <span class="mark" aria-hidden="true">AH</span>
+    <span>{{ site.Title }}<span class="wordmark-sub">{{ site.Params.wordmark_sub }}</span></span>
+  </a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>Menu <span aria-hidden="true">＋</span></button>
+  <nav id="site-nav" aria-label="Main navigation">
+    {{- range site.Menus.main }}
+    {{- $url := .URL | relURL }}
+    <a href="{{ $url }}"{{ if eq .Identifier $active }} aria-current="{{ if eq $url $.RelPermalink }}page{{ else }}true{{ end }}"{{ end }}>{{ .Name }}</a>
+    {{- end }}
+  </nav>
+</header>

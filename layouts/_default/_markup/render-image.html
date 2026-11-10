@@ -1,0 +1,24 @@
+{{- /* Resolves page-bundle images, downsizes very large photos, and adds captions from the Markdown title. */ -}}
+{{- $src := .Destination -}}
+{{- $w := 0 -}}{{- $h := 0 -}}
+{{- $u := urls.Parse .Destination -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path -}}
+  {{- with .Page.Resources.Get $path -}}
+    {{- $r := . -}}
+    {{- if eq .ResourceType "image" -}}
+      {{- if and (in (slice "jpeg" "png") .MediaType.SubType) (gt .Width 1600) -}}
+        {{- $r = (.Filter images.AutoOrient).Resize "1600x q82" -}}
+      {{- end -}}
+      {{- if in (slice "jpeg" "png" "gif" "webp") .MediaType.SubType }}{{ $w = $r.Width }}{{ $h = $r.Height }}{{ end -}}
+    {{- end -}}
+    {{- $src = $r.RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $alt := .PlainText -}}
+{{- with .Title }}{{ $alt = . }}{{ end -}}
+{{- if .IsBlock -}}
+<figure class="post-figure"><img src="{{ $src }}" alt="{{ $alt }}"{{ with $w }} width="{{ . }}" height="{{ $h }}"{{ end }} loading="lazy" decoding="async">{{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+{{- else -}}
+<span class="post-figure"><img src="{{ $src }}" alt="{{ $alt }}"{{ with $w }} width="{{ . }}" height="{{ $h }}"{{ end }} loading="lazy" decoding="async">{{ with .Title }}<span class="caption">{{ . }}</span>{{ end }}</span>
+{{- end -}}
