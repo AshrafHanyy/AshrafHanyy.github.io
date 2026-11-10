@@ -10,7 +10,7 @@ background: |-
 banner:
   text: "Currently an **AI Engineer at EY**, and still teaching one day a week at MSA University."
   link_text: "See where I've been"
-  url: /service/
+  url: /service/ 
 ---
 
 I'm an AI Engineer in EY's technology consulting team in Egypt and a Teaching Assistant at [MSA University](https://www.msa.edu.eg/), where I teach a different set of computer science courses each semester and supervise graduation projects. My work spans **deep learning, computer vision, quantum machine learning and embedded systems**, and I have published [five IEEE conference papers](/research/).
